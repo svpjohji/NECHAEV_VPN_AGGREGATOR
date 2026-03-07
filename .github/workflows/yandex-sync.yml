@@ -1,0 +1,22 @@
+name: Sync to Yandex Disk
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"  # каждые 10 минут
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download file from GitHub
+        run: |
+          curl -L https://raw.githubusercontent.com/svpjohji/NECHAEV_VPN_AGGREGATOR/main/build/output.txt -o output.txt
+
+      - name: Upload to Yandex Disk
+        run: |
+          upload_url=$(curl -s -H "Authorization: OAuth ${{ secrets.YANDEX_TOKEN }}" \
+          "https://cloud-api.yandex.net/v1/disk/resources/upload?path=VPN_SUB/output.txt&overwrite=true" | jq -r '.href')
+          
+          curl -T output.txt "$upload_url"
