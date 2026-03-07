@@ -1,4 +1,4 @@
-name: Sync to Yandex Disk
+name: Sync output.txt to VK
 
 on:
   schedule:
@@ -8,15 +8,18 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Download file from GitHub
+      - name: Download output.txt from GitHub
         run: |
-          curl -L https://raw.githubusercontent.com/svpjohji/NECHAEV_VPN_AGGREGATOR/main/build/output.txt -o output.txt
+          curl -L https://raw.githubusercontent.com/ТВОЙ_РЕПО/main/output.txt -o output.txt
 
-      - name: Upload to Yandex Disk
+      - name: Upload to VK
+        env:
+          VK_TOKEN: ${{ secrets.VK_TOKEN }}
+          GROUP_ID: ТВОЙ_ID_ГРУППЫ
         run: |
-          upload_url=$(curl -s -H "Authorization: OAuth ${{ secrets.YANDEX_TOKEN }}" \
-          "https://cloud-api.yandex.net/v1/disk/resources/upload?path=VPN_SUB/output.txt&overwrite=true" | jq -r '.href')
-          
-          curl -T output.txt "$upload_url"
+          curl -F "file=@output.txt" \
+               -F "group_id=$GROUP_ID" \
+               -F "access_token=$VK_TOKEN" \
+               -F "v=5.131" \
+               https://api.vk.com/method/docs.save
