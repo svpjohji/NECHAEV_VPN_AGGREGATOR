@@ -1,8 +1,8 @@
-name: Build Subscription
+name: Build VPN Subscription
 
 on:
   schedule:
-    - cron: "*/10 * * * *" # каждые 10 минут
+    - cron: "*/10 * * * *"   # каждые 10 минут
   workflow_dispatch:
 
 jobs:
@@ -16,14 +16,19 @@ jobs:
       - name: Create build folder
         run: mkdir -p build && echo "" > build/output.txt
 
-      - name: Download subscriptions
+      - name: Download all subscriptions
         run: |
-          while IFS= read -r url; do
+          while IFS= read -r url || [ -n "$url" ]; do
+            # Пропускаем пустые строки
             if [ -z "$url" ]; then
               continue
             fi
-            echo "Fetching $url"
-            curl -s --max-time 20 "$url" >> build/output.txt || echo "skip $url"
+
+            # Убираем комментарий после #
+            clean_url="${url%%#*}"
+
+            echo "Fetching $clean_url"
+            curl -s --max-time 20 "$clean_url" >> build/output.txt || echo "skip $clean_url"
             echo "" >> build/output.txt
           done < "$GITHUB_WORKSPACE/NECHAEV_VPN.txt"
 
@@ -35,5 +40,5 @@ jobs:
           git config --global user.name "vpn-bot"
           git config --global user.email "vpn-bot@users.noreply.github.com"
           git add build/output.txt
-          git commit -m "Auto update subscription" || echo "No changes"
+          git commit -m "Auto update VPN subscription" || echo "No changes"
           git push || echo "Push failed"
