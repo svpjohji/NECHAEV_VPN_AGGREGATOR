@@ -1,50 +1,27 @@
-name: Build VPN Subscription
+- name: Download all subscriptions
+  run: |
+    rm -f build/output.txt
+    touch build/output.txt
 
-on:
-  schedule:
-    - cron: "*/10 * * * *"
-  workflow_dispatch:
+    while IFS= read -r url || [ -n "$url" ]; do
+      if [ -z "$url" ]; then
+        continue
+      fi
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+      clean_url="${url%%#*}"
+      echo "Fetching $clean_url"
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      curl -s --max-time 20 "$clean_url" -o tmp.txt || echo "skip $clean_url"
 
-      - name: Prepare build folder
-        run: |
-          mkdir -p build
-          rm -f build/output.txt
-          touch build/output.txt
+      if [ -s tmp.txt ]; then
+        cat tmp.txt >> build/output.txt
+        echo "" >> build/output.txt
+      else
+        echo "Empty or failed: $clean_url"
+      fi
+    done < "$GITHUB_WORKSPACE/NECHAEV_VPN.txt"
 
-      - name: Download all subscriptions
-        run: |
-          while IFS= read -r url || [ -n "$url" ]; do
-            if [ -z "$url" ]; then
-              continue
-            fi
+    rm -f tmp.txt
 
-            clean_url="${url%%#*}"
-            echo "Fetching $clean_url"
-
-            curl -s --max-time 20 "$clean_url" -o tmp.txt || echo "skip $clean_url"
-
-            if [ -s tmp.txt ]; then
-              cat tmp.txt >> build/output.txt
-              echo "" >> build/output.txt
-            else
-              echo "Empty or failed: $clean_url"
-            fi
-          done < "$GITHUB_WORKSPACE/NECHAEV_VPN.txt"
-
-          rm -f tmp.txt
-
-      - name: Commit and push
-        run: |
-          git config --global user.name "vpn-bot"
-          git config --global user.email "vpn-bot@users.noreply.github.com"
-          git add build/output.txt
-          git commit -m "Auto update VPN subscription" || echo "No changes"
-          git push || echo "Push failed"
+    # УДАЛЯЕМ ДУБЛИКАТЫ
+    sort -u build/output.txt -o build/output.txt
