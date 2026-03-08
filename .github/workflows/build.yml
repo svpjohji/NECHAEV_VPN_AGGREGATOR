@@ -37,6 +37,7 @@ jobs:
           sort -u build/output.txt -o build/output.txt
 
       - name: Update alive proxies
+        shell: bash
         run: |
           tmp_alive=$(mktemp)
           while IFS= read -r proxy; do
@@ -44,10 +45,8 @@ jobs:
             host=$(echo "$proxy" | grep -oE '([0-9]{1,3}\.){3}[0-9]{1,3}')
             port=$(echo "$proxy" | grep -oE ':[0-9]+' | head -1 | tr -d ':')
             [ -z "$host" ] || [ -z "$port" ] && continue
-            # проверяем доступность, игнорируем ошибки
-            timeout 3 bash -c "</dev/tcp/$host/$port" 2>/dev/null
-            alive=$?
-            if [ $alive -eq 0 ]; then
+            # Проверяем доступность, ошибки игнорируем
+            if timeout 3 bash -c "</dev/tcp/$host/$port" 2>/dev/null; then
               echo "$proxy" >> "$tmp_alive"
             fi
           done < build/output.txt
