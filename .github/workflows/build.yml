@@ -49,6 +49,11 @@ jobs:
           # Удаляем временный файл
           rm -f tmp.txt
 
+      - name: Remove duplicates from the output file
+        run: |
+          # Удаляем дубликаты строк из build/output.txt
+          sort -u build/output.txt -o build/output.txt
+
       - name: Commit and push
         run: |
           git config --global user.name "vpn-bot"
