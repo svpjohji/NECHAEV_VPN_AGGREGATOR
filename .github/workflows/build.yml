@@ -1,57 +1,51 @@
-#!/bin/bash
+name: Build VPN Subscription
 
-# Папка для результата
-mkdir -p build
-> build/all_vpn.txt
+on:
+  schedule:
+    - cron: "*/10 * * * *"  # каждые 10 минут
+  workflow_dispatch:
 
-# Читаем список подписок
-while IFS= read -r url || [ -n "$url" ]; do
-    # Пропускаем пустые строки и комментарии
-    [ -z "$url" ] && continue
-    clean_url="${url%%#*}"
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-    echo "Fetching $clean_url"
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    # Скачиваем во временный файл
-    curl -L -s --max-time 20 "$clean_url" -o tmp.txt || { echo "Failed: $clean_url"; continue; }
+      - name: Create build folder
+        run: mkdir -p build && echo "" > build/output.txt
 
-    # Если файл не пустой, добавляем в итоговый
-    if [ -s tmp.txt ]; then
-        # Пытаемся декодировать base64, если не получится — просто добавляем как есть
-        base64 -d tmp.txt >> build/all_vpn.txt 2>/dev/null || cat tmp.txt >> build/all_vpn.txt
-        echo "" >> build/all_vpn.txt
-    fi
-done < NECHAEV_VPN.txt
-
-# Убираем временный файл
-rm -f tmp.txt
-
-echo "Done. All VPNs collected in build/all_vpn.txt"
-      - name: Remove duplicates
-        run: sort -u build/output.txt -o build/output.txt || true
-
-      - name: Keep only alive proxies
-        shell: bash
+      - name: Download all subscriptions
         run: |
-          tmp_alive=$(mktemp)
-          while IFS= read -r proxy; do
-            [ -z "$proxy" ] && continue
-            host=$(echo "$proxy" | grep -oE '([0-9]{1,3}\.){3}[0-9]{1,3}')
-            port=$(echo "$proxy" | grep -oE ':[0-9]+' | head -1 | tr -d ':')
-            [ -z "$host" ] || [ -z "$port" ] && continue
-            if timeout 3 bash -c "</dev/tcp/$host/$port" &>/dev/null; then
-              echo "$proxy" >> "$tmp_alive"
+          while IFS= read -r url || [ -n "$url" ]; do
+            if [ -z "$url" ]; then
+              continue
             fi
-          done < build/output.txt
-          mv "$tmp_alive" build/output.txt
 
-      - name: Encode subscription
-        run: base64 build/output.txt > build/subscription.txt
+            # Убираем комментарий после #
+            clean_url="${url%%#*}"
+            echo "Fetching $clean_url"
+
+            # Скачиваем во временный файл
+            curl -s --max-time 20 "$clean_url" -o tmp.txt || echo "skip $clean_url"
+
+            # Если что-то есть, добавляем в output
+            if [ -s tmp.txt ]; then
+              cat tmp.txt >> build/output.txt
+              echo "" >> build/output.txt
+            else
+              echo "Empty or failed: $clean_url"
+            fi
+          done < "$GITHUB_WORKSPACE/NECHAEV_VPN.txt"
+
+          # Удаляем временный файл
+          rm -f tmp.txt
 
       - name: Commit and push
         run: |
           git config --global user.name "vpn-bot"
           git config --global user.email "vpn-bot@users.noreply.github.com"
-          git add build/*
+          git add build/output.txt
           git commit -m "Auto update VPN subscription" || echo "No changes"
-          git push
+          git push || echo "Push failed"
