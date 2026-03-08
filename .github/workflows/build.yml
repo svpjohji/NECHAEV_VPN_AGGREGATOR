@@ -2,7 +2,7 @@ name: Build VPN Subscription
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/10 * * * *"   # каждые 10 минут
   workflow_dispatch: {}
 
 jobs:
@@ -10,14 +10,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v3
 
       - name: Prepare build folder
         run: |
           mkdir -p build
-          rm -f build/output.txt build/subscription.txt
-          touch build/output.txt
+          > build/output.txt
+          > build/subscription.txt
 
       - name: Download subscriptions
         run: |
@@ -25,18 +25,20 @@ jobs:
             [ -z "$url" ] && continue
             clean_url="${url%%#*}"
             echo "Fetching $clean_url"
-            curl -L -s --max-time 20 "$clean_url" -o tmp.txt || continue
+            curl -L -s --max-time 20 "$clean_url" -o tmp.txt || { echo "skip $clean_url"; continue; }
             if [ -s tmp.txt ]; then
               base64 -d tmp.txt >> build/output.txt 2>/dev/null || cat tmp.txt >> build/output.txt
               echo "" >> build/output.txt
+            else
+              echo "Empty or failed: $clean_url"
             fi
           done < "$GITHUB_WORKSPACE/NECHAEV_VPN.txt"
+          rm -f tmp.txt
 
       - name: Remove duplicates
-        run: |
-          sort -u build/output.txt -o build/output.txt
+        run: sort -u build/output.txt -o build/output.txt || true
 
-      - name: Update alive proxies
+      - name: Keep only alive proxies
         shell: bash
         run: |
           tmp_alive=$(mktemp)
@@ -45,16 +47,14 @@ jobs:
             host=$(echo "$proxy" | grep -oE '([0-9]{1,3}\.){3}[0-9]{1,3}')
             port=$(echo "$proxy" | grep -oE ':[0-9]+' | head -1 | tr -d ':')
             [ -z "$host" ] || [ -z "$port" ] && continue
-            # Проверяем доступность, ошибки игнорируем
-            if timeout 3 bash -c "</dev/tcp/$host/$port" 2>/dev/null; then
+            if timeout 3 bash -c "</dev/tcp/$host/$port" &>/dev/null; then
               echo "$proxy" >> "$tmp_alive"
             fi
           done < build/output.txt
           mv "$tmp_alive" build/output.txt
 
       - name: Encode subscription
-        run: |
-          base64 build/output.txt > build/subscription.txt
+        run: base64 build/output.txt > build/subscription.txt
 
       - name: Commit and push
         run: |
