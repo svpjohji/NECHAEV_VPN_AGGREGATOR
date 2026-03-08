@@ -19,7 +19,7 @@ jobs:
       - name: Clear the output file
         run: >-
           # Удаляем старое содержимое output.txt перед добавлением новых данных
-          > build/output.txt
+          echo "" > build/output.txt
 
       - name: Download all subscriptions
         run: |
