@@ -2,7 +2,7 @@ name: Build VPN Subscription
 
 on:
   schedule:
-    - cron: "*/10 * * * *"  # каждые 10 минут
+    - cron: "*/10 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -13,8 +13,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Create build folder
-        run: mkdir -p build && echo "" > build/output.txt
+      - name: Prepare build folder
+        run: |
+          mkdir -p build
+          rm -f build/output.txt
+          touch build/output.txt
 
       - name: Download all subscriptions
         run: |
@@ -23,14 +26,11 @@ jobs:
               continue
             fi
 
-            # Убираем комментарий после #
             clean_url="${url%%#*}"
             echo "Fetching $clean_url"
 
-            # Скачиваем во временный файл
             curl -s --max-time 20 "$clean_url" -o tmp.txt || echo "skip $clean_url"
 
-            # Если что-то есть, добавляем в output
             if [ -s tmp.txt ]; then
               cat tmp.txt >> build/output.txt
               echo "" >> build/output.txt
@@ -39,7 +39,6 @@ jobs:
             fi
           done < "$GITHUB_WORKSPACE/NECHAEV_VPN.txt"
 
-          # Удаляем временный файл
           rm -f tmp.txt
 
       - name: Commit and push
