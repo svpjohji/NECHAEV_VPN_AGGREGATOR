@@ -32,27 +32,36 @@ jobs:
 
             # Убираем комментарий после #
             clean_url="${url%%#*}"
+            echo "Checking $clean_url"
+
+            # Пинг для проверки доступности URL
+            if ! ping -c 1 -W 5 "$clean_url" > /dev/null 2>&1; then
+              echo "Ping failed for $clean_url, skipping..." >> build/output.txt
+              continue
+            fi
+
             echo "Fetching $clean_url"
 
             # Скачиваем во временный файл
             curl -s --max-time 20 "$clean_url" -o tmp.txt || echo "skip $clean_url"
 
-            # Если что-то есть, добавляем в output
+            # Если что-то есть (файл не пустой), добавляем в output
             if [ -s tmp.txt ]; then
               cat tmp.txt >> build/output.txt
               echo "" >> build/output.txt
             else
-              echo "Empty or failed: $clean_url"
+              echo "Empty or failed: $clean_url" >> build/output.txt
             fi
           done < "$GITHUB_WORKSPACE/NECHAEV_VPN.txt"
 
           # Удаляем временный файл
           rm -f tmp.txt
 
-      - name: Remove duplicates from the output file
+      - name: Remove duplicates and invalid configurations
         run: |
-          # Удаляем дубликаты строк из build/output.txt
-          sort -u build/output.txt -o build/output.txt
+          # Удаляем пустые и дублирующиеся строки
+          grep -v -e "^$" -e "Empty or failed" -e "Ping failed" build/output.txt | sort -u > build/output_cleaned.txt
+          mv build/output_cleaned.txt build/output.txt
 
       - name: Commit and push
         run: |
