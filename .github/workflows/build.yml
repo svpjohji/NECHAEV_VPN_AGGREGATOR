@@ -17,9 +17,11 @@ jobs:
         run: mkdir -p build
 
       - name: Clear the output file
-        run: >-
-          # Удаляем старое содержимое output.txt перед добавлением новых данных
-          echo "" > build/output.txt
+        run: |
+          # Удаляем файл, если он существует
+          rm -f build/output.txt
+          # Создаем новый пустой файл
+          touch build/output.txt
 
       - name: Download all subscriptions
         run: |
