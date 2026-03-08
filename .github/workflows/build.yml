@@ -1,40 +1,32 @@
-name: Build VPN Subscription
+#!/bin/bash
 
-on:
-  schedule:
-    - cron: "*/10 * * * *"   # каждые 10 минут
-  workflow_dispatch: {}
+# Папка для результата
+mkdir -p build
+> build/all_vpn.txt
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+# Читаем список подписок
+while IFS= read -r url || [ -n "$url" ]; do
+    # Пропускаем пустые строки и комментарии
+    [ -z "$url" ] && continue
+    clean_url="${url%%#*}"
 
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+    echo "Fetching $clean_url"
 
-      - name: Prepare build folder
-        run: |
-          mkdir -p build
-          > build/output.txt
-          > build/subscription.txt
+    # Скачиваем во временный файл
+    curl -L -s --max-time 20 "$clean_url" -o tmp.txt || { echo "Failed: $clean_url"; continue; }
 
-      - name: Download subscriptions
-        run: |
-          while IFS= read -r url || [ -n "$url" ]; do
-            [ -z "$url" ] && continue
-            clean_url="${url%%#*}"
-            echo "Fetching $clean_url"
-            curl -L -s --max-time 20 "$clean_url" -o tmp.txt || { echo "skip $clean_url"; continue; }
-            if [ -s tmp.txt ]; then
-              base64 -d tmp.txt >> build/output.txt 2>/dev/null || cat tmp.txt >> build/output.txt
-              echo "" >> build/output.txt
-            else
-              echo "Empty or failed: $clean_url"
-            fi
-          done < "$GITHUB_WORKSPACE/NECHAEV_VPN.txt"
-          rm -f tmp.txt
+    # Если файл не пустой, добавляем в итоговый
+    if [ -s tmp.txt ]; then
+        # Пытаемся декодировать base64, если не получится — просто добавляем как есть
+        base64 -d tmp.txt >> build/all_vpn.txt 2>/dev/null || cat tmp.txt >> build/all_vpn.txt
+        echo "" >> build/all_vpn.txt
+    fi
+done < NECHAEV_VPN.txt
 
+# Убираем временный файл
+rm -f tmp.txt
+
+echo "Done. All VPNs collected in build/all_vpn.txt"
       - name: Remove duplicates
         run: sort -u build/output.txt -o build/output.txt || true
 
