@@ -26,12 +26,16 @@ jobs:
             exit 1
           fi
 
+          if [ -z "${{ secrets.VK_DOC_ID }}" ]; then
+            echo "VK_DOC_ID is empty"
+            exit 1
+          fi
+
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
 
       - name: Upload file to VK
         run: |
-
           echo "🚀 Getting upload server..."
 
           RESPONSE=$(curl -s "https://api.vk.com/method/docs.getUploadServer?group_id=${{ secrets.VK_GROUP_ID }}&access_token=${{ secrets.VK_TOKEN }}&v=5.131")
@@ -47,9 +51,7 @@ jobs:
           fi
 
           echo "📤 Uploading file..."
-
           UPLOAD=$(curl -s -F "file=@build/output.txt" "$UPLOAD_URL")
-
           echo "Upload response:"
           echo $UPLOAD
 
@@ -60,8 +62,7 @@ jobs:
             exit 1
           fi
 
-          echo "💾 Saving file in VK..."
-
-          curl -s "https://api.vk.com/method/docs.save?file=$FILE&title=output.txt&access_token=${{ secrets.VK_TOKEN }}&v=5.131"
+          echo "💾 Saving file in VK (overwrite existing doc)..."
+          curl -s "https://api.vk.com/method/docs.save?file=$FILE&doc_id=${{ secrets.VK_DOC_ID }}&access_token=${{ secrets.VK_TOKEN }}&v=5.131"
 
           echo "✅ DONE"
