@@ -34,9 +34,11 @@ jobs:
             clean_url="${url%%#*}"
             echo "Checking $clean_url"
 
-            # Пинг для проверки доступности URL
-            if ! ping -c 1 -W 5 "$clean_url" > /dev/null 2>&1; then
-              echo "Ping failed for $clean_url, skipping..." >> build/output.txt
+            # Проверка доступности URL с помощью curl (проверяем статус HTTP 200)
+            http_status=$(curl -s -o /dev/null -w "%{http_code}" "$clean_url")
+
+            if [ "$http_status" -ne 200 ]; then
+              echo "Failed to reach $clean_url (HTTP status: $http_status), skipping..." >> build/output.txt
               continue
             fi
 
@@ -60,7 +62,7 @@ jobs:
       - name: Remove duplicates and invalid configurations
         run: |
           # Удаляем пустые и дублирующиеся строки
-          grep -v -e "^$" -e "Empty or failed" -e "Ping failed" build/output.txt | sort -u > build/output_cleaned.txt
+          grep -v -e "^$" -e "Empty or failed" -e "Failed to reach" build/output.txt | sort -u > build/output_cleaned.txt
           mv build/output_cleaned.txt build/output.txt
 
       - name: Commit and push
