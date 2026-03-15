@@ -1,30 +1,35 @@
 name: Build VPN Subscription
 
 on:
-  schedule:
-    - cron: "*/10 * * * *"  # каждые 10 минут
-  workflow_dispatch:
+schedule:
+- cron: "*/10 * * * *"  # Каждые 10 минут
+workflow_dispatch:
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+build:
+runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+steps:  
+  - name: Checkout repository  
+    uses: actions/checkout@v3  
 
-      - name: Clear output file
-        run: |
-          mkdir -p build
-          # Создаем пустой файл или очищаем существующий
-          > build/output.txt
+  - name: Create build folder  
+    run: mkdir -p build  
 
-      - name: Collect subscriptions
-        run: |
-          mkdir -p build
-          for file in NECHAEV_VPN/*; do
-            [ -f "$file" ] || continue
-            echo "Processing $file..."
-            # Добавляем только непустые строки, строки с # внутри сохраняются
-            grep -v '^\s*$' "$file" >> build/output.txt
-          done
+  - name: Clear the output file  
+    run: |  
+      # Удаляем файл, если он существует  
+      rm -f build/output.txt  
+      # Создаем новый пустой файл  
+      touch build/output.txt  
+
+  - name: Download all subscriptions  
+    run: |  
+      while IFS= read -r url || [ -n "$url" ]; do  
+        if [ -z "$url" ]; then  
+          continue  
+        fi  
+
+        # Убираем комментарий после #  
+        clean_url="${url%%#*}"  
+        echo "Checking $clean_url"
