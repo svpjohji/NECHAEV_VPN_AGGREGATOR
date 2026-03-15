@@ -3,24 +3,22 @@ name: Sync output.txt to Gitverse
 on:
   push:
     paths:
-      - 'output.txt'  # этот файл будет отслеживаться
+      - 'output.txt'
+  workflow_dispatch:   # позволяет запуск вручную
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      # 1️⃣ Клонируем GitHub репо
       - name: Checkout GitHub repo
         uses: actions/checkout@v3
 
-      # 2️⃣ Клонируем Gitverse репозиторий
       - name: Clone Gitverse repo
         env:
           TOKEN: ${{ secrets.GITVERSE_TOKEN }}
         run: |
           git clone https://$TOKEN@gitverse.ru/Xalador/AutoConfig.git gitverse
 
-      # 3️⃣ Сравниваем файл
       - name: Compare files
         id: check
         run: |
@@ -34,13 +32,11 @@ jobs:
             echo "same=false" >> $GITHUB_OUTPUT
           fi
 
-      # 4️⃣ Копируем файл только если он изменился
       - name: Copy file
         if: steps.check.outputs.same == 'false'
         run: |
           cp output.txt gitverse/
 
-      # 5️⃣ Коммитим и пушим изменения
       - name: Commit and push
         if: steps.check.outputs.same == 'false'
         run: |
