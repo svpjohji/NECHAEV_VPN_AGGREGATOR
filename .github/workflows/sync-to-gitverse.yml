@@ -1,0 +1,41 @@
+name: Sync file to Gitverse
+
+# Запускать при изменении конкретного файла
+on:
+  push:
+    paths:
+      - 'path/to/your/file.txt'  # <-- путь к твоему файлу на GitHub
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      # Клонируем репозиторий GitHub
+      - name: Checkout GitHub repo
+        uses: actions/checkout@v3
+
+      # Устанавливаем git
+      - name: Install git
+        run: sudo apt-get update && sudo apt-get install git -y
+
+      # Клонируем репозиторий Gitverse
+      - name: Clone Gitverse repo
+        env:
+          GITVERSE_TOKEN: ${{ secrets.GITVERSE_TOKEN }}
+        run: |
+          git clone https://$GITVERSE_TOKEN@gitverse.ru/username/repo.git gitverse_repo
+
+      # Копируем файл в репозиторий Gitverse
+      - name: Copy file
+        run: |
+          cp path/to/your/file.txt gitverse_repo/
+
+      # Делаем коммит и пушим
+      - name: Commit and push to Gitverse
+        run: |
+          cd gitverse_repo
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add file.txt
+          git commit -m "Auto update from GitHub"
+          git push
