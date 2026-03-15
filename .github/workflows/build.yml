@@ -1,35 +1,43 @@
 name: Build VPN Subscription
 
 on:
-schedule:
-- cron: "*/10 * * * *"  # Каждые 10 минут
-workflow_dispatch:
+  schedule:
+    - cron: "*/10 * * * *"  # Каждые 10 минут
+  workflow_dispatch:
 
 jobs:
-build:
-runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-steps:  
-  - name: Checkout repository  
-    uses: actions/checkout@v3  
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-  - name: Create build folder  
-    run: mkdir -p build  
+      - name: Create build folder
+        run: mkdir -p build
 
-  - name: Clear the output file  
-    run: |  
-      # Удаляем файл, если он существует  
-      rm -f build/output.txt  
-      # Создаем новый пустой файл  
-      touch build/output.txt  
+      - name: Clear the output file
+        run: |
+          # Удаляем файл, если он существует
+          rm -f build/output.txt
+          # Создаем новый пустой файл
+          touch build/output.txt
 
-  - name: Download all subscriptions  
-    run: |  
-      while IFS= read -r url || [ -n "$url" ]; do  
-        if [ -z "$url" ]; then  
-          continue  
-        fi  
+      - name: Download all subscriptions
+        run: |
+          # Чтение URL из файла
+          while IFS= read -r url || [ -n "$url" ]; do
+            # Пропуск пустых строк
+            if [ -z "$url" ]; then
+              continue
+            fi
 
-        # Убираем комментарий после #  
-        clean_url="${url%%#*}"  
-        echo "Checking $clean_url"
+            # Убираем комментарий после #
+            clean_url="${url%%#*}"
+            
+            # Проверка URL
+            if [ -n "$clean_url" ]; then
+              echo "Checking $clean_url"
+              # Ваши команды для работы с URL (например, скачивание)
+            fi
+          done < subscriptions.txt  # Замените на путь к вашему файлу с подписками
