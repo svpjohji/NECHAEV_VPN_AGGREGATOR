@@ -2,7 +2,7 @@ name: Build VPN Subscription
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/10 * * * *"  # каждые 10 минут
   workflow_dispatch:
 
 jobs:
@@ -19,12 +19,12 @@ jobs:
           # Создаем пустой файл или очищаем существующий
           > build/output.txt
 
-      - name: Collect subscriptions (skip empty and commented lines)
+      - name: Collect subscriptions
         run: |
           mkdir -p build
           for file in NECHAEV_VPN/*; do
             [ -f "$file" ] || continue
             echo "Processing $file..."
-            # Берем только непустые строки и строки без #
-            grep -vE '^\s*($|#)' "$file" >> build/output.txt
+            # Добавляем только непустые строки, строки с # внутри сохраняются
+            grep -v '^\s*$' "$file" >> build/output.txt
           done
