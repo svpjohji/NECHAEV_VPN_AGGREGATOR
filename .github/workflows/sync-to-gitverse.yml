@@ -1,41 +1,52 @@
-name: Sync file to Gitverse
+name: Sync output.txt to Gitverse
 
-# Запускать при изменении конкретного файла
 on:
   push:
     paths:
-      - 'path/to/your/file.txt'  # <-- путь к твоему файлу на GitHub
+      - 'output.txt'  # этот файл будет отслеживаться
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      # Клонируем репозиторий GitHub
+      # 1️⃣ Клонируем GitHub репо
       - name: Checkout GitHub repo
         uses: actions/checkout@v3
 
-      # Устанавливаем git
-      - name: Install git
-        run: sudo apt-get update && sudo apt-get install git -y
-
-      # Клонируем репозиторий Gitverse
+      # 2️⃣ Клонируем Gitverse репозиторий
       - name: Clone Gitverse repo
         env:
-          GITVERSE_TOKEN: ${{ secrets.GITVERSE_TOKEN }}
+          TOKEN: ${{ secrets.GITVERSE_TOKEN }}
         run: |
-          git clone https://$GITVERSE_TOKEN@gitverse.ru/username/repo.git gitverse_repo
+          git clone https://$TOKEN@gitverse.ru/Xalador/AutoConfig.git gitverse
 
-      # Копируем файл в репозиторий Gitverse
+      # 3️⃣ Сравниваем файл
+      - name: Compare files
+        id: check
+        run: |
+          if [ -f gitverse/output.txt ]; then
+            if cmp -s output.txt gitverse/output.txt; then
+              echo "same=true" >> $GITHUB_OUTPUT
+            else
+              echo "same=false" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "same=false" >> $GITHUB_OUTPUT
+          fi
+
+      # 4️⃣ Копируем файл только если он изменился
       - name: Copy file
+        if: steps.check.outputs.same == 'false'
         run: |
-          cp path/to/your/file.txt gitverse_repo/
+          cp output.txt gitverse/
 
-      # Делаем коммит и пушим
-      - name: Commit and push to Gitverse
+      # 5️⃣ Коммитим и пушим изменения
+      - name: Commit and push
+        if: steps.check.outputs.same == 'false'
         run: |
-          cd gitverse_repo
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
-          git add file.txt
-          git commit -m "Auto update from GitHub"
+          cd gitverse
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add output.txt
+          git commit -m "Auto sync from GitHub"
           git push
