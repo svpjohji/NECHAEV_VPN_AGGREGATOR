@@ -22,19 +22,19 @@ jobs:
           mkdir -p build
           > build/raw.txt
 
-      # 3️⃣ Параллельное скачивание источников
+      # 3️⃣ Параллельное скачивание источников (исправлены кавычки и экранирование)
       - name: Download sources
         run: |
-          cat NECHAEV_VPN.txt | xargs -P 20 -I {} sh -c '
-            echo "Fetching {}"
-            data=$(curl -L -s --max-time 15 "{}")
-            if echo "$data" | base64 -d > /dev/null 2>&1; then
-              echo "$data" | base64 -d >> build/raw.txt
+          cat NECHAEV_VPN.txt | xargs -P 20 -I {} sh -c "
+            echo Fetching {}
+            data=\$(curl -L -s --max-time 15 \"{}\")
+            if echo \"\$data\" | base64 -d > /dev/null 2>&1; then
+              echo \"\$data\" | base64 -d >> build/raw.txt
             else
-              echo "$data" >> build/raw.txt
+              echo \"\$data\" >> build/raw.txt
             fi
-            echo "" >> build/raw.txt
-          '
+            echo '' >> build/raw.txt
+          "
 
       # 4️⃣ Чистим мусор
       - name: Clean configs
@@ -62,40 +62,6 @@ jobs:
           else
             git commit -m "Auto update VPN subscription"
             git push --force
-
-      # 8️⃣ Зеркалим в Gitverse с force push
-      - name: Mirror to Gitverse
-        run: |
-          git remote add gitverse https://${{ secrets.GITVERSE_TOKEN }}@gitverse.ru/Xalador/AutoConfig.git
-          git push gitverse HEAD:main --force          '
-
-      # 4️⃣ Чистим мусор
-      - name: Clean configs
-        run: |
-          grep -E "vmess|vless|trojan|ss|ssr" build/raw.txt > build/clean.txt
-
-      # 5️⃣ Удаляем дубли
-      - name: Remove duplicates
-        run: |
-          sort -u build/clean.txt > build/final.txt
-
-      # 6️⃣ Кодируем подписку
-      - name: Encode subscription
-        run: |
-          base64 -w0 build/final.txt > build/output.txt
-
-      # 7️⃣ Коммитим и пушим в GitHub с force push
-      - name: Commit changes to GitHub
-        run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add build/output.txt
-          if git diff --cached --quiet; then
-            echo "No changes"
-          else
-            git commit -m "Auto update VPN subscription"
-            git push --force
-          fi
 
       # 8️⃣ Зеркалим в Gitverse с force push
       - name: Mirror to Gitverse
