@@ -14,7 +14,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # Клонируем с полной историей
 
       # 2️⃣ Подготовка папок
       - name: Create build folder
@@ -62,9 +62,11 @@ jobs:
         run: |
           git config --global user.name "vpn-bot"
           git config --global user.email "vpn-bot@users.noreply.github.com"
+          
+          # Проверяем, если изменений не было, делаем пустой коммит
           git add build/output.txt
-          git commit -m "Auto update VPN subscription: $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes"
-          git push || echo "Push failed"
+          git commit -m "Auto update VPN subscription: $(date +'%Y-%m-%d %H:%M:%S')" || git commit --allow-empty -m "Empty commit to trigger workflow" 
+          git push --force || echo "Push failed"
 
       # 7️⃣ Зеркалирование в Gitverse
       - name: Mirror to Gitverse
