@@ -1,8 +1,8 @@
-name: Build VPN Subscription
+name: VPN Aggregator
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/10 * * * *"  # каждые 10 минут
   workflow_dispatch:
 
 jobs:
@@ -10,48 +10,61 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
-      # 1️⃣ Забираем репозиторий
+      # 1️⃣ Клонируем репозиторий
       - name: Checkout
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      # 2️⃣ создаем папку
-      - name: Create build folder
-        run: mkdir -p build
-
-      # 3️⃣ очищаем файл
-      - name: Clear output
-        run: echo "" > build/output.txt
-
-      # 4️⃣ читаем источники
-      - name: Build subscription
+      # 2️⃣ Подготовка папок
+      - name: Prepare folders
         run: |
-          while IFS= read -r url || [ -n "$url" ]; do
-            if [ -n "$url" ]; then
-              echo "Fetching $url"
-              curl -L "$url" >> build/output.txt
-              echo "" >> build/output.txt
-            fi
-          done < NECHAEV_VPN.txt
+          mkdir -p build
+          > build/raw.txt
 
-      # 5️⃣ коммитим изменения
+      # 3️⃣ Параллельное скачивание источников
+      - name: Download sources
+        run: |
+          cat NECHAEV_VPN.txt | xargs -P 20 -I {} sh -c '
+            echo "Fetching {}"
+            data=$(curl -L -s --max-time 15 "{}")
+            if echo "$data" | base64 -d > /dev/null 2>&1; then
+              echo "$data" | base64 -d >> build/raw.txt
+            else
+              echo "$data" >> build/raw.txt
+            fi
+            echo "" >> build/raw.txt
+          '
+
+      # 4️⃣ Чистим мусор
+      - name: Clean configs
+        run: |
+          grep -E "vmess|vless|trojan|ss|ssr" build/raw.txt > build/clean.txt
+
+      # 5️⃣ Удаляем дубли
+      - name: Remove duplicates
+        run: |
+          sort -u build/clean.txt > build/final.txt
+
+      # 6️⃣ Кодируем подписку
+      - name: Encode subscription
+        run: |
+          base64 -w0 build/final.txt > build/output.txt
+
+      # 7️⃣ Коммитим в GitHub
       - name: Commit changes
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-
           git add build/output.txt
-
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Auto update subscription"
-            git push
+            git commit -m "Auto update VPN subscription"
+            git push --force
           fi
 
-      # 6️⃣ зеркалим в Gitverse
+      # 8️⃣ Зеркалим в Gitverse
       - name: Mirror to Gitverse
         run: |
           git remote add gitverse https://${{ secrets.GITVERSE_TOKEN }}@gitverse.ru/Xalador/AutoConfig.git
