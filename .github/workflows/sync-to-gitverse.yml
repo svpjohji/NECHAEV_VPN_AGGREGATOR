@@ -2,7 +2,7 @@ name: VPN Aggregator
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/10 * * * *"  # каждые 10 минут
   workflow_dispatch:
 
 jobs:
@@ -10,55 +10,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Клонируем репозиторий
       - name: Checkout
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      - name: Prepare folders
-        run: |
-          mkdir -p build
-          > build/raw.txt
-
-      - name: Download sources
-        run: |
-          download() {
-            url="$1"
-            echo "Fetching $url"
-            data=$(curl -L -s --max-time 15 "$url")
-            if echo "$data" | base64 -d > /dev/null 2>&1; then
-              echo "$data" | base64 -d >> build/raw.txt
-            else
-              echo "$data" >> build/raw.txt
-            fi
-            echo "" >> build/raw.txt
-          }
-          export -f download
-          cat NECHAEV_VPN.txt | xargs -P 20 -I {} bash -c 'download "$@"' _ {}
-
-      - name: Clean configs
-        run: |
-          grep -E "vmess|vless|trojan|ss|ssr" build/raw.txt > build/clean.txt
-
-      - name: Remove duplicates
-        run: |
-          sort -u build/clean.txt > build/final.txt
-
-      - name: Encode subscription
-        run: |
-          base64 -w0 build/final.txt > build/output.txt
-
-      - name: Commit changes to GitHub
+      # 2️⃣ Простой коммит и пуш в GitHub
+      - name: Commit and Push to GitHub
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add build/output.txt
-          if git diff --cached --quiet; then
-            echo "No changes"
-          else
-            git commit -m "Auto update VPN subscription"
-            git push --force
+          git commit -m "Test commit"
+          git push --force
 
+      # 3️⃣ Зеркалим в Gitverse с force push
       - name: Mirror to Gitverse
         run: |
           git remote add gitverse https://${{ secrets.GITVERSE_TOKEN }}@gitverse.ru/Xalador/AutoConfig.git
