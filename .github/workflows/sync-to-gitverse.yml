@@ -51,8 +51,8 @@ jobs:
         run: |
           base64 -w0 build/final.txt > build/output.txt
 
-      # 7️⃣ Коммитим в GitHub
-      - name: Commit changes
+      # 7️⃣ Коммитим и пушим в GitHub с force push
+      - name: Commit changes to GitHub
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
@@ -64,7 +64,7 @@ jobs:
             git push --force
           fi
 
-      # 8️⃣ Зеркалим в Gitverse
+      # 8️⃣ Зеркалим в Gitverse с force push
       - name: Mirror to Gitverse
         run: |
           git remote add gitverse https://${{ secrets.GITVERSE_TOKEN }}@gitverse.ru/Xalador/AutoConfig.git
