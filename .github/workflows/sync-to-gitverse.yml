@@ -25,26 +25,42 @@ jobs:
           TOKEN: ${{ secrets.GITVERSE_TOKEN }}
         run: git clone https://$TOKEN@gitverse.ru/Xalador/AutoConfig.git gitverse
 
-      # 4️⃣ Сравниваем файлы
+      # 4️⃣ Очистка кеша репозитория Gitverse
+      - name: Clear Gitverse repo cache
+        run: rm -rf gitverse
+
+      # 5️⃣ Сравниваем файлы
       - name: Compare files
         id: check
         run: |
+          echo "Checking files..."
           if [ -f gitverse/output.txt ]; then
             if cmp -s build/output.txt gitverse/output.txt; then
+              echo "Files are the same"
               echo "same=true" >> $GITHUB_OUTPUT
             else
+              echo "Files are different"
               echo "same=false" >> $GITHUB_OUTPUT
             fi
           else
+            echo "File doesn't exist in Gitverse"
             echo "same=false" >> $GITHUB_OUTPUT
           fi
 
-      # 5️⃣ Копируем файл только если он изменился
+      # 6️⃣ Копируем файл только если он изменился
       - name: Copy file
         if: steps.check.outputs.same == 'false'
-        run: cp build/output.txt gitverse/
+        run: |
+          echo "File changed, copying..."
+          cp build/output.txt gitverse/
 
-      # 6️⃣ Коммитим и пушим изменения
+      # 7️⃣ Проверка состояния Git перед коммитом
+      - name: Check git status before commit
+        run: |
+          cd gitverse
+          git status
+
+      # 8️⃣ Коммитим и пушим изменения
       - name: Commit and push
         if: steps.check.outputs.same == 'false'
         run: |
@@ -54,3 +70,10 @@ jobs:
           git add output.txt
           git commit -m "Auto sync from GitHub"
           git push
+
+      # 9️⃣ Принудительный push, если обычный не сработал
+      - name: Force push if not detected changes
+        if: steps.check.outputs.same == 'false'
+        run: |
+          cd gitverse
+          git push --force
