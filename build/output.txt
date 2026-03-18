@@ -3,7 +3,7 @@
 # profile-title: 🏳️ БЕЛЫЕ СПИСКИ 🏳️ WHITE LISTS | CIDR | Полная • Full
 # profile-update-interval: 5
 # Количество: 220
-#announce: 18.03.2026 07:00 | X5/Yandex/VK SNI ONLY
+#announce: 18.03.2026 08:00 | X5/Yandex/VK SNI ONLY
 #announce: Свобода заключается в смелости!
 #profile-title: #РКП
 #profile-title: @SevaVPB_bot | GLOBAL 🌍
