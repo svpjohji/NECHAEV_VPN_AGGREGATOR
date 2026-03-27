@@ -1,5 +1,4 @@
-name: Build VPN Subscription
-
+name: NECHAEV
 on:
   schedule:
     - cron: "*/10 * * * *"  # Каждые 10 минут
