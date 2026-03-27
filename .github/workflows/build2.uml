@@ -1,4 +1,4 @@
-name: Build VPN Subscription
+name: NECHAEV
 
 on:
   schedule:
