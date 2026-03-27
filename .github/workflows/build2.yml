@@ -1,4 +1,4 @@
-name: NECHAEV
+name: Build 
 
 on:
   schedule:
@@ -16,34 +16,25 @@ jobs:
       - name: Create build folder
         run: mkdir -p build
 
-      - name: Clear output2 file
+      - name: Clear the output file
         run: |
           rm -f build/output2.txt
           touch build/output2.txt
 
-      - name: Download subscriptions from Jump.txt
+      - name: Download all subscriptions
         run: |
-          INPUT_FILE="$GITHUB_WORKSPACE/Jump.txt"
-
-          if [ ! -f "$INPUT_FILE" ]; then
-            echo "Jump.txt not found!"
-            exit 1
-          fi
-
           while IFS= read -r url || [ -n "$url" ]; do
             if [ -z "$url" ]; then
               continue
             fi
 
-            # Убираем комментарии
             clean_url="${url%%#*}"
             echo "Checking $clean_url"
 
-            # Проверка доступности
             http_status=$(curl -s -o /dev/null -w "%{http_code}" "$clean_url")
 
             if [ "$http_status" -ne 200 ]; then
-              echo "Failed: $clean_url (HTTP $http_status)" >> build/output2.txt
+              echo "Failed to reach $clean_url (HTTP status: $http_status), skipping..." >> build/output2.txt
               continue
             fi
 
@@ -55,16 +46,15 @@ jobs:
               cat tmp.txt >> build/output2.txt
               echo "" >> build/output2.txt
             else
-              echo "Empty: $clean_url" >> build/output2.txt
+              echo "Empty or failed: $clean_url" >> build/output2.txt
             fi
-
-          done < "$INPUT_FILE"
+          done < "$GITHUB_WORKSPACE/Jump.txt"
 
           rm -f tmp.txt
 
-      - name: Clean duplicates
+      - name: Remove duplicates and invalid configurations
         run: |
-          grep -v -e "^$" -e "Empty:" -e "Failed:" build/output2.txt | sort -u > build/output_cleaned.txt
+          grep -v -e "^$" -e "Empty or failed" -e "Failed to reach" build/output2.txt | sort -u > build/output_cleaned.txt
           mv build/output_cleaned.txt build/output2.txt
 
       - name: Commit and push
@@ -72,5 +62,5 @@ jobs:
           git config --global user.name "vpn-bot"
           git config --global user.email "vpn-bot@users.noreply.github.com"
           git add build/output2.txt
-          git commit -m "Auto update VPN subscription (Jump.txt)" || echo "No changes"
+          git commit -m "Auto update VPN subscription (Jump)" || echo "No changes"
           git push || echo "Push failed"
