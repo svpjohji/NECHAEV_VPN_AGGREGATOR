@@ -1,4 +1,4 @@
-name: Build 
+name: Build VPN
 
 on:
   schedule:
@@ -16,51 +16,85 @@ jobs:
       - name: Create build folder
         run: mkdir -p build
 
-      - name: Clear the output file
+      - name: Clear output file
         run: |
           rm -f build/output2.txt
           touch build/output2.txt
 
-      - name: Download all subscriptions
+      - name: Find input file (jump)
+        id: find_file
         run: |
+          FILE=$(find $GITHUB_WORKSPACE -type f -iname "jump*.txt" | head -n 1)
+
+          if [ -z "$FILE" ]; then
+            echo "No jump file found, skipping build"
+            echo "file_path=" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          echo "Found file: $FILE"
+          echo "file_path=$FILE" >> $GITHUB_OUTPUT
+
+      - name: Download all subscriptions
+        if: steps.find_file.outputs.file_path != ''
+        run: |
+          INPUT_FILE="${{ steps.find_file.outputs.file_path }}"
+
           while IFS= read -r url || [ -n "$url" ]; do
+
+            # убираем пробелы
+            url=$(echo "$url" | xargs)
+
+            # пропускаем пустые строки
             if [ -z "$url" ]; then
               continue
             fi
 
+            # убираем комментарии
             clean_url="${url%%#*}"
+
+            # ещё раз чистим
+            clean_url=$(echo "$clean_url" | xargs)
+
+            if [ -z "$clean_url" ]; then
+              continue
+            fi
+
             echo "Checking $clean_url"
 
             http_status=$(curl -s -o /dev/null -w "%{http_code}" "$clean_url")
 
-            if [ "$http_status" -ne 200 ]; then
-              echo "Failed to reach $clean_url (HTTP status: $http_status), skipping..." >> build/output2.txt
+            if [ "$http_status" != "200" ]; then
+              echo "Failed: $clean_url (HTTP $http_status)" >> build/output2.txt
               continue
             fi
 
             echo "Fetching $clean_url"
 
-            curl -s --max-time 20 "$clean_url" -o tmp.txt || echo "skip $clean_url"
+            curl -L -s --max-time 20 "$clean_url" -o tmp.txt || true
 
             if [ -s tmp.txt ]; then
               cat tmp.txt >> build/output2.txt
               echo "" >> build/output2.txt
             else
-              echo "Empty or failed: $clean_url" >> build/output2.txt
+              echo "Empty: $clean_url" >> build/output2.txt
             fi
-          done < "$GITHUB_WORKSPACE/Jump.txt"
+
+          done < "$INPUT_FILE"
 
           rm -f tmp.txt
 
-      - name: Remove duplicates and invalid configurations
+      - name: Clean duplicates
         run: |
-          grep -v -e "^$" -e "Empty or failed" -e "Failed to reach" build/output2.txt | sort -u > build/output_cleaned.txt
-          mv build/output_cleaned.txt build/output2.txt
+          if [ -f build/output2.txt ]; then
+            grep -v -e "^$" -e "Empty:" -e "Failed:" build/output2.txt | sort -u > build/output_cleaned.txt || true
+            mv build/output_cleaned.txt build/output2.txt || true
+          fi
 
       - name: Commit and push
         run: |
           git config --global user.name "vpn-bot"
           git config --global user.email "vpn-bot@users.noreply.github.com"
-          git add build/output2.txt
-          git commit -m "Auto update VPN subscription (Jump)" || echo "No changes"
+          git add build/output2.txt || true
+          git commit -m "Auto update VPN subscription (stable)" || echo "No changes"
           git push || echo "Push failed"
