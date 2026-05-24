@@ -1,0 +1,2 @@
+https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt
+https://gitflic.ru/project/sigil/my-new-cool-project/blob/raw?file=whitelist
