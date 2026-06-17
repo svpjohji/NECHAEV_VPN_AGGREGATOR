@@ -9,47 +9,11 @@
                                 "id": "15fc02f9-dadd-5452-a259-baec0ee71339"
                                 "id": "15fc02f9-dadd-554b-a259-baec0ee71339"
                                 "id": "15fc02f9-dadd-5553-a259-baec0ee71339"
-                                "id": "1c4d05ef-8421-46a1-a6f3-e77f0ea45e41"
-                                "id": "2abb9476-a1ed-4ca6-afa3-7eb04e824c0f"
-                                "id": "3699cf3a-2cc3-462a-be38-51fff7c8fb8d"
-                                "id": "7a3a528f-2732-4292-8bd0-b1ad47fb513e"
-                                "id": "9c2aec33-963e-491e-94f7-d19d72ebf287"
                                 "id": "a5ea9247-79f3-4655-aece-3fb51e1e669e"
-                                "id": "b0951d03-a838-4953-9d25-f906fbc4232b"
-                                "id": "c7661851-1449-47de-b444-ecc508e8d0ac"
-                                "id": "cef6ad99-5f1c-4f3c-b446-403dc1b6d577"
-                                "id": "d9903876-7627-486b-813f-aeb6737725b4"
-                                "id": "de7e5d34-7c58-49a8-8440-05a8d4877cf7"
-                                "id": "ece5d20d-9e40-4bf9-b35d-b6bd2c9ea1b7"
-                            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-                            "accept-encoding": "gzip,+deflate,+br,+zstd",
-                            "accept-language": "en-US,en;q=0.9",
-                            "cMaxLifetimeMs": 300000,
-                            "cMaxReuseTimes": 100,
-                            "maxConcurrency": "16-32",
-                            "maxConnections": 0
-                            "priority": "u=0,+i",
-                            "sec-ch-ua": "Not/A)Brand;v=99,+Chromium;v=148",
-                            "sec-ch-ua-arch": "x86",
-                            "sec-ch-ua-bitness": "64",
-                            "sec-ch-ua-full-version": "148.0.7778.167",
-                            "sec-ch-ua-full-version-list": "Not/A)Brand;v=99.0.0.0,+Chromium;v=148.0.7778.167",
-                            "sec-ch-ua-mobile": "?0",
-                            "sec-ch-ua-model": "",
-                            "sec-ch-ua-platform": "Linux",
-                            "sec-ch-ua-platform-version": "",
-                            "sec-fetch-dest": "document",
-                            "sec-fetch-mode": "navigate",
-                            "sec-fetch-site": "same-origin",
-                            "sec-fetch-user": "?1",
-                            "upgrade-insecure-requests": "1",
-                            "user-agent": "Mozilla/5.0+(X11;+Linux+x86_64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/148.0.0.0+Safari/537.36"
                             {
                             }
                         "Host": "cloudflare.blanesik.space"
                         "Host": "cloudflare.vhub.pro"
-                        "address": "185.253.23.125",
-                        "address": "188.72.103.3",
                         "address": "194.238.79.150.fwqfw783rg2dad.website",
                         "address": "194.238.79.170.blanesik.space",
                         "address": "213.21.222.19.blanesik.space",
@@ -57,133 +21,50 @@
                         "address": "213.21.222.28.speed-storage.ru",
                         "address": "213.21.222.29.fwqfw783rg2dad.website",
                         "address": "213.21.222.33.vhubtest.ru",
-                        "address": "217.16.16.1",
-                        "address": "217.16.19.13",
-                        "address": "5.188.114.44",
-                        "address": "78.159.250.196",
-                        "address": "84.201.166.160",
                         "address": "89.125.118.171.blanesik.space",
                         "address": "89.169.38.249.blanesik.space",
                         "address": "94.156.155.81.blanesik.space",
                         "address": "94.183.221.225.blanesik.space",
                         "address": "95.85.246.14.speed-storage.ru",
                         "address": "95.85.246.16.speed-storage.ru",
-                        "address": "cy.keepverify.net",
-                        "address": "fi-m247-02.com",
-                        "address": "fr-gt-01.com",
-                        "address": "njivxdsw19.a.trbcdn.net",
-                        "address": "nl01-cherry.online",
-                        "address": "nuxde.jojack.ru",
-                        "address": "pl-dp-01.online",
                         "address": "rezerv.yunus.guru",
                         "address": "rezerv1.yunus.guru",
                         "address": "rezerv3.yunus.guru",
                         "address": "rezerv4.yunus.guru",
                         "address": "rezerv5.yunus.guru",
                         "address": "rezerv6.yunus.guru",
-                        "address": "ruall.archivebox.tools",
                         "address": "s1.avoro-cloudflare.ips-list.vhub.pro",
                         "address": "s1.cloudflare.ips-list.vhub.pro",
-                        "address": "s1.whitelists-avoro-cloudflare.ips-list.vhub.pro",
-                        "address": "s1.whitelists-cloudflare.ips-list.vhub.pro",
                         "address": "s2.avoro-cloudflare.ips-list.vhub.pro",
                         "address": "s2.cloudflare.ips-list.vhub.pro",
-                        "address": "s2.whitelists-avoro-cloudflare.ips-list.vhub.pro",
-                        "address": "s2.whitelists-cloudflare.ips-list.vhub.pro",
                         "address": "s3.avoro-cloudflare.ips-list.vhub.pro",
                         "address": "s3.cloudflare.ips-list.vhub.pro",
-                        "address": "s3.whitelists-avoro-cloudflare.ips-list.vhub.pro",
-                        "address": "s3.whitelists-cloudflare.ips-list.vhub.pro",
                         "address": "s4.avoro-cloudflare.ips-list.vhub.pro",
                         "address": "s4.cloudflare.ips-list.vhub.pro",
-                        "address": "s4.whitelists-avoro-cloudflare.ips-list.vhub.pro",
-                        "address": "s4.whitelists-cloudflare.ips-list.vhub.pro",
                         "address": "s5.avoro-cloudflare.ips-list.vhub.pro",
                         "address": "s5.cloudflare.ips-list.vhub.pro",
-                        "address": "s5.whitelists-avoro-cloudflare.ips-list.vhub.pro",
-                        "address": "s5.whitelists-cloudflare.ips-list.vhub.pro",
-                        "address": "top2156289056.mwscdn.ru",
-                        "address": "tralalero.site",
                         "h2"
-                        "h2",
-                        "headers": {
                         "http/1.1"
-                        "http/1.1",
-                        "noGRPCHeader": true,
-                        "noSSEHeader": false,
-                        "port": 20447,
-                        "port": 2053,
                         "port": 443,
                         "port": 573,
-                        "port": 8443,
-                        "port": 971,
-                        "scMaxBufferedPosts": 30,
-                        "scMaxEachPostBytes": "1000000",
-                        "scStreamUpServerSecs": "20-80",
-                        "seqKey": "",
-                        "seqKey": "X-Content-Id",
-                        "seqPlacement": "",
-                        "seqPlacement": "header",
-                        "sessionKey": "",
-                        "sessionKey": "X-Session-Id",
-                        "sessionPlacement": "",
-                        "sessionPlacement": "header",
-                        "uplinkChunkSize": 0,
-                        "uplinkDataKey": "",
-                        "uplinkDataPlacement": "",
-                        "uplinkHTTPMethod": "GET",
                         "users": [
-                        "xPaddingBytes": "0-0",
-                        "xPaddingHeader": "",
-                        "xPaddingHeader": "X-Api-Key",
-                        "xPaddingKey": "",
-                        "xPaddingMethod": "",
-                        "xPaddingMethod": "tokenish",
-                        "xPaddingObfsMode": false,
-                        "xPaddingObfsMode": true,
-                        "xPaddingPlacement": ""
-                        "xPaddingPlacement": "header",
-                        "xmux": {
                         ]
-                        }
-                        },
                     "allowInsecure": false,
                     "alpn": [
-                    "extra": {
-                    "fingerprint": "chrome",
                     "fingerprint": "edge",
                     "fingerprint": "firefox",
                     "fingerprint": "ios",
-                    "fingerprint": "qq",
                     "fingerprint": "safari",
                     "headers": {
-                    "host": "",
-                    "host": "njivxdsw19.a.trbcdn.net",
-                    "host": "static171.kdjdjssjwiqwr.ru",
                     "http",
-                    "mode": "auto",
-                    "mode": "packet-up",
                     "multiMode": false,
-                    "path": "/api/hel"
-                    "path": "/livestreamcontent/"
-                    "path": "/sequre/http/"
                     "path": "/sequre/ws?ed=2560"
                     "publicKey": "-X9CZv5MYKivpxPVP1vdgFKf2AJWmZ0Pju-j8LFmlh4",
-                    "publicKey": "1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA",
-                    "publicKey": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
-                    "publicKey": "66-fz0xjwauydj29EfFKyPHjJ2CIGaGSsJ6hsB--zAc",
                     "publicKey": "6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE",
-                    "publicKey": "6nsVaGZyZOiD9A0Rd9ci-r-7PO_i2ZP5kPK-0orxdS4",
-                    "publicKey": "9Y-_jCI3Z1x6SXK2tHdZ6V1CN9IJPNPnoxSW0cbXxD8",
                     "publicKey": "Aiyev_-czR8WG7l15BQDsHL7VwJVQe3W7SEfxbRk0W4",
                     "publicKey": "E56UL8pvnV6FNSPmv_Q9AZnSgHZpjOm-jrLyOEKwO0Q",
-                    "publicKey": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
-                    "publicKey": "LT_0j3zQkaqgtJHvyaG24xz0IfmXUswVCTeC75Qsgjo",
                     "publicKey": "S4WFc-SD_FpmmQdM21Of7O6XmYaLlmwcmlbgO4lZQQg",
-                    "publicKey": "_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM",
-                    "publicKey": "mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4",
                     "publicKey": "wdUdFTq0BP7xFnAWNbfdAFeieIOuExZ3HUctSiChCzU",
-                    "publicKey": "xBpyo1hUqSIC_DjeVuTDN1EqAsTnFNJPDgBoJZ79clw",
                     "quic"
                     "serverName": "194.238.79.150.fwqfw783rg2dad.website"
                     "serverName": "194.238.79.170.blanesik.space"
@@ -198,45 +79,22 @@
                     "serverName": "94.183.221.225.blanesik.space"
                     "serverName": "95.85.246.14.speed-storage.ru"
                     "serverName": "95.85.246.16.speed-storage.ru"
-                    "serverName": "ads.x5.ru",
-                    "serverName": "bitrix24.ru",
-                    "serverName": "cdn.kwork.com",
-                    "serverName": "cdn.tracker.yandex.net"
-                    "serverName": "cdn5.bypasshape.ru"
                     "serverName": "cloudflare.blanesik.space"
                     "serverName": "cloudflare.vhub.pro"
-                    "serverName": "max.ru",
-                    "serverName": "njivxdsw19.a.trbcdn.net"
-                    "serverName": "patents.su",
-                    "serverName": "platform-api.max.ru",
                     "serverName": "rezerv.yunus.guru",
                     "serverName": "rezerv1.yunus.guru",
                     "serverName": "rezerv3.yunus.guru",
                     "serverName": "rezerv4.yunus.guru",
                     "serverName": "rezerv5.yunus.guru",
                     "serverName": "rezerv6.yunus.guru",
-                    "serverName": "storage.yandex.net",
-                    "serverName": "top2156289056.mwscdn.ru"
-                    "serverName": "yandex.ru",
                     "serviceName": "/sequre/grpc"
                     "serviceName": "/sequre/grpc/"
-                    "serviceName": "buysec.ru"
-                    "shortId": "0905b6e16602f326",
-                    "shortId": "10f786a2491b2cd5",
                     "shortId": "34256b39b4ebb864",
                     "shortId": "399a4569c48e12e6",
-                    "shortId": "428ef87fd47a3a32",
-                    "shortId": "4ffc99daad0f261f",
-                    "shortId": "50e09046c0c00159",
                     "shortId": "6c88854e73e86773",
-                    "shortId": "6ecdb111a4e57f94",
                     "shortId": "a7ec6c3316eddb11",
-                    "shortId": "aabb",
-                    "shortId": "ad7dab462a323acb",
                     "shortId": "b28896ec1669a951",
-                    "shortId": "de8d3223e7d85761",
                     "shortId": "e80a3158be637ee1",
-                    "shortId": "ece180c605b5453c",
                     "socks"
                     "spiderX": ""
                     "tls",
@@ -252,52 +110,6 @@
                     "🇩🇪 Германия 7",
                     "🇩🇪 Германия 8",
                     "🇩🇪 Германия 9",
-                    "🇩🇪 Моб интернет 1 1",
-                    "🇩🇪 Моб интернет 1 10"
-                    "🇩🇪 Моб интернет 1 2",
-                    "🇩🇪 Моб интернет 1 3",
-                    "🇩🇪 Моб интернет 1 4",
-                    "🇩🇪 Моб интернет 1 5",
-                    "🇩🇪 Моб интернет 1 6",
-                    "🇩🇪 Моб интернет 1 7",
-                    "🇩🇪 Моб интернет 1 8",
-                    "🇩🇪 Моб интернет 1 9",
-                    "🇪🇺 AUTO — Обход БС 1",
-                    "🇪🇺 AUTO — Обход БС 10",
-                    "🇪🇺 AUTO — Обход БС 11",
-                    "🇪🇺 AUTO — Обход БС 12",
-                    "🇪🇺 AUTO — Обход БС 13",
-                    "🇪🇺 AUTO — Обход БС 14",
-                    "🇪🇺 AUTO — Обход БС 15",
-                    "🇪🇺 AUTO — Обход БС 16",
-                    "🇪🇺 AUTO — Обход БС 17",
-                    "🇪🇺 AUTO — Обход БС 18",
-                    "🇪🇺 AUTO — Обход БС 19",
-                    "🇪🇺 AUTO — Обход БС 2",
-                    "🇪🇺 AUTO — Обход БС 20",
-                    "🇪🇺 AUTO — Обход БС 21",
-                    "🇪🇺 AUTO — Обход БС 22",
-                    "🇪🇺 AUTO — Обход БС 23",
-                    "🇪🇺 AUTO — Обход БС 24",
-                    "🇪🇺 AUTO — Обход БС 25",
-                    "🇪🇺 AUTO — Обход БС 26",
-                    "🇪🇺 AUTO — Обход БС 27",
-                    "🇪🇺 AUTO — Обход БС 28",
-                    "🇪🇺 AUTO — Обход БС 29",
-                    "🇪🇺 AUTO — Обход БС 3",
-                    "🇪🇺 AUTO — Обход БС 30",
-                    "🇪🇺 AUTO — Обход БС 31",
-                    "🇪🇺 AUTO — Обход БС 32",
-                    "🇪🇺 AUTO — Обход БС 33",
-                    "🇪🇺 AUTO — Обход БС 34",
-                    "🇪🇺 AUTO — Обход БС 35",
-                    "🇪🇺 AUTO — Обход БС 36"
-                    "🇪🇺 AUTO — Обход БС 4",
-                    "🇪🇺 AUTO — Обход БС 5",
-                    "🇪🇺 AUTO — Обход БС 6",
-                    "🇪🇺 AUTO — Обход БС 7",
-                    "🇪🇺 AUTO — Обход БС 8",
-                    "🇪🇺 AUTO — Обход БС 9",
                     "🇪🇺 AUTO — Самый быстрый ⚡️ 1",
                     "🇪🇺 AUTO — Самый быстрый ⚡️ 10",
                     "🇪🇺 AUTO — Самый быстрый ⚡️ 11",
@@ -318,29 +130,6 @@
                     "🇪🇺 AUTO — Самый быстрый ⚡️ 7",
                     "🇪🇺 AUTO — Самый быстрый ⚡️ 8",
                     "🇪🇺 AUTO — Самый быстрый ⚡️ 9",
-                    "🇫🇲 Моб интернет 2 1",
-                    "🇫🇲 Моб интернет 2 10",
-                    "🇫🇲 Моб интернет 2 11",
-                    "🇫🇲 Моб интернет 2 12",
-                    "🇫🇲 Моб интернет 2 13",
-                    "🇫🇲 Моб интернет 2 14",
-                    "🇫🇲 Моб интернет 2 15",
-                    "🇫🇲 Моб интернет 2 16",
-                    "🇫🇲 Моб интернет 2 17",
-                    "🇫🇲 Моб интернет 2 18",
-                    "🇫🇲 Моб интернет 2 19",
-                    "🇫🇲 Моб интернет 2 2",
-                    "🇫🇲 Моб интернет 2 20",
-                    "🇫🇲 Моб интернет 2 21",
-                    "🇫🇲 Моб интернет 2 22",
-                    "🇫🇲 Моб интернет 2 23"
-                    "🇫🇲 Моб интернет 2 3",
-                    "🇫🇲 Моб интернет 2 4",
-                    "🇫🇲 Моб интернет 2 5",
-                    "🇫🇲 Моб интернет 2 6",
-                    "🇫🇲 Моб интернет 2 7",
-                    "🇫🇲 Моб интернет 2 8",
-                    "🇫🇲 Моб интернет 2 9",
                     "🇱🇻 Латвия 1",
                     "🇱🇻 Латвия 2",
                     "🇱🇻 Латвия 3",
@@ -353,25 +142,80 @@
                     "🇳🇱 Нидерланды",
                     "🇳🇱 Самый Быстрый",
                     "🇳🇱 Тест 1",
-                    "🇵🇱 Моб интернет 3 1",
-                    "🇵🇱 Моб интернет 3 2"
                     "🇵🇱 Польша [Игровой] 1",
                     "🇵🇱 Польша [Игровой] 2"
                     ],
                     {
                     }
                     },
+                "alterId": 0
                 "auth": "noauth",
                 "balancerTag": "balancer",
                 "destOverride": [
                 "domainStrategy": "UseIP"
                 "enabled": true
+                "encryption": "none"
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
                 "grpcSettings": {
+                "id": "03fb27fc-ce13-404e-aa00-94999ba3e256",
+                "id": "05257864-a357-4891-a16a-abb6bad2e648",
+                "id": "0a8681e2-d3e7-4bf8-b7a7-5e24b1063ceb",
+                "id": "1372fdd0-08ac-49f9-bc68-16d7082fa106",
+                "id": "18655112-fd8a-44e7-a30c-37388c05816b",
+                "id": "1901c603-3831-4276-b62f-ff7da654be90",
+                "id": "196397aa-edb3-4208-8a64-39630342cbc4",
+                "id": "1b9e301d-cecd-4eb1-8b36-eef811c2696d",
+                "id": "1dd5f2be-f124-4f35-9239-8abc042829c2",
+                "id": "210389fe-5875-475a-b5a7-35f38fd692bc",
+                "id": "21c898c8-8cab-46bf-9482-9cfb23321bd9",
+                "id": "3c533416-8852-4f1a-befa-23289b2f32d1",
+                "id": "4288b4c1-36b3-488f-84e8-3776b8d7e7d4",
+                "id": "449a4ff7-9eb7-41c1-9a1f-64579a609663",
+                "id": "45982571-7c2b-447b-8737-01d6da42feea",
+                "id": "4b201f2a-c7d2-4d47-a63e-b87f9dfd8e84",
+                "id": "53f69250-bd62-4aba-83d8-ba6cc306df2e",
+                "id": "5b865123-0e66-4dfc-8b0a-ff7049303fd1",
+                "id": "5ba9fad4-640c-4413-ba8c-1bb54adfdedd",
+                "id": "618b57fd-6078-4dec-a658-4c031205f8d6",
+                "id": "620c2d7f-2f6c-4a8c-91cf-f979319d9af3",
+                "id": "626ad70c-5ef3-4a01-9e08-4ed3ed79e297",
+                "id": "6419286d-4df6-4d94-b64f-8ca94aac9e4a",
+                "id": "69a2af58-d74a-44ca-864a-e09b493f4274",
+                "id": "6b7a860a-1b20-45a1-8445-bdf1a896f513",
+                "id": "6d38c38a-14f6-4a21-9732-23dbce1e3e8f",
+                "id": "792c7879-e92a-4574-87ee-22d52ad9b96a",
+                "id": "8cb0a2fc-6fbd-4bf4-82db-e527a0a0c813",
+                "id": "9a0e6055-608e-4cbd-b95d-af4555c82a1d",
+                "id": "9bdba190-4c03-4025-8635-fb8202ce3b53",
+                "id": "9e958a9c-e102-4079-9013-54e33948f0e1",
+                "id": "9f8d6ad5-5ba5-4173-9ab2-19f6dc261614",
+                "id": "a16107fd-667a-0003-bd75-90bc65c89b17",
+                "id": "a6c71706-9538-4fa2-800b-90031f4992d7",
+                "id": "add241ea-100a-47f6-9557-2a2b76b009e4",
+                "id": "b134b059-7cfb-44e4-84c0-802a7531a62d",
+                "id": "b7369d03-3b20-4797-971a-ea76be49bfdf",
+                "id": "bb8fef05-5913-4768-b70d-fe8e7db58ad3",
+                "id": "bda42a78-53ae-4ced-86c0-60c3af6e60a7",
+                "id": "bfd6c195-e37e-40ed-b962-c3ea4ac0f5df",
+                "id": "c9095b3c-44f9-43d5-a28e-5d62bcc135ce",
+                "id": "ca26b534-4078-474a-bc28-cef0f559b43f",
+                "id": "ca428a2e-7f82-4030-851b-cab731a5645a",
+                "id": "cb5b5056-61f9-4845-a4d4-229ef726c122",
+                "id": "db3cca18-4cf5-4e98-a0ae-377778e7d47c",
+                "id": "dbfa97b8-f4fb-4687-96dc-a5a2aebfae11",
+                "id": "df9c9355-b02c-4c12-909d-0dbeb725d52b",
+                "id": "ec2aaf4f-b1aa-4410-4b14-d4b4e9b5daf4",
+                "id": "f0933f3c-4a73-4409-93ad-8d3a43d253c0",
+                "id": "f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4",
+                "id": "f777818a-fa93-4096-8235-68e090c8714c",
+                "id": "f9bf8950-0bdf-492c-9b53-71afb0538575",
+                "id": "fbf5cbce-739d-474b-ba97-58ac967c5829",
+                "id": "ff19693c-11f3-4df9-8713-79a85a5ca090",
                 "inboundTag": [
                 "network": "grpc",
                 "network": "tcp",
                 "network": "ws",
-                "network": "xhttp",
                 "outboundTag": "🇦🇪 Дубай (ОАЭ)",
                 "outboundTag": "🇫🇮 Финляндия",
                 "outboundTag": "🇫🇷 Франция",
@@ -385,6 +229,7 @@
                 "port": "0-65535"
                 "realitySettings": {
                 "response": {
+                "security": "auto",
                 "security": "reality"
                 "security": "tls",
                 "selector": [
@@ -393,21 +238,158 @@
                 "udp": true
                 "vnext": [
                 "wsSettings": {
-                "xhttpSettings": {
                 ]
                 ],
                 }
                 },
+              "address": "france1.fontanvpn.com",
+              "address": "kanadka.fontanvpn.com",
+              "address": "milano1.fontanvpn.com",
+              "address": "regxaknd1.softupdatecenter.com",
+              "address": "serfing.softupdatecenter.com",
+              "hMaxReusableSecs": "1800-3000"
+              "maxConcurrency": "128",
+              "password": "07829dee-fec8-4229-966c-72997afea352"
+              "port": 443,
+              {
+              }
+            "1.0.0.1"
             "1.1.1.1",
             "8.8.8.8"
+            "Host": "itx-server.digital"
+            "Host": "renderer-stream-1-411.mirra.now"
+            "Host": "s86255.cdn.ngenix.net"
+            "address": "130.94.36.85",
+            "address": "144.31.234.103",
+            "address": "148.253.208.76",
+            "address": "149.33.0.214",
+            "address": "149.33.31.115",
+            "address": "151.245.192.222",
+            "address": "151.245.192.223",
+            "address": "155.212.182.19",
+            "address": "157.22.241.100",
+            "address": "158.160.143.1",
+            "address": "158.160.17.171",
+            "address": "178.154.204.218",
+            "address": "178.154.204.65",
+            "address": "178.154.215.113",
+            "address": "185.130.114.211",
+            "address": "185.130.115.132",
+            "address": "185.229.9.58",
+            "address": "185.246.67.166",
+            "address": "194.67.120.156",
+            "address": "194.87.143.111",
+            "address": "194.87.161.136",
+            "address": "195.208.65.163",
+            "address": "195.209.88.184",
+            "address": "195.209.90.4",
+            "address": "207.2.120.46",
+            "address": "212.193.152.65",
+            "address": "212.193.153.170",
+            "address": "213.219.212.112",
+            "address": "213.219.212.14",
+            "address": "213.219.212.39",
+            "address": "213.219.212.51",
+            "address": "213.219.212.61",
+            "address": "217.16.29.23",
+            "address": "37.139.34.63",
+            "address": "37.220.161.249",
+            "address": "37.220.163.233",
+            "address": "37.220.163.248",
+            "address": "37.9.4.224",
+            "address": "45.139.27.196",
+            "address": "45.8.228.110",
+            "address": "46.226.161.161",
+            "address": "51.250.102.69",
+            "address": "51.250.106.87",
+            "address": "51.250.108.162",
+            "address": "51.250.4.238",
+            "address": "51.250.47.193",
+            "address": "51.250.70.186",
+            "address": "51.250.73.47",
+            "address": "51.250.81.9",
+            "address": "51.250.97.18",
+            "address": "62.152.56.73",
+            "address": "62.152.58.111",
+            "address": "62.60.232.249",
+            "address": "77.110.110.81",
+            "address": "77.110.125.101",
+            "address": "79.174.78.217",
+            "address": "81.163.22.156",
+            "address": "81.19.135.87",
+            "address": "83.147.252.52",
+            "address": "84.201.153.33",
+            "address": "84.32.209.94",
+            "address": "85.192.61.67",
+            "address": "88.216.68.234",
+            "address": "89.169.90.10",
+            "address": "92.242.61.92",
+            "address": "bel1.pandaonline.org",
+            "address": "br-gru-1.blook.network",
+            "address": "by-msq-2-x.blook.network",
+            "address": "ch-zrh-2-x.blook.network",
+            "address": "clickfunt.3cloudhost.com",
+            "address": "de-fra-14-x.blook.network",
+            "address": "de.updatesvpn.ru",
+            "address": "ee-tll-2-x.blook.network",
+            "address": "est01.port-server.online",
+            "address": "fi-hel-1.blook.network",
+            "address": "fr-cdg-1.blook.network",
+            "address": "l10.l-itx.info",
+            "address": "l14.l-itx.info",
+            "address": "lt-vno-2-x.blook.network",
+            "address": "lv-rix-2.blook.network",
+            "address": "md-kiv-2.blook.network",
+            "address": "mzone.fr.3cloudhost.com",
+            "address": "mzone.nl.3cloudhost.com",
+            "address": "mzonepr.3cloudhost.com",
+            "address": "ng-los-1.blook.network",
+            "address": "nl-ams-13-x.blook.network",
+            "address": "nl.updatesvpn.ru",
+            "address": "pl-test.updatesvpn.ru",
+            "address": "pl-waw-2-x.blook.network",
+            "address": "ru-svo-2-x.blook.network",
+            "address": "se-arn-3-x.blook.network",
+            "address": "uk-lhr-1-x.blook.network",
+            "address": "us-jfk-3-x.blook.network",
+            "address": "wl-cdn2.coconutstrip.co",
+            "allowInsecure": false
+            "h2"
+            "h2",
+            "h3"
+            "http",
+            "http/1.1"
             "listen": "127.0.0.1",
+            "method": "chacha20-ietf-poly1305",
+            "noGRPCHeader": true,
+            "password": "yu2XnSPWhmQjxn83iJA3DA"
             "port": 10808,
+            "port": 14302,
+            "port": 2053,
+            "port": 23356,
+            "port": 3478,
+            "port": 443,
+            "port": 44333,
+            "port": 543,
+            "port": 62800,
+            "port": 8443,
+            "port": 8444,
             "protocol": "blackhole",
             "protocol": "freedom",
             "protocol": "socks",
             "protocol": "vless",
+            "quic"
+            "scMaxConcurrentPosts": 100,
+            "scMaxEachPostBytes": 1000000,
+            "scMinPostsIntervalMs": 30,
+            "serverName": "france1.fontanvpn.com",
+            "serverName": "kanadka.fontanvpn.com",
+            "serverName": "milano1.fontanvpn.com",
+            "serverName": "regxaknd1.softupdatecenter.com",
+            "serverName": "serfing.softupdatecenter.com",
             "settings": {
             "sniffing": {
+            "socks"
             "streamSettings": {
             "tag": "block"
             "tag": "direct"
@@ -424,52 +406,6 @@
             "tag": "🇩🇪 Германия 7"
             "tag": "🇩🇪 Германия 8"
             "tag": "🇩🇪 Германия 9"
-            "tag": "🇩🇪 Моб интернет 1 1"
-            "tag": "🇩🇪 Моб интернет 1 10"
-            "tag": "🇩🇪 Моб интернет 1 2"
-            "tag": "🇩🇪 Моб интернет 1 3"
-            "tag": "🇩🇪 Моб интернет 1 4"
-            "tag": "🇩🇪 Моб интернет 1 5"
-            "tag": "🇩🇪 Моб интернет 1 6"
-            "tag": "🇩🇪 Моб интернет 1 7"
-            "tag": "🇩🇪 Моб интернет 1 8"
-            "tag": "🇩🇪 Моб интернет 1 9"
-            "tag": "🇪🇺 AUTO — Обход БС 1"
-            "tag": "🇪🇺 AUTO — Обход БС 10"
-            "tag": "🇪🇺 AUTO — Обход БС 11"
-            "tag": "🇪🇺 AUTO — Обход БС 12"
-            "tag": "🇪🇺 AUTO — Обход БС 13"
-            "tag": "🇪🇺 AUTO — Обход БС 14"
-            "tag": "🇪🇺 AUTO — Обход БС 15"
-            "tag": "🇪🇺 AUTO — Обход БС 16"
-            "tag": "🇪🇺 AUTO — Обход БС 17"
-            "tag": "🇪🇺 AUTO — Обход БС 18"
-            "tag": "🇪🇺 AUTO — Обход БС 19"
-            "tag": "🇪🇺 AUTO — Обход БС 2"
-            "tag": "🇪🇺 AUTO — Обход БС 20"
-            "tag": "🇪🇺 AUTO — Обход БС 21"
-            "tag": "🇪🇺 AUTO — Обход БС 22"
-            "tag": "🇪🇺 AUTO — Обход БС 23"
-            "tag": "🇪🇺 AUTO — Обход БС 24"
-            "tag": "🇪🇺 AUTO — Обход БС 25"
-            "tag": "🇪🇺 AUTO — Обход БС 26"
-            "tag": "🇪🇺 AUTO — Обход БС 27"
-            "tag": "🇪🇺 AUTO — Обход БС 28"
-            "tag": "🇪🇺 AUTO — Обход БС 29"
-            "tag": "🇪🇺 AUTO — Обход БС 3"
-            "tag": "🇪🇺 AUTO — Обход БС 30"
-            "tag": "🇪🇺 AUTO — Обход БС 31"
-            "tag": "🇪🇺 AUTO — Обход БС 32"
-            "tag": "🇪🇺 AUTO — Обход БС 33"
-            "tag": "🇪🇺 AUTO — Обход БС 34"
-            "tag": "🇪🇺 AUTO — Обход БС 35"
-            "tag": "🇪🇺 AUTO — Обход БС 36"
-            "tag": "🇪🇺 AUTO — Обход БС 4"
-            "tag": "🇪🇺 AUTO — Обход БС 5"
-            "tag": "🇪🇺 AUTO — Обход БС 6"
-            "tag": "🇪🇺 AUTO — Обход БС 7"
-            "tag": "🇪🇺 AUTO — Обход БС 8"
-            "tag": "🇪🇺 AUTO — Обход БС 9"
             "tag": "🇪🇺 AUTO — Самый быстрый ⚡️ 1"
             "tag": "🇪🇺 AUTO — Самый быстрый ⚡️ 10"
             "tag": "🇪🇺 AUTO — Самый быстрый ⚡️ 11"
@@ -491,29 +427,6 @@
             "tag": "🇪🇺 AUTO — Самый быстрый ⚡️ 8"
             "tag": "🇪🇺 AUTO — Самый быстрый ⚡️ 9"
             "tag": "🇫🇮 Финляндия"
-            "tag": "🇫🇲 Моб интернет 2 1"
-            "tag": "🇫🇲 Моб интернет 2 10"
-            "tag": "🇫🇲 Моб интернет 2 11"
-            "tag": "🇫🇲 Моб интернет 2 12"
-            "tag": "🇫🇲 Моб интернет 2 13"
-            "tag": "🇫🇲 Моб интернет 2 14"
-            "tag": "🇫🇲 Моб интернет 2 15"
-            "tag": "🇫🇲 Моб интернет 2 16"
-            "tag": "🇫🇲 Моб интернет 2 17"
-            "tag": "🇫🇲 Моб интернет 2 18"
-            "tag": "🇫🇲 Моб интернет 2 19"
-            "tag": "🇫🇲 Моб интернет 2 2"
-            "tag": "🇫🇲 Моб интернет 2 20"
-            "tag": "🇫🇲 Моб интернет 2 21"
-            "tag": "🇫🇲 Моб интернет 2 22"
-            "tag": "🇫🇲 Моб интернет 2 23"
-            "tag": "🇫🇲 Моб интернет 2 3"
-            "tag": "🇫🇲 Моб интернет 2 4"
-            "tag": "🇫🇲 Моб интернет 2 5"
-            "tag": "🇫🇲 Моб интернет 2 6"
-            "tag": "🇫🇲 Моб интернет 2 7"
-            "tag": "🇫🇲 Моб интернет 2 8"
-            "tag": "🇫🇲 Моб интернет 2 9"
             "tag": "🇫🇷 Франция"
             "tag": "🇬🇧 Великобритания"
             "tag": "🇯🇵 Япония"
@@ -530,89 +443,749 @@
             "tag": "🇳🇱 Нидерланды"
             "tag": "🇳🇱 Самый Быстрый"
             "tag": "🇳🇱 Тест 1"
-            "tag": "🇵🇱 Моб интернет 3 1"
-            "tag": "🇵🇱 Моб интернет 3 2"
             "tag": "🇵🇱 Польша [Игровой] 1"
             "tag": "🇵🇱 Польша [Игровой] 2"
             "tag": "🇷🇺 YouTube без рекламы"
             "tag": "🇸🇪 Швеция"
             "tag": "🇹🇷 Турция [Оплата подписок]"
             "tag": "🇺🇸 США"
+            "tls",
+            "type": "http"
+            "users": [
+            "xPaddingBytes": "100-1000"
+            "xPaddingBytes": "100-1000",
+            "xmux": {
+            ]
             {
             }
             },
+          "334. 🇳🇱 The Netherlands",
+          "709.🇷🇺Россия | @LimeVPNFREE",
+          "allowInsecure": false
+          "allowInsecure": false,
+          "alpn": [
+          "auth": "noauth",
+          "destOverride": [
+          "domainStrategy": "UseIP"
+          "enabled": true,
+          "extra": {
+          "fingerprint": "",
+          "fingerprint": "chrome"
+          "fingerprint": "chrome",
+          "fingerprint": "edge",
+          "fingerprint": "firefox"
+          "fingerprint": "firefox",
+          "fingerprint": "qq",
+          "fingerprint": "random",
+          "fingerprint": "safari",
+          "headers": {
+          "host": "",
+          "host": "top2801758518.mwscdn.ru",
+          "http",
+          "inboundTag": [
+          "mode": ""
+          "mode": "stream-one",
+          "multiMode": false
+          "network": "hysteria2",
+          "outboundTag": "+🇫🇷+Telegram,+YouTube,+iNsta"
+          "outboundTag": "+🇮🇹+Telegram,+insta,+Gemini"
+          "outboundTag": "🇨🇦+++Gemini,+GPT,+Ai"
+          "outboundTag": "🇨🇦+++Telegram,+YouTube,+GPT"
+          "outboundTag": "🇺🇸+Telegram,+YouTube,+iNsta"
+          "path": "/",
+          "path": "/VLSpdG9k",
+          "path": "/api/v1/gpu-stream/socket",
+          "path": "/v1/data/sync/"
+          "path": "/v1/data/sync/",
+          "path": "/ws",
+          "port": "0-65535",
+          "publicKey": "0aGTmSxEW21dFVomobDSRjUWnPptI4yT_eL-0PCf-h0",
+          "publicKey": "7a0xjAoeGvlHx-Vy-JC-nr_eKQhQyFUDL16M85Z-Zzo",
+          "publicKey": "8zwu_JeBAKXJUGgMPKECkOl8IRSRlTKUO5Mnc0fOLkM",
+          "publicKey": "A7g4cVaB6_5cmIrGbv-PmkVpS4pvHWp2HfLZbjv-SDQ",
+          "publicKey": "AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk",
+          "publicKey": "BkvChBrpuEOHMaA-MaD7vwKulRkd25PRhPwLW_-OFQo",
+          "publicKey": "CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY",
+          "publicKey": "CL5aeP6smcd4ie9upZlYVEvuHDwLAt46BOIfHOjkMis",
+          "publicKey": "DmpMjyYBIU4KdMNY-0M8TxX5OBrQQ1A5E28Y9_-VQDk",
+          "publicKey": "E-nzKjkLlehnOE5Lub_r6tCOQcvnxVaSAETjFHESciw",
+          "publicKey": "ERoFs2CV-FNSk0J-QG7plHspHuyP85vdTJYQ75nNmHE",
+          "publicKey": "Ec54Eop0jZft7rcJsPN4RHc4xG9smXhtenM52pJFUQI",
+          "publicKey": "FVceIo73-WJfacwis9bRlQ7wEYbQuN4N25oWQlmdwl0",
+          "publicKey": "GYqQl8suX6lgrJZ27CkhMwtxmDGkd45QxKBJGaHUgQM",
+          "publicKey": "H4VeKzsqesO2LggCpL0WuYRojKXWNF_y4UABkGRadxs",
+          "publicKey": "KtHJA0ZiW3VEPTjGQOlT3NlXZWlqAPHKHqki_IGX3Wk",
+          "publicKey": "My4NYF1x_I4nnRhgQXjpKl6BQVtgBWklHP6a3ejmOxU",
+          "publicKey": "SARDrN_d46PsugT2k5ILoQAJqaA1eCOZhe1BjKMonj8",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "publicKey": "SqYAVrG01Mk0KXzlkmckO6lxvv6iZBJJvxE6PvD2vD0",
+          "publicKey": "UZcUXcDWwIkPoLsqflKMGiFx50MERRpum96y-y5Dv1Q",
+          "publicKey": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "publicKey": "ZcbTuBW-Kp5e2h-xfFgLoLVIcMDPOaZG3XlJ3xM05jQ",
+          "publicKey": "aNbj5QBUxwKIRnh9Z_0ZA-FmDELZKLb1YMUpId3OCU8",
+          "publicKey": "bnOJ_uKtqdg94h0Jt3cGJJAnXhW-UAdWKZBfbiaT9ho",
+          "publicKey": "c8fQY4Ywo9NPZS0CuujyztRI-8z0D7fREoz8laMDVkQ",
+          "publicKey": "dBvFkg2zny545Ws6H_LXKEohOYV2MW_zACRrRQE1IUg",
+          "publicKey": "ejl5l6FoiyhK6rKpWdNAzPeCnpRtAWNb3L4s-dvrcT0",
+          "publicKey": "i3ZLu0BrMnsEuDUgWoceRnaYMzRVphJE0CiPXmEhE3c",
+          "publicKey": "iC8Bb2OV8PgEI0_4RPZecUE3vm6vsLnZ42zvbPeVIgw",
+          "publicKey": "iRbc5G3wZbluYutzDvrJlc356yJsEnhV1T4tvE-tCnM",
+          "publicKey": "kIwNoNzk1uJnZD1evWxURZskv9ZY0aGoUjrAbn3uVXQ",
+          "publicKey": "kjTspDrisV8226wHoYmGlK3M3f5ti3J3SABdhRqAMCY",
+          "publicKey": "lh3qj3VX335HGH2T3xQ8RHZ4v3zEStbz6ENiPwkILSg",
+          "publicKey": "lw7-Msn5E2O6HbBdqMw9SvoDJgbDIvHss0UVQ9iZFRc",
+          "publicKey": "qeesztsiHTIYGTC3P5qCzNCfAvsHr1Tiwb8nLG0R428",
+          "publicKey": "uL4x8EbCl080G43kFlv8nbpEyseWi1Dc_bl8F7lWtm8",
+          "publicKey": "uhgb6lTTsq8Oh-hDFaYG-vKs5nCsmhRuWfldUEO9GGs",
+          "publicKey": "uofZM1SG_RthhSONWy50U6cQ5m3kXy-sglwY0CANfi8",
+          "publicKey": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "publicKey": "xI4ByyrKnvI7bBGwY2ndAe4oPWs_X_6mgXqcT6zn7QA",
+          "publicKey": "xwusQ4IEWdYyuPLCc4LOA89P6HyQDNT7xo_75v2YW2I",
+          "publicKey": "ymfAk3W8rkjPYqsb5LTZePsR7GazEk4tBGTrAn-44Ro",
+          "quic"
+          "response": {
+          "security": "tls",
+          "serverName": "554dad6ab34f7baf.itx-server.digital",
+          "serverName": "ads.x5.ru",
+          "serverName": "ai.sellflow.org",
+          "serverName": "api-maps.yandex.ru",
+          "serverName": "apple.com",
+          "serverName": "auto.malina24.xyz",
+          "serverName": "bel1.pandaonline.org",
+          "serverName": "br-gru-1.blook.network",
+          "serverName": "by-msq-2-x.blook.network",
+          "serverName": "cdp.x5.ru",
+          "serverName": "ch-zrh-2-x.blook.network",
+          "serverName": "de-fra-14-x.blook.network",
+          "serverName": "ee-tll-2-x.blook.network",
+          "serverName": "eh.vk.com",
+          "serverName": "eh.vk.ru",
+          "serverName": "est.hatvpn.org",
+          "serverName": "est01.port-server.online",
+          "serverName": "fi-hel-1.blook.network",
+          "serverName": "fr-cdg-1.blook.network",
+          "serverName": "itx-server.digital",
+          "serverName": "lt-vno-2-x.blook.network",
+          "serverName": "lv-rix-2.blook.network",
+          "serverName": "max.ru",
+          "serverName": "md-kiv-2.blook.network",
+          "serverName": "mzone.3cloudhost.com",
+          "serverName": "mzone.fr.3cloudhost.com",
+          "serverName": "mzone.nl.3cloudhost.com",
+          "serverName": "ng-los-1.blook.network",
+          "serverName": "nl-ams-13-x.blook.network",
+          "serverName": "perplexity.ai",
+          "serverName": "pl-waw-2-x.blook.network",
+          "serverName": "renderer-stream-1-411.mirra.now",
+          "serverName": "ru-svo-2-x.blook.network",
+          "serverName": "s18989.cdn.ngenix.net",
+          "serverName": "s75524.cdn.ngenix.net",
+          "serverName": "s86255.cdn.ngenix.net",
+          "serverName": "s96144.cdn.ngenix.net",
+          "serverName": "san4u.gitlab.yandexcloud.net",
+          "serverName": "se-arn-3-x.blook.network",
+          "serverName": "se.sellflow.org",
+          "serverName": "sellflow.org",
+          "serverName": "smartcaptcha.yandexcloud.net",
+          "serverName": "sun1-87.userapi.com",
+          "serverName": "top2801758518.mwscdn.ru",
+          "serverName": "uk-lhr-1-x.blook.network",
+          "serverName": "us-jfk-3-x.blook.network",
+          "serverName": "vk.com",
+          "serverName": "wildberries.ru",
+          "serverName": "wl-12.nodes.ac",
+          "serverName": "wl-2-1.legendary.ac",
+          "serverName": "wl-4-1.legendary.ac",
+          "serverName": "wl-4-4.nodes.ac",
+          "serverName": "wl-4-5.nodes.ac",
+          "serverName": "wl-6-1.nodes.ac",
+          "serverName": "wl-6-4.nodes.ac",
+          "serverName": "wl-cdn2.coconutstrip.co",
+          "serverName": "www.microsoft.com",
+          "serverName": "www.samsung.com",
+          "serverName": "www.yahoo.com",
+          "serverName": "www.zoom.com",
+          "serverName": "yandex.ru",
+          "servers": [
+          "serviceName": "",
+          "serviceName": "api",
+          "serviceName": "grpc",
+          "serviceName": "mtdklsqa",
+          "shortId": "",
+          "shortId": "00000000",
+          "shortId": "106f1604d65bb70c",
+          "shortId": "15affa0af66dfc79",
+          "shortId": "1a66e6ad",
+          "shortId": "27e53bbcab7593d7",
+          "shortId": "30e93292b543f308",
+          "shortId": "3c2f8f52",
+          "shortId": "3c642112",
+          "shortId": "3f7738018d03aebe",
+          "shortId": "468d8ab371f8f563",
+          "shortId": "483d116ad48a4091",
+          "shortId": "4d3ff920673f7534",
+          "shortId": "534673474586",
+          "shortId": "5a7216aec1371894",
+          "shortId": "5d8e1a9c4f72b3",
+          "shortId": "5e841fab",
+          "shortId": "63a9b4c563de9906",
+          "shortId": "66b2",
+          "shortId": "683959c5",
+          "shortId": "7cc366b3",
+          "shortId": "8bcfe256cf216fd8",
+          "shortId": "8ec792bfd725be8a",
+          "shortId": "9902cda1645757ea",
+          "shortId": "992e5a9a",
+          "shortId": "aa03ec59c9695e91",
+          "shortId": "aaaa",
+          "shortId": "abcd",
+          "shortId": "bfb16f73e35be2da",
+          "shortId": "cae7fcef",
+          "shortId": "cb4d31a32bc04d7e",
+          "shortId": "cf43c0c197cd464a",
+          "shortId": "d77bea950ba2",
+          "shortId": "d898401f400ccf57",
+          "shortId": "dacf7065",
+          "shortId": "f9d89d4a",
+          "shortId": "ff6d9b3d",
+          "shortId": "ffd676bc2a2657ef",
+          "socks"
+          "spiderX": ""
+          "spiderX": "/"
+          "t.me/freekesha21 - 135 🇷🇺",
+          "t.me/freekesha21 - 294 🇨🇿",
+          "t.me/freekesha21 - 72 🇷🇺",
+          "t.me/freekesha21 - 73 🇷🇺",
+          "t.me/freekesha21 - 75 🏳️",
+          "t.me/freekesha21 - 88 🏳️",
+          "t.me/freekesha21 - 89 🇷🇺",
+          "t.me/freekesha21 - 95 🇷🇺",
+          "tls",
+          "tlsSettings": {
+          "type": "http"
+          "udp": true
+          "БС #2"
+          "БС [@Misha Lan VPN] 🏳️ 08",
+          "БС [@Misha Lan VPN] 🏳️ 11",
+          "БС [@Misha Lan VPN] 🏳️ 12",
+          "БС [@Misha Lan VPN] 🏳️ 23",
+          "БС [@Misha Lan VPN] 🏳️ 27",
+          "БС [@Misha Lan VPN] 🏳️ 31",
+          "БС [@Misha Lan VPN] 🏳️ 34",
+          "БС [@Misha Lan VPN] 🏳️ 44",
+          "БС",
+          "⚡ Авто",
+          "⚡️Авто | лучший сервер 1",
+          "⚡️Авто | лучший сервер 3",
+          "⚡️Авто | лучший сервер 5",
+          "⚡️Авто | лучший сервер 6",
+          "⚡️Лучший 1",
+          "🇦🇪 ОАЭ 1",
+          "🇦🇪 ОАЭ 2"
+          "🇦🇹 Австрия 1",
+          "🇦🇹 Австрия 2",
+          "🇧🇪 Бельгия 1",
+          "🇧🇷 Бразилия 1"
+          "🇧🇸 Эщкерия | 🇫🇮 🇺🇸 [🏳️LTE] | 🥭🔧",
+          "🇧🇾 Беларусь 2",
+          "🇨🇦 Канада 1",
+          "🇨🇦 Канада 2",
+          "🇨🇭 Швейцария 2",
+          "🇨🇿 Чехия 1",
+          "🇩🇪 Germany — #105",
+          "🇩🇪 Germany — #25",
+          "🇩🇪 Germany — #26",
+          "🇩🇪 Germany — #31"
+          "🇩🇪 Germany — #40",
+          "🇩🇪 Германия 1",
+          "🇩🇪 Германия 14",
+          "🇩🇪 Германия 2",
+          "🇩🇪 Германия",
+          "🇩🇰 Дания 1",
+          "🇩🇰 Дания 2",
+          "🇪🇪 Эстония 1",
+          "🇪🇪 Эстония 2",
+          "🇪🇸 Испания 1",
+          "🇪🇸 Испания 2",
+          "🇪🇺 ОБХОД БЕЛЫХ СПИСКОВ 1",
+          "🇪🇺 ОБХОД БЕЛЫХ СПИСКОВ 13",
+          "🇪🇺 ОБХОД БЕЛЫХ СПИСКОВ 6",
+          "🇪🇺Европа | Авто",
+          "🇫🇮 Finland — #125",
+          "🇫🇮 Finland — #137"
+          "🇫🇮 Gh0st_WhiteList #109",
+          "🇫🇮 Gh0st_WhiteList #124",
+          "🇫🇮 Gh0st_WhiteList #155",
+          "🇫🇮 Gh0st_WhiteList #197",
+          "🇫🇮 Gh0st_WhiteList #242",
+          "🇫🇮 Gh0st_WhiteList #63",
+          "🇫🇮 Gh0st_WhiteList #98",
+          "🇫🇮 Финляндия 1",
+          "🇫🇮 Финляндия 3 | ✅ | Finland 🇫🇮"
+          "🇫🇮 🛡 Финляндия (стабильный) | ✅ | Russia 🇷🇺",
+          "🇫🇮Обходы - TG: AirLinkVPNBot |0105|",
+          "🇫🇷 Франция 1",
+          "🇫🇷 Франция 2",
+          "🇫🇷Франция",
+          "🇬🇧 Великобритания 1",
+          "🇬🇧 Великобритания 2",
+          "🇬🇷 Греция 1",
+          "🇬🇷 Греция 2"
+          "🇬🇷 Греция 2",
+          "🇮🇪 Ирландия 1",
+          "🇮🇪 Ирландия 2"
+          "🇮🇪 Ирландия 2",
+          "🇮🇹 Италия 1",
+          "🇮🇹 Италия 2",
+          "🇯🇵 Япония 1",
+          "🇯🇵 Япония 2",
+          "🇰🇿 Казахстан 1",
+          "🇰🇿 Казахстан 2",
+          "🇱🇹 Литва 2",
+          "🇱🇻 Латвия 1",
+          "🇱🇻 Латвия 2",
+          "🇲🇩 Молдова 2",
+          "🇳🇬 Нигерия 1",
+          "🇳🇱 The Netherlands | [*CIDR]",
+          "🇳🇱 Нидерланды #1 (R-Vision)?serverDescription=0KHQutC+0YDQvtGB0YLRjCDQvtCx0YvRh9C90LDRjyAvIFItVmlzaW9u",
+          "🇳🇱 Нидерланды #3 (gRPC)?serverDescription=0KHQutC+0YDQvtGB0YLRjCDQvtCx0YvRh9C90LDRjyAvIGdSUEM=",
+          "🇳🇱 Нидерланды 1",
+          "🇳🇱 Нидерланды 13",
+          "🇳🇱 Нидерланды 2",
+          "🇳🇱 Нидерланды | Резерв",
+          "🇳🇱Нидерланды",
+          "🇳🇴 Норвегия 1",
+          "🇳🇴 Норвегия 2",
+          "🇵🇱 Польша 1",
+          "🇵🇱 Польша 2",
+          "🇵🇱 Польша",
+          "🇵🇱 №1 @ 17 июня 17:33",
+          "🇵🇹 Португалия 1",
+          "🇵🇹 Португалия 2"
+          "🇵🇹 Португалия 2",
+          "🇷🇴 Румыния 1",
+          "🇷🇺 4vps.su — #5",
+          "🇷🇺 Timeweb — #21"
+          "🇷🇺 Обход (Tele2, Билайн, Мегафон)",
+          "🇷🇺 Россия 2",
+          "🇷🇺 Россия 27 | CS t.me/rjsxrd"
+          "🇷🇺 Россия 29 | BWL, CS t.me/rjsxrd",
+          "🇷🇺 Россия [БС] #1",
+          "🇷🇺 Россия [БС] #10",
+          "🇷🇺 Россия [БС] #11",
+          "🇷🇺 Россия [БС] #12",
+          "🇷🇺 Россия [БС] #13",
+          "🇷🇺 Россия [БС] #14",
+          "🇷🇺 Россия [БС] #15",
+          "🇷🇺 Россия [БС] #16",
+          "🇷🇺 Россия [БС] #17",
+          "🇷🇺 Россия [БС] #18",
+          "🇷🇺 Россия [БС] #19",
+          "🇷🇺 Россия [БС] #2",
+          "🇷🇺 Россия [БС] #20",
+          "🇷🇺 Россия [БС] #21",
+          "🇷🇺 Россия [БС] #22",
+          "🇷🇺 Россия [БС] #23",
+          "🇷🇺 Россия [БС] #24",
+          "🇷🇺 Россия [БС] #25"
+          "🇷🇺 Россия [БС] #3",
+          "🇷🇺 Россия [БС] #4",
+          "🇷🇺 Россия [БС] #5",
+          "🇷🇺 Россия [БС] #6",
+          "🇷🇺 Россия [БС] #7",
+          "🇷🇺 Россия [БС] #8",
+          "🇷🇺 Россия [БС] #9",
+          "🇷🇺 №25 @ 17 июня 17:33"
+          "🇸🇪 Швеция 1",
+          "🇸🇪 Швеция 3",
+          "🇸🇪 №6 @ 17 июня 17:33",
+          "🇹🇷 Турция 2",
+          "🇺🇸 Gh0st_WhiteList #241",
+          "🇺🇸 США 3",
+          "🇺🇸 №13 @ 17 июня 17:33",
+          "🇺🇸Обходы - TG: AirLinkVPNBot |0230|",
+          "🇺🇸Обходы - TG: AirLinkVPNBot |0234|",
+          "🇺🇸США",
+          "🌐 Белые списки",
+          ]
+          ],
+          {
+          }
+        "1.1.1.1",
+        "8.8.8.8"
+        "auth": "noauth",
+        "balancerTag": "balancer"
         "balancers": [
+        "destOverride": [
         "domainStrategy": "IPIfNonMatch",
+        "domainStrategy": "UseIP"
+        "enabled": true,
+        "grpcSettings": {
+        "inboundTag": [
+        "listen": "127.0.0.1",
+        "network": "grpc",
+        "network": "tcp",
+        "network": "ws",
+        "network": "xhttp",
+        "outboundTag": "🇦🇹 Австрия 3 | ✅ | Austria 🇦🇹"
+        "outboundTag": "🇧🇷 Бразилия 1"
+        "outboundTag": "🇧🇾 Беларусь 2"
+        "outboundTag": "🇨🇿 Чехия 1"
+        "outboundTag": "🇪🇺 ЕС (YouTube без рекламы) | ✅ | Russia 🇷🇺"
+        "outboundTag": "🇭🇰 Гонконг | ✅ | Hong Kong 🇭🇰"
+        "outboundTag": "🇰🇿 Казахстан | ✅ | Kazakhstan 🇰🇿"
+        "outboundTag": "🇱🇹Литва 1"
+        "outboundTag": "🇱🇻 🛡 Латвия (стабильный) | ✅ | Russia 🇷🇺"
+        "outboundTag": "🇲🇩 Молдова 2"
+        "outboundTag": "🇳🇬 Нигерия 1"
+        "outboundTag": "🇷🇸 Сербия | ✅ | Serbia 🇷🇸"
+        "outboundTag": "🇸🇪 Швеция | ✅ | Sweden 🇸🇪"
+        "outboundTag": "🇺🇸 США | ✅ | United States 🇺🇸"
+        "port": "0-65535",
+        "port": 10808,
+        "protocol": "blackhole",
+        "protocol": "freedom",
+        "protocol": "hysteria2",
+        "protocol": "socks",
         "queryStrategy": "UseIPv4",
+        "realitySettings": {
+        "response": {
         "rules": [
+        "security": "none"
+        "security": "reality",
+        "security": "tls",
+        "selector": [
         "servers": [
+        "settings": {
+        "sniffing": {
+        "streamSettings": {
+        "tag": "+🇫🇷+Telegram,+YouTube,+iNsta"
+        "tag": "+🇮🇹+Telegram,+insta,+Gemini"
+        "tag": "balancer",
+        "tag": "block"
+        "tag": "direct"
+        "tag": "socks"
+        "tag": "🇨🇦+++Gemini,+GPT,+Ai"
+        "tag": "🇨🇦+++Telegram,+YouTube,+GPT"
+        "tag": "🇺🇸+Telegram,+YouTube,+iNsta"
+        "tlsSettings": {
+        "udp": true
+        "vnext": [
+        "wsSettings": {
+        "xhttpSettings": {
         ]
         ],
         {
         }
         },
+      "1.1.1.1",
+      "8.8.8.8"
+      "domainStrategy": "IPIfNonMatch",
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "blackhole",
+      "protocol": "freedom",
+      "protocol": "socks",
+      "protocol": "ss",
+      "protocol": "vless",
+      "protocol": "vmess",
+      "queryStrategy": "UseIPv4"
+      "rules": [
+      "servers": [
+      "settings": {
+      "sniffing": {
+      "streamSettings": {
+      "tag": "334. 🇳🇱 The Netherlands"
+      "tag": "709.🇷🇺Россия | @LimeVPNFREE"
+      "tag": "block"
+      "tag": "direct"
+      "tag": "socks"
+      "tag": "t.me/freekesha21 - 135 🇷🇺"
+      "tag": "t.me/freekesha21 - 294 🇨🇿"
+      "tag": "t.me/freekesha21 - 72 🇷🇺"
+      "tag": "t.me/freekesha21 - 73 🇷🇺"
+      "tag": "t.me/freekesha21 - 75 🏳️"
+      "tag": "t.me/freekesha21 - 88 🏳️"
+      "tag": "t.me/freekesha21 - 89 🇷🇺"
+      "tag": "t.me/freekesha21 - 95 🇷🇺"
+      "tag": "БС #2"
+      "tag": "БС [@Misha Lan VPN] 🏳️ 08"
+      "tag": "БС [@Misha Lan VPN] 🏳️ 11"
+      "tag": "БС [@Misha Lan VPN] 🏳️ 12"
+      "tag": "БС [@Misha Lan VPN] 🏳️ 23"
+      "tag": "БС [@Misha Lan VPN] 🏳️ 27"
+      "tag": "БС [@Misha Lan VPN] 🏳️ 31"
+      "tag": "БС [@Misha Lan VPN] 🏳️ 34"
+      "tag": "БС [@Misha Lan VPN] 🏳️ 44"
+      "tag": "БС"
+      "tag": "⚡ Авто"
+      "tag": "⚡️Авто | лучший сервер 1"
+      "tag": "⚡️Авто | лучший сервер 3"
+      "tag": "⚡️Авто | лучший сервер 5"
+      "tag": "⚡️Авто | лучший сервер 6"
+      "tag": "⚡️Лучший 1"
+      "tag": "🇦🇪 ОАЭ 1"
+      "tag": "🇦🇪 ОАЭ 2"
+      "tag": "🇦🇹 Австрия 1"
+      "tag": "🇦🇹 Австрия 2"
+      "tag": "🇦🇹 Австрия 3 | ✅ | Austria 🇦🇹"
+      "tag": "🇧🇪 Бельгия 1"
+      "tag": "🇧🇷 Бразилия 1"
+      "tag": "🇧🇸 Эщкерия | 🇫🇮 🇺🇸 [🏳️LTE] | 🥭🔧"
+      "tag": "🇧🇾 Беларусь 2"
+      "tag": "🇨🇦 Канада 1"
+      "tag": "🇨🇦 Канада 2"
+      "tag": "🇨🇭 Швейцария 2"
+      "tag": "🇨🇿 Чехия 1"
+      "tag": "🇩🇪 Germany — #105"
+      "tag": "🇩🇪 Germany — #25"
+      "tag": "🇩🇪 Germany — #26"
+      "tag": "🇩🇪 Germany — #31"
+      "tag": "🇩🇪 Germany — #40"
+      "tag": "🇩🇪 Германия 1"
+      "tag": "🇩🇪 Германия 14"
+      "tag": "🇩🇪 Германия 2"
+      "tag": "🇩🇪 Германия"
+      "tag": "🇩🇰 Дания 1"
+      "tag": "🇩🇰 Дания 2"
+      "tag": "🇪🇪 Эстония 1"
+      "tag": "🇪🇪 Эстония 2"
+      "tag": "🇪🇸 Испания 1"
+      "tag": "🇪🇸 Испания 2"
+      "tag": "🇪🇺 ЕС (YouTube без рекламы) | ✅ | Russia 🇷🇺"
+      "tag": "🇪🇺 ОБХОД БЕЛЫХ СПИСКОВ 1"
+      "tag": "🇪🇺 ОБХОД БЕЛЫХ СПИСКОВ 13"
+      "tag": "🇪🇺 ОБХОД БЕЛЫХ СПИСКОВ 6"
+      "tag": "🇪🇺Европа | Авто"
+      "tag": "🇫🇮 Finland — #125"
+      "tag": "🇫🇮 Finland — #137"
+      "tag": "🇫🇮 Gh0st_WhiteList #109"
+      "tag": "🇫🇮 Gh0st_WhiteList #124"
+      "tag": "🇫🇮 Gh0st_WhiteList #155"
+      "tag": "🇫🇮 Gh0st_WhiteList #197"
+      "tag": "🇫🇮 Gh0st_WhiteList #242"
+      "tag": "🇫🇮 Gh0st_WhiteList #63"
+      "tag": "🇫🇮 Gh0st_WhiteList #98"
+      "tag": "🇫🇮 Финляндия 1"
+      "tag": "🇫🇮 Финляндия 3 | ✅ | Finland 🇫🇮"
+      "tag": "🇫🇮 🛡 Финляндия (стабильный) | ✅ | Russia 🇷🇺"
+      "tag": "🇫🇮Обходы - TG: AirLinkVPNBot |0105|"
+      "tag": "🇫🇷 Франция 1"
+      "tag": "🇫🇷 Франция 2"
+      "tag": "🇫🇷Франция"
+      "tag": "🇬🇧 Великобритания 1"
+      "tag": "🇬🇧 Великобритания 2"
+      "tag": "🇬🇷 Греция 1"
+      "tag": "🇬🇷 Греция 2"
+      "tag": "🇭🇰 Гонконг | ✅ | Hong Kong 🇭🇰"
+      "tag": "🇮🇪 Ирландия 1"
+      "tag": "🇮🇪 Ирландия 2"
+      "tag": "🇮🇹 Италия 1"
+      "tag": "🇮🇹 Италия 2"
+      "tag": "🇯🇵 Япония 1"
+      "tag": "🇯🇵 Япония 2"
+      "tag": "🇰🇿 Казахстан 1"
+      "tag": "🇰🇿 Казахстан 2"
+      "tag": "🇰🇿 Казахстан | ✅ | Kazakhstan 🇰🇿"
+      "tag": "🇱🇹 Литва 2"
+      "tag": "🇱🇹Литва 1"
+      "tag": "🇱🇻 Латвия 1"
+      "tag": "🇱🇻 Латвия 2"
+      "tag": "🇱🇻 🛡 Латвия (стабильный) | ✅ | Russia 🇷🇺"
+      "tag": "🇲🇩 Молдова 2"
+      "tag": "🇳🇬 Нигерия 1"
+      "tag": "🇳🇱 The Netherlands | [*CIDR]"
+      "tag": "🇳🇱 Нидерланды #1 (R-Vision)?serverDescription=0KHQutC+0YDQvtGB0YLRjCDQvtCx0YvRh9C90LDRjyAvIFItVmlzaW9u"
+      "tag": "🇳🇱 Нидерланды #3 (gRPC)?serverDescription=0KHQutC+0YDQvtGB0YLRjCDQvtCx0YvRh9C90LDRjyAvIGdSUEM="
+      "tag": "🇳🇱 Нидерланды 1"
+      "tag": "🇳🇱 Нидерланды 13"
+      "tag": "🇳🇱 Нидерланды 2"
+      "tag": "🇳🇱 Нидерланды | Резерв"
+      "tag": "🇳🇱Нидерланды"
+      "tag": "🇳🇴 Норвегия 1"
+      "tag": "🇳🇴 Норвегия 2"
+      "tag": "🇵🇱 Польша 1"
+      "tag": "🇵🇱 Польша 2"
+      "tag": "🇵🇱 Польша"
+      "tag": "🇵🇱 №1 @ 17 июня 17:33"
+      "tag": "🇵🇹 Португалия 1"
+      "tag": "🇵🇹 Португалия 2"
+      "tag": "🇷🇴 Румыния 1"
+      "tag": "🇷🇸 Сербия | ✅ | Serbia 🇷🇸"
+      "tag": "🇷🇺 4vps.su — #5"
+      "tag": "🇷🇺 Timeweb — #21"
+      "tag": "🇷🇺 Обход (Tele2, Билайн, Мегафон)"
+      "tag": "🇷🇺 Россия 2"
+      "tag": "🇷🇺 Россия 27 | CS t.me/rjsxrd"
+      "tag": "🇷🇺 Россия 29 | BWL, CS t.me/rjsxrd"
+      "tag": "🇷🇺 Россия [БС] #1"
+      "tag": "🇷🇺 Россия [БС] #10"
+      "tag": "🇷🇺 Россия [БС] #11"
+      "tag": "🇷🇺 Россия [БС] #12"
+      "tag": "🇷🇺 Россия [БС] #13"
+      "tag": "🇷🇺 Россия [БС] #14"
+      "tag": "🇷🇺 Россия [БС] #15"
+      "tag": "🇷🇺 Россия [БС] #16"
+      "tag": "🇷🇺 Россия [БС] #17"
+      "tag": "🇷🇺 Россия [БС] #18"
+      "tag": "🇷🇺 Россия [БС] #19"
+      "tag": "🇷🇺 Россия [БС] #2"
+      "tag": "🇷🇺 Россия [БС] #20"
+      "tag": "🇷🇺 Россия [БС] #21"
+      "tag": "🇷🇺 Россия [БС] #22"
+      "tag": "🇷🇺 Россия [БС] #23"
+      "tag": "🇷🇺 Россия [БС] #24"
+      "tag": "🇷🇺 Россия [БС] #25"
+      "tag": "🇷🇺 Россия [БС] #3"
+      "tag": "🇷🇺 Россия [БС] #4"
+      "tag": "🇷🇺 Россия [БС] #5"
+      "tag": "🇷🇺 Россия [БС] #6"
+      "tag": "🇷🇺 Россия [БС] #7"
+      "tag": "🇷🇺 Россия [БС] #8"
+      "tag": "🇷🇺 Россия [БС] #9"
+      "tag": "🇷🇺 №25 @ 17 июня 17:33"
+      "tag": "🇸🇪 Швеция 1"
+      "tag": "🇸🇪 Швеция 3"
+      "tag": "🇸🇪 Швеция | ✅ | Sweden 🇸🇪"
+      "tag": "🇸🇪 №6 @ 17 июня 17:33"
+      "tag": "🇹🇷 Турция 2"
+      "tag": "🇺🇸 Gh0st_WhiteList #241"
+      "tag": "🇺🇸 США 3"
+      "tag": "🇺🇸 США | ✅ | United States 🇺🇸"
+      "tag": "🇺🇸 №13 @ 17 июня 17:33"
+      "tag": "🇺🇸Обходы - TG: AirLinkVPNBot |0230|"
+      "tag": "🇺🇸Обходы - TG: AirLinkVPNBot |0234|"
+      "tag": "🇺🇸США"
+      "tag": "🌐 Белые списки 4"
+      ]
+      ],
+      {
+      }
+      },
+    "balancers": [
     "dns": {
+    "domainStrategy": "IPIfNonMatch",
     "inbounds": [
     "meta": null,
     "outbounds": [
+    "queryStrategy": "UseIPv4"
+    "remarks": "+🇫🇷+Telegram,+YouTube,+iNsta"
+    "remarks": "+🇮🇹+Telegram,+insta,+Gemini"
     "remarks": "🇦🇪 Дубай (ОАЭ)",
+    "remarks": "🇨🇦+++Gemini,+GPT,+Ai"
+    "remarks": "🇨🇦+++Telegram,+YouTube,+GPT"
     "remarks": "🇩🇪 Германия",
-    "remarks": "🇩🇪 Моб интернет 1",
-    "remarks": "🇪🇺 AUTO — Обход БС",
     "remarks": "🇪🇺 AUTO — Самый быстрый ⚡️",
     "remarks": "🇫🇮 Финляндия",
-    "remarks": "🇫🇲 Моб интернет 2",
     "remarks": "🇫🇷 Франция",
     "remarks": "🇬🇧 Великобритания",
     "remarks": "🇯🇵 Япония",
     "remarks": "🇰🇿 Казахстан",
     "remarks": "🇱🇻 Латвия",
     "remarks": "🇳🇱 Нидерланды",
-    "remarks": "🇵🇱 Моб интернет 3",
     "remarks": "🇵🇱 Польша [Игровой]",
     "remarks": "🇷🇺 YouTube без рекламы",
     "remarks": "🇸🇪 Швеция",
     "remarks": "🇹🇷 Турция [Оплата подписок]",
     "remarks": "🇺🇸 США",
+    "remarks": "🇺🇸+Telegram,+YouTube,+iNsta"
     "routing": {
+    "rules": [
+    "servers": [
+    ]
     ],
+    {
     }
     },
-# Date/Time: 2026-06-17 / 20:48 (Moscow)
+  "dns": {
+  "inbounds": [
+  "outbounds": [
+  "remarks": "WL NO RU"
+  "remarks": "БС RU"
+  "remarks": "БС"
+  "remarks": "⚡ Авто WL RU"
+  "remarks": "⚡️Авто | лучший сервер"
+  "remarks": "⚡️Лучший"
+  "remarks": "🇦🇹 Австрия 3 | ✅ | Austria 🇦🇹"
+  "remarks": "🇧🇷 Бразилия 1"
+  "remarks": "🇧🇾 Беларусь 2"
+  "remarks": "🇨🇿 Чехия 1"
+  "remarks": "🇩🇪 WL"
+  "remarks": "🇪🇺 ЕС (YouTube без рекламы) | ✅ | Russia 🇷🇺"
+  "remarks": "🇫🇮 🛡 Финляндия (стабильный) | ✅ | Russia 🇷🇺"
+  "remarks": "🇬🇷 Греция"
+  "remarks": "🇭🇰 Гонконг | ✅ | Hong Kong 🇭🇰"
+  "remarks": "🇮🇪 Ирландия"
+  "remarks": "🇰🇿 Казахстан | ✅ | Kazakhstan 🇰🇿"
+  "remarks": "🇱🇹Литва 1"
+  "remarks": "🇱🇻 🛡 Латвия (стабильный) | ✅ | Russia 🇷🇺"
+  "remarks": "🇲🇩 Молдова"
+  "remarks": "🇳🇬 Нигерия 1"
+  "remarks": "🇵🇹 Португалия"
+  "remarks": "🇷🇸 Сербия | ✅ | Serbia 🇷🇸"
+  "remarks": "🇷🇺 Обход"
+  "remarks": "🇸🇪 Швеция | ✅ | Sweden 🇸🇪"
+  "remarks": "🇺🇸 США | ✅ | United States 🇺🇸"
+  "remarks": "🌐 Белые списки"
+  "routing": {
+  ],
+  {
+  },
+# Date/Time: 2026-06-17 / 23:05 (Moscow)
 # For more info and VPN-configs - visit: www.github.com/igareck/vpn-configs-for-russia
 # profile-title: 🏳️ БЕЛЫЕ СПИСКИ 🏳️ WHITE LISTS | CIDR | Mobile-150-(1)
 # profile-update-interval: 1
-# Количество: 27
+# Количество: 47
 [
 ]
-dmxlc3M6Ly9jNmU3ODIzYS1hM2IzLTQyYWYtYWU3NS03ODgyYzJkNmM1YjNANS40NS4xODQuMTMzOjEzMzc5P2VuY3J5cHRpb249bm9uZSZwYXRoPSUyRkJlZ29vX1ZQTiUyRkJlZ29vX1ZQTiUyRkJlZ29vX1ZQTiUyRkJlZ29vX1ZQTiUyRkJlZ29vX1ZQTiUyRkJlZ29vX1ZQTiUyRkJlZ29vX1ZQTiUyRkJlZ29vX1ZQTiUyRkJlZ29vX1ZQTiUyRkJlZ29vX1ZQTiUyRkJlZ29vX1ZQTiUyRkJlZ29vX1ZQTiUyRkJlZ29vX1ZQTiUyRkJlZ29vX1ZQTiUyRkJlZ29vX1ZQTiUyRkJlZ29vX1ZQTiUyRkJlZ29vX1ZQTiUyRkJlZ29vX1ZQTiUyRkJlZ29vX1ZQTiUyRkJlZ29vX1ZQTiZzZWN1cml0eT1ub25lJnR5cGU9d3MjMSAlN0MgV1MgJTdDIElOJTNBIERFIE9VVCUzQSBERSAlN0MgUkFUSU5HJTNBIDEwJTJGMTAKdmxlc3M6Ly9mODE4YTA5Ny0xNjU5LTQ4ZGItOTJhZS0yNDUxNmIwODEyZTJAcmtuLmdvdi5ydTo4MD9zZWN1cml0eT0mZW5jcnlwdGlvbj1ub25lJmhlYWRlclR5cGU9bm9uZSZ0eXBlPXRjcCNodHRwcyUzQSUyRiUyRmdpdHZlcnNlLnJ1JTJGYXBpJTJGcmVwb3MlMkYyNzIlMkZ3bCUyRnJhdyUyRmJyYW5jaCUyRm1hc3RlciUyRndoaXRlbGlzdAp2bGVzczovLzAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MUA0NS45Mi43MC4yMzY6NDQzP3NlY3VyaXR5PXRscyZlbmNyeXB0aW9uPW5vbmUmaW5zZWN1cmU9MSZoZWFkZXJUeXBlPSZ0eXBlPXRjcCZhbGxvd0luc2VjdXJlPTEmc25pPTQ1LjkyLjcwLjIzNiMyICU3QyBUTFMgJTdDIFNOSSUzQSA0NS45Mi43MC4yMzYgJTdDIElOJTNBIElUIE9VVCUzQSBJVCAlN0MgUkFUSU5HJTNBIDklMkYxMAp2bGVzczovLzdmNzE2N2FhLWIxNzktNDI2NS05NDc5LTg2YjJkYTNjZTU2Y0Bya24uZ292LnJ1OjgwP3NlY3VyaXR5PSZlbmNyeXB0aW9uPW5vbmUmaGVhZGVyVHlwZT1ub25lJnR5cGU9dGNwI2h0dHBzJTNBJTJGJTJGZ2l0dmVyc2UucnUlMkZhcGklMkZyZXBvcyUyRjI3MiUyRndsJTJGcmF3JTJGYnJhbmNoJTJGbWFzdGVyJTJGd2hpdGVsaXN0CnZsZXNzOi8vMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxQDQ1LjgwLjIxNS42ODo0NDM/c2VjdXJpdHk9dGxzJmVuY3J5cHRpb249bm9uZSZob3N0PTQ1LjgwLjIxNS42OCZoZWFkZXJUeXBlPW5vbmUmdHlwZT10Y3Amc25pPTQ1LjgwLjIxNS42OCMzICU3QyBUTFMgJTdDIFNOSSUzQSA0NS44MC4yMTUuNjggJTdDIElOJTNBIEZSIE9VVCUzQSBGUiAlN0MgUkFUSU5HJTNBIDklMkYxMAp2bGVzczovLzYwYTRjZTNkLWM5YjctNDRiNS1iZjdjLThlNzU2MzUwYzFhOUBya24uZ292LnJ1OjgwP3NlY3VyaXR5PSZlbmNyeXB0aW9uPW5vbmUmaGVhZGVyVHlwZT1ub25lJnR5cGU9dGNwI2h0dHBzJTNBJTJGJTJGZ2l0dmVyc2UucnUlMkZhcGklMkZyZXBvcyUyRjI3MiUyRndsJTJGcmF3JTJGYnJhbmNoJTJGbWFzdGVyJTJGd2hpdGVsaXN0CnZsZXNzOi8vOTMxNzI5YTgtM2MyMC00ODQxLTg5YTEtZjE4ZGM5Y2UwYTZmQDgyLjIwMi4xNTYuMTk3Ojg0NDM/VGVsZWdyYW09QEdvemFyZ2FoQXphZCxAR296YXJnYWhBemFkLEBHb3phcmdhaEF6YWQsQEdvemFyZ2FoQXphZCxAR296YXJnYWhBemFkLEBHb3phcmdhaEF6YWQsQEdvemFyZ2FoQXphZCZlbmNyeXB0aW9uPW5vbmUmdHlwZT10Y3Amc2VjdXJpdHk9dGxzJnNuaT1jZG43LTA5LnZrLWNkbnZpZGVvLmNvbSZzb3VyY2VfbmFtZT1hcmdoX3YycmF5YXV0b192bGVzcyZwcm92aWRlcl9pZD1hcmdoX3YycmF5YXV0b192bGVzcyMlMjEgNCAlN0MgVExTICU3QyBTTkklM0EgY2RuNy0wOS52ay1jZG52aWRlby5jb20gJTdDIElOJTNBIFJVIE9VVCUzQSBIVSAlN0MgUkFUSU5HJTNBIDklMkYxMAp2bGVzczovLzNlZDRjM2RkLTljMzAtNDg1MS04NTQxLTBiYzI0Yjg0OWM1MkBya24uZ292LnJ1OjgwP3NlY3VyaXR5PSZlbmNyeXB0aW9uPW5vbmUmaGVhZGVyVHlwZT1ub25lJnR5cGU9dGNwI2h0dHBzJTNBJTJGJTJGZ2l0dmVyc2UucnUlMkZhcGklMkZyZXBvcyUyRjI3MiUyRndsJTJGcmF3JTJGYnJhbmNoJTJGbWFzdGVyJTJGd2hpdGVsaXN0CnZsZXNzOi8vOTMxNzI5YTgtM2MyMC00ODQxLTg5YTEtZjE4ZGM5Y2UwYTZmQDIxMy4xNzEuMzAuMTg3Ojg0NDM/ZW5jcnlwdGlvbj1ub25lJnNlY3VyaXR5PXRscyZzbmk9Y2RuMy04Ny52ay1jZG52aWRlby5jb20mdHlwZT10Y3AjNSAlN0MgVExTICU3QyBTTkklM0EgY2RuMy04Ny52ay1jZG52aWRlby5jb20gJTdDIElOJTNBIFJVIE9VVCUzQSBOTCAlN0MgUkFUSU5HJTNBIDklMkYxMAp2bGVzczovLzQ2YTMzNjEyLTc0MDItNDQzZi1hZDg1LTZhYzFiZGQ0M2U4OEBya24uZ292LnJ1OjgwP3NlY3VyaXR5PSZlbmNyeXB0aW9uPW5vbmUmaGVhZGVyVHlwZT1ub25lJnR5cGU9dGNwI2h0dHBzJTNBJTJGJTJGZ2l0dmVyc2UucnUlMkZhcGklMkZyZXBvcyUyRjI3MiUyRndsJTJGcmF3JTJGYnJhbmNoJTJGbWFzdGVyJTJGd2hpdGVsaXN0CnZsZXNzOi8vOTMxNzI5YTgtM2MyMC00ODQxLTg5YTEtZjE4ZGM5Y2UwYTZmQDgyLjIwMi4xNTcuMjMwOjg0NDM/ZW5jcnlwdGlvbj1ub25lJnR5cGU9dGNwJnNlY3VyaXR5PXRscyZmcD1jaHJvbWUmc25pPWNkbjctMDkudmstY2RudmlkZW8uY29tJnNvdXJjZV9uYW1lPWFyZ2hfdjJyYXlhdXRvX3ZsZXNzJnByb3ZpZGVyX2lkPWFyZ2hfdjJyYXlhdXRvX3ZsZXNzIyUyMSA2ICU3QyBUTFMgJTdDIFNOSSUzQSBjZG43LTA5LnZrLWNkbnZpZGVvLmNvbSAlN0MgSU4lM0EgUlUgT1VUJTNBIEhVICU3QyBSQVRJTkclM0EgOSUyRjEwCnZsZXNzOi8vNzUxZTRmMzctZDY3OC00ZjI3LWE4MDctNDE1MWNjNmM3MzBjQHJrbi5nb3YucnU6ODA/c2VjdXJpdHk9JmVuY3J5cHRpb249bm9uZSZoZWFkZXJUeXBlPW5vbmUmdHlwZT10Y3AjaHR0cHMlM0ElMkYlMkZnaXR2ZXJzZS5ydSUyRmFwaSUyRnJlcG9zJTJGMjcyJTJGd2wlMkZyYXclMkZicmFuY2glMkZtYXN0ZXIlMkZ3aGl0ZWxpc3QKdmxlc3M6Ly84NTlhNTM3Yi0wOWNmLTRiY2UtOGRhNC1lY2JiNzI5NTBlM2FANDUuMTUyLjExMy4yMDY6NDQzP2Zsb3c9eHRscy1ycHJ4LXZpc2lvbiZlbmNyeXB0aW9uPW5vbmUmdHlwZT10Y3Amc2VjdXJpdHk9cmVhbGl0eSZmcD1maXJlZm94JnNuaT0xLnJ1Lm9uY2xvdWRuaW5lc2VydmljZXN0cmVhbmcuY29tJnBiaz1UaHg1N29jaXhULXdwZUtfbWRuSmFsdVZXNmVBd2hsTWdnbHhnanhFbWhzJnNpZD02NTU1NzMzOGUxY2Q1NjA1IzcgJTdDIFJFQUxJVFkgJTdDIFNOSSUzQSAxLnJ1Lm9uY2xvdWRuaW5lc2VydmljZXN0cmVhbmcuY29tICU3QyBJTiUzQSBSVSBPVVQlM0EgREUgJTdDIFJBVElORyUzQSA5JTJGMTAKdmxlc3M6Ly8xMDdmYTM2NC04NGFjLTRjMmItOTBmYS0wMDI3MzUwYTJjY2RAcmtuLmdvdi5ydTo4MD9zZWN1cml0eT0mZW5jcnlwdGlvbj1ub25lJmhlYWRlclR5cGU9bm9uZSZ0eXBlPXRjcCNodHRwcyUzQSUyRiUyRmdpdHZlcnNlLnJ1JTJGYXBpJTJGcmVwb3MlMkYyNzIlMkZ3bCUyRnJhdyUyRmJyYW5jaCUyRm1hc3RlciUyRndoaXRlbGlzdAp2bGVzczovLzkzMTcyOWE4LTNjMjAtNDg0MS04OWExLWYxOGRjOWNlMGE2ZkA4Mi4yMDIuMTU4LjEzMjo4NDQzP3NlY3VyaXR5PXRscyZ0eXBlPXRjcCZzbmk9Y2RuMy04Ny52ay1jZG52aWRlby5jb20mZnA9Y2hyb21lJmVuY3J5cHRpb249bm9uZSZzb3VyY2VfbmFtZT1hcmdoX3YycmF5YXV0b192bGVzcyZwcm92aWRlcl9pZD1hcmdoX3YycmF5YXV0b192bGVzcyM4ICU3QyBUTFMgJTdDIFNOSSUzQSBjZG4zLTg3LnZrLWNkbnZpZGVvLmNvbSAlN0MgSU4lM0EgUlUgT1VUJTNBIE5MICU3QyBSQVRJTkclM0EgOCUyRjEwCnZsZXNzOi8vOGE5NTFkZTQtZDAyMy00YzMyLTk5OWQtZmRkZGY2ZGU1ZGE2QHJrbi5nb3YucnU6ODA/c2VjdXJpdHk9JmVuY3J5cHRpb249bm9uZSZoZWFkZXJUeXBlPW5vbmUmdHlwZT10Y3AjaHR0cHMlM0ElMkYlMkZnaXR2ZXJzZS5ydSUyRmFwaSUyRnJlcG9zJTJGMjcyJTJGd2wlMkZyYXclMkZicmFuY2glMkZtYXN0ZXIlMkZ3aGl0ZWxpc3QKdmxlc3M6Ly85MzE3MjlhOC0zYzIwLTQ4NDEtODlhMS1mMThkYzljZTBhNmZAODUuMjA4Ljg1LjE5Mzo4NDQzP2FsbG93SW5zZWN1cmU9MSZpbnNlY3VyZT0xJnR5cGU9dGNwJnNlY3VyaXR5PXRscyZzbmk9Y2RuOS0zMy52ay1jZG52aWRlby5jb20mZnA9Y2hyb21lJnNvdXJjZV9uYW1lPWFyZ2hfdjJyYXlhdXRvX3ZsZXNzJnByb3ZpZGVyX2lkPWFyZ2hfdjJyYXlhdXRvX3ZsZXNzIzkgJTdDIFRMUyAlN0MgU05JJTNBIGNkbjktMzMudmstY2RudmlkZW8uY29tICU3QyBJTiUzQSBSVSBPVVQlM0EgREUgJTdDIFJBVElORyUzQSA4JTJGMTAKdmxlc3M6Ly8wZTM3ZTgxMS01NWJhLTQxMTUtYWUzZC02ZGM3NDMyMWZjZjBAcmtuLmdvdi5ydTo4MD9zZWN1cml0eT0mZW5jcnlwdGlvbj1ub25lJmhlYWRlclR5cGU9bm9uZSZ0eXBlPXRjcCNodHRwcyUzQSUyRiUyRmdpdHZlcnNlLnJ1JTJGYXBpJTJGcmVwb3MlMkYyNzIlMkZ3bCUyRnJhdyUyRmJyYW5jaCUyRm1hc3RlciUyRndoaXRlbGlzdAp2bGVzczovLzkzMTcyOWE4LTNjMjAtNDg0MS04OWExLWYxOGRjOWNlMGE2ZkA4NS4yMDguODUuMjE0Ojg0NDM/ZW5jcnlwdGlvbj1ub25lJnR5cGU9dGNwJnNlY3VyaXR5PXRscyZmcD1jaHJvbWUmc25pPWNkbjMtODcudmstY2RudmlkZW8uY29tJnNvdXJjZV9uYW1lPWFyZ2hfdjJyYXlhdXRvX3ZsZXNzJnByb3ZpZGVyX2lkPWFyZ2hfdjJyYXlhdXRvX3ZsZXNzIzEwICU3QyBUTFMgJTdDIFNOSSUzQSBjZG4zLTg3LnZrLWNkbnZpZGVvLmNvbSAlN0MgSU4lM0EgUlUgT1VUJTNBIE5MICU3QyBSQVRJTkclM0EgOCUyRjEwCnZsZXNzOi8vMGM3YmRkYjEtNWRmZC00Mjg4LTk1YTItZDc0NDM2ZTI2ZDRhQHJrbi5nb3YucnU6ODA/c2VjdXJpdHk9JmVuY3J5cHRpb249bm9uZSZoZWFkZXJUeXBlPW5vbmUmdHlwZT10Y3AjaHR0cHMlM0ElMkYlMkZnaXR2ZXJzZS5ydSUyRmFwaSUyRnJlcG9zJTJGMjcyJTJGd2wlMkZyYXclMkZicmFuY2glMkZtYXN0ZXIlMkZ3aGl0ZWxpc3QKdmxlc3M6Ly8yMWRiNmIzMS02ZThiLTQzMDctOTEyNy05OTRjOTk2MDZlMTVAODUuOTAuMjA3LjE1MjoyMzAwOT9zZWN1cml0eT1ub25lJmVuY3J5cHRpb249bm9uZSZoZWFkZXJUeXBlPW5vbmUmdHlwZT10Y3AjMTEgJTdDIFRDUCAlN0MgSU4lM0EgQU0gT1VUJTNBIEFNICU3QyBSQVRJTkclM0EgNyUyRjEwCnZsZXNzOi8vNjE4ZjdlNzAtY2U1Zi00NTAxLTk5Y2QtODgyZDQ2ZTc3ZGNhQHJrbi5nb3YucnU6ODA/c2VjdXJpdHk9JmVuY3J5cHRpb249bm9uZSZoZWFkZXJUeXBlPW5vbmUmdHlwZT10Y3AjaHR0cHMlM0ElMkYlMkZnaXR2ZXJzZS5ydSUyRmFwaSUyRnJlcG9zJTJGMjcyJTJGd2wlMkZyYXclMkZicmFuY2glMkZtYXN0ZXIlMkZ3aGl0ZWxpc3QKdmxlc3M6Ly85MzE3MjlhOC0zYzIwLTQ4NDEtODlhMS1mMThkYzljZTBhNmZAODIuMjAyLjEzNi4xNjM6ODQ0Mz9UZWxlZ3JhbT1AR296YXJnYWhBemFkLEBHb3phcmdhaEF6YWQsQEdvemFyZ2FoQXphZCxAR296YXJnYWhBemFkLEBHb3phcmdhaEF6YWQsQEdvemFyZ2FoQXphZCxAR296YXJnYWhBemFkJnR5cGU9dGNwJmhlYWRlclR5cGU9bm9uZSZzZWN1cml0eT10bHMmZW5jcnlwdGlvbj1ub25lJnNuaT1jZG43LTA5LnZrLWNkbnZpZGVvLmNvbSZmcD1jaHJvbWUmaW5zZWN1cmU9MCZzb3VyY2VfbmFtZT1hcmdoX3YycmF5YXV0b192bGVzcyZwcm92aWRlcl9pZD1hcmdoX3YycmF5YXV0b192bGVzcyMxMiAlN0MgVExTICU3QyBTTkklM0EgY2RuNy0wOS52ay1jZG52aWRlby5jb20gJTdDIElOJTNBIFJVIE9VVCUzQSBIVSAlN0MgUkFUSU5HJTNBIDclMkYxMAp2bGVzczovLzBmOWJkMzY0LTM4ZDQtNGJlZC05Nzk3LTc5ZDg5MmZjOWRlM0Bya24uZ292LnJ1OjgwP3NlY3VyaXR5PSZlbmNyeXB0aW9uPW5vbmUmaGVhZGVyVHlwZT1ub25lJnR5cGU9dGNwI2h0dHBzJTNBJTJGJTJGZ2l0dmVyc2UucnUlMkZhcGklMkZyZXBvcyUyRjI3MiUyRndsJTJGcmF3JTJGYnJhbmNoJTJGbWFzdGVyJTJGd2hpdGVsaXN0CnZsZXNzOi8vMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxQDg1LjkwLjIxNy40Mjo0NDM/c2VjdXJpdHk9dGxzJnR5cGU9dGNwJnBhY2tldEVuY29kaW5nPW5vbmUmYWxsb3dJbnNlY3VyZT0xJnNuaT04NS45MC4yMTcuNDIjMTMgJTdDIFRMUyAlN0MgU05JJTNBIDg1LjkwLjIxNy40MiAlN0MgSU4lM0EgRVMgT1VUJTNBIEVTICU3QyBSQVRJTkclM0EgNyUyRjEwCnZsZXNzOi8vZjE1YTU3YWMtZjNiNy00N2U4LTlkYzItNmE2MDI1MjY1MDdjQHJrbi5nb3YucnU6ODA/c2VjdXJpdHk9JmVuY3J5cHRpb249bm9uZSZoZWFkZXJUeXBlPW5vbmUmdHlwZT10Y3AjaHR0cHMlM0ElMkYlMkZnaXR2ZXJzZS5ydSUyRmFwaSUyRnJlcG9zJTJGMjcyJTJGd2wlMkZyYXclMkZicmFuY2glMkZtYXN0ZXIlMkZ3aGl0ZWxpc3QKdmxlc3M6Ly80ZTQxZGQyNC0yODNjLTQ2MjUtYTk3Yi1lYThlN2E0MzJlYjZAMy5tYXhnLmNoOjQ0Mz9lbmNyeXB0aW9uPW5vbmUmZmxvdz14dGxzLXJwcngtdmlzaW9uJnR5cGU9dGNwJnNlY3VyaXR5PXJlYWxpdHkmc25pPW1heC5ydSZmcD1jaHJvbWUmcGJrPXEtTVE1RUQxY3FDMjhJZGxWOHJOZzZZYTJ5T05kQ0p3ZWNNaUZJM28yaWMmc2lkPThhMjgyNDcyZmVlNjRiMTcjMTQgJTdDIFJFQUxJVFkgJTdDIFNOSSUzQSBtYXgucnUgJTdDIElOJTNBIFJVIE9VVCUzQSBERSAlN0MgUkFUSU5HJTNBIDYlMkYxMAp2bGVzczovL2M0ZDVjMWE2LWZlZGEtNDQ4My05NTU5LWUyYWU0MjYxODIxY0Bya24uZ292LnJ1OjgwP3NlY3VyaXR5PSZlbmNyeXB0aW9uPW5vbmUmaGVhZGVyVHlwZT1ub25lJnR5cGU9dGNwI2h0dHBzJTNBJTJGJTJGZ2l0dmVyc2UucnUlMkZhcGklMkZyZXBvcyUyRjI3MiUyRndsJTJGcmF3JTJGYnJhbmNoJTJGbWFzdGVyJTJGd2hpdGVsaXN0CnZsZXNzOi8vYmJkNjdlNTQtMWI0Yi00ODhiLWE1ZGYtNzA4ZWY4OTZlY2FhQHJmMy5td25zdC5jb206NDQzP3NlY3VyaXR5PXJlYWxpdHkmZW5jcnlwdGlvbj1ub25lJnBiaz1BM2FjVlRCcVVkUXY5b25jbTdTVG9fZE1pMy1zTDVPdzdHM0xaSnlZWEJnJmhlYWRlclR5cGU9bm9uZSZmcD1jaHJvbWUmdHlwZT10Y3AmZmxvdz14dGxzLXJwcngtdmlzaW9uJnNuaT13d3cueWFob28uY29tJnNpZD1mM2M0MjAyZjMyZmYxMCMxNSAlN0MgUkVBTElUWSAlN0MgU05JJTNBIHd3dy55YWhvby5jb20gJTdDIElOJTNBIEZSIE9VVCUzQSBGUiAlN0MgUkFUSU5HJTNBIDYlMkYxMAp2bGVzczovLzFmODYzYzE1LTYxMGYtNDU3MS1iMzkzLTIxYmEzNTdhYWU3ZUBya24uZ292LnJ1OjgwP3NlY3VyaXR5PSZlbmNyeXB0aW9uPW5vbmUmaGVhZGVyVHlwZT1ub25lJnR5cGU9dGNwI2h0dHBzJTNBJTJGJTJGZ2l0dmVyc2UucnUlMkZhcGklMkZyZXBvcyUyRjI3MiUyRndsJTJGcmF3JTJGYnJhbmNoJTJGbWFzdGVyJTJGd2hpdGVsaXN0CnZsZXNzOi8vYmJkNjdlNTQtMWI0Yi00ODhiLWE1ZGYtNzA4ZWY4OTZlY2FhQHJ0MS5td25zdC5jb206NDQzP3NlY3VyaXR5PXJlYWxpdHkmZW5jcnlwdGlvbj1ub25lJnBiaz1QSG9fcjcydTU0Wk5SREp0T3JsaWY0UDYzanFiblZzNld6TkV4bWZ1aXlNJmhlYWRlclR5cGU9bm9uZSZmcD1jaHJvbWUmdHlwZT10Y3AmZmxvdz14dGxzLXJwcngtdmlzaW9uJnNuaT13d3cubWljcm9zb2Z0LmNvbSZzaWQ9ZjRmYjc0YTM1Yjk4ZTMjMTYgJTdDIFJFQUxJVFkgJTdDIFNOSSUzQSB3d3cubWljcm9zb2Z0LmNvbSAlN0MgSU4lM0EgVFIgT1VUJTNBIFRSICU3QyBSQVRJTkclM0EgNiUyRjEwCnZsZXNzOi8vZTk4ZjM0NGItMTFiMy00ZTI4LTllNTktMTUzMDUzZmEwMjMzQHJrbi5nb3YucnU6ODA/c2VjdXJpdHk9JmVuY3J5cHRpb249bm9uZSZoZWFkZXJUeXBlPW5vbmUmdHlwZT10Y3AjaHR0cHMlM0ElMkYlMkZnaXR2ZXJzZS5ydSUyRmFwaSUyRnJlcG9zJTJGMjcyJTJGd2wlMkZyYXclMkZicmFuY2glMkZtYXN0ZXIlMkZ3aGl0ZWxpc3QKdmxlc3M6Ly81MzRjYmJlMi1jYzM2LTRmMmQtOGZiMC05MDQxMGU3MTQ4YzlAMTQ3LjQ1LjE0NS4xMjc6NDQzP3NlY3VyaXR5PXJlYWxpdHkmZW5jcnlwdGlvbj1ub25lJnBiaz10V1JSM1c4akJBUUtCVXVqTHpMN1hyaTNXWHkzRjA4T3hIWXJrU09ubEFjJmhlYWRlclR5cGU9bm9uZSZmcD1jaHJvbWUmc3B4PSUyRiZ0eXBlPXRjcCZzbmk9eWFob28uY29tJnNpZD01MmE2IzE3ICU3QyBSRUFMSVRZICU3QyBTTkklM0EgeWFob28uY29tICU3QyBJTiUzQSBOTCBPVVQlM0EgTkwgJTdDIFJBVElORyUzQSA2JTJGMTAKdmxlc3M6Ly83NDg5YWM2My0yYjNlLTRiNTYtYjBjMC0yODY2NmNhMzIzYzhAcmtuLmdvdi5ydTo4MD9zZWN1cml0eT0mZW5jcnlwdGlvbj1ub25lJmhlYWRlclR5cGU9bm9uZSZ0eXBlPXRjcCNodHRwcyUzQSUyRiUyRmdpdHZlcnNlLnJ1JTJGYXBpJTJGcmVwb3MlMkYyNzIlMkZ3bCUyRnJhdyUyRmJyYW5jaCUyRm1hc3RlciUyRndoaXRlbGlzdAp2bGVzczovLzAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MUA4OS4yMjMuOTUuNjM6NDQzP3NlY3VyaXR5PXRscyZ0eXBlPXRjcCZwYWNrZXRFbmNvZGluZz1ub25lJmFsbG93SW5zZWN1cmU9MSZzbmk9ODkuMjIzLjk1LjYzJmZwPWNocm9tZSMxOCAlN0MgVExTICU3QyBTTkklM0EgODkuMjIzLjk1LjYzICU3QyBJTiUzQSBISyBPVVQlM0EgSEsgJTdDIFJBVElORyUzQSA0JTJGMTAKdmxlc3M6Ly9hOTRiNjEyMi03NDNhLTQ4MjQtOTI1Yy1iOTU4MmY4MmVhNDFAcmtuLmdvdi5ydTo4MD9zZWN1cml0eT0mZW5jcnlwdGlvbj1ub25lJmhlYWRlclR5cGU9bm9uZSZ0eXBlPXRjcCNodHRwcyUzQSUyRiUyRmdpdHZlcnNlLnJ1JTJGYXBpJTJGcmVwb3MlMkYyNzIlMkZ3bCUyRnJhdyUyRmJyYW5jaCUyRm1hc3RlciUyRndoaXRlbGlzdAp2bGVzczovL1YyUmF5eU5HdnBuLVYyUmF5eU5HdnBuQDk0LjE3Ny4xMzEuNzo0NDM/c2VjdXJpdHk9cmVhbGl0eSZlbmNyeXB0aW9uPW5vbmUmcGJrPWdxM1RPbzJRN3hIOVBTLXFpVUZ5UUxPVk91cTlKcXY0WUpEWkFxbjVDZ0kmaGVhZGVyVHlwZT1ub25lJmZwPWNocm9tZSZzcHg9L3ZvTWtsVkNYMnY2bWFhViZ0eXBlPXRjcCZzbmk9d3d3Lm9yYWNsZS5jb20mc2lkPTYxIzE5ICU3QyBSRUFMSVRZICU3QyBTTkklM0Egd3d3Lm9yYWNsZS5jb20gJTdDIElOJTNBIEpQIE9VVCUzQSBKUCAlN0MgUkFUSU5HJTNBIDQlMkYxMAp2bGVzczovL2IwODcxYWVmLTYzMWMtNDFkYS05YWZiLTMyMmViOGNiOTYyNkBya24uZ292LnJ1OjgwP3NlY3VyaXR5PSZlbmNyeXB0aW9uPW5vbmUmaGVhZGVyVHlwZT1ub25lJnR5cGU9dGNwI2h0dHBzJTNBJTJGJTJGZ2l0dmVyc2UucnUlMkZhcGklMkZyZXBvcyUyRjI3MiUyRndsJTJGcmF3JTJGYnJhbmNoJTJGbWFzdGVyJTJGd2hpdGVsaXN0CnZsZXNzOi8vYWJkODgwYTUtZDA4Zi00ZGZlLWI4ZjUtZDRiNjE4OTIxNjNhQDM3Ljc3LjEwNC4xODI6NDQzP3NlY3VyaXR5PXJlYWxpdHkmZW5jcnlwdGlvbj1ub25lJnBiaz1mVHJfTEFtS1FkWXBBaGlqbEFwbTFrTWpTOF8xMVk5SE1LY29ubEhtWldFJmhlYWRlclR5cGU9bm9uZSZmcD1jaHJvbWUmdHlwZT10Y3AmZmxvdz14dGxzLXJwcngtdmlzaW9uJnNuaT13d3cuY2xvdWRmbGFyZS5jb20mc2lkPWU4ZDJhMWI0YzM5Zjg4NzcjJTIxIDIwICU3QyBSRUFMSVRZICU3QyBTTkklM0Egd3d3LmNsb3VkZmxhcmUuY29tICU3QyBJTiUzQSBSVSBPVVQlM0EgUlUgJTdDIFJBVElORyUzQSA0JTJGMTAKdmxlc3M6Ly9jZjA3MDJjMy1mMTc2LTQ2ZjktOWY2Ni1lNzJjZTMxNzI1YjJAcmtuLmdvdi5ydTo4MD9zZWN1cml0eT0mZW5jcnlwdGlvbj1ub25lJmhlYWRlclR5cGU9bm9uZSZ0eXBlPXRjcCNodHRwcyUzQSUyRiUyRmdpdHZlcnNlLnJ1JTJGYXBpJTJGcmVwb3MlMkYyNzIlMkZ3bCUyRnJhdyUyRmJyYW5jaCUyRm1hc3RlciUyRndoaXRlbGlzdAp2bGVzczovL2ZmMTk2OTNjLTExZjMtNGRmOS04NzEzLTc5YTg1YTVjYTA5MEAxOTQuODcuMTQzLjExMTo0NDM/Zmxvdz14dGxzLXJwcngtdmlzaW9uJmZwPWZpcmVmb3gmcGJrPVNiVktPRU1qSzBzSWxid2c0YWt5Qmc1bUw1S1p3d0ItZWQ0ZUVFN1luUmMmc2VjdXJpdHk9cmVhbGl0eSZzbmk9YWJ1c2Uuc2VsbGZsb3cub3JnJnR5cGU9dGNwIzIxICU3QyBSRUFMSVRZICU3QyBTTkklM0EgYWJ1c2Uuc2VsbGZsb3cub3JnICU3QyBJTiUzQSBSVSBPVVQlM0EgQ0ggJTdDIFJBVElORyUzQSAwJTJGMTAKdmxlc3M6Ly9mZThjMDgzNy1mZTVmLTRhZjgtYWI0ZS01YmM5ZjUxOTg5ZjFAcmtuLmdvdi5ydTo4MD9zZWN1cml0eT0mZW5jcnlwdGlvbj1ub25lJmhlYWRlclR5cGU9bm9uZSZ0eXBlPXRjcCNodHRwcyUzQSUyRiUyRmdpdHZlcnNlLnJ1JTJGYXBpJTJGcmVwb3MlMkYyNzIlMkZ3bCUyRnJhdyUyRmJyYW5jaCUyRm1hc3RlciUyRndoaXRlbGlzdAo=
+dmxlc3M6Ly9jNmU3ODIzYS1hM2IzLTQyYWYtYWU3NS03ODgyYzJkNmM1YjNANS40NS4xODQuMTMzOjEzMzc5P3BhdGg9L0JlZ29vX1ZQTi9CZWdvb19WUE4vQmVnb29fVlBOL0JlZ29vX1ZQTi9CZWdvb19WUE4vQmVnb29fVlBOL0JlZ29vX1ZQTi9CZWdvb19WUE4vQmVnb29fVlBOL0JlZ29vX1ZQTi9CZWdvb19WUE4vQmVnb29fVlBOL0JlZ29vX1ZQTi9CZWdvb19WUE4vQmVnb29fVlBOL0JlZ29vX1ZQTi9CZWdvb19WUE4vQmVnb29fVlBOL0JlZ29vX1ZQTi9CZWdvb19WUE4mc2VjdXJpdHk9bm9uZSZlbmNyeXB0aW9uPW5vbmUmdHlwZT13cyMxICU3QyBXUyAlN0MgSU4lM0EgREUgT1VUJTNBIERFICU3QyBSQVRJTkclM0EgMTAlMkYxMAp2bGVzczovLzM4ZjVhMzJmLWEzMDYtNGM4MC04YWZjLTMwNTBjMzdhN2Q3OEBya24uZ292LnJ1OjgwP3NlY3VyaXR5PSZlbmNyeXB0aW9uPW5vbmUmaGVhZGVyVHlwZT1ub25lJnR5cGU9dGNwI2h0dHBzJTNBJTJGJTJGZ2l0dmVyc2UucnUlMkZhcGklMkZyZXBvcyUyRjI3MiUyRndsJTJGcmF3JTJGYnJhbmNoJTJGbWFzdGVyJTJGd2hpdGVsaXN0CnZsZXNzOi8vZmYxOTY5M2MtMTFmMy00ZGY5LTg3MTMtNzlhODVhNWNhMDkwQDgxLjE5LjEzNS44Nzo0NDM/Zmxvdz14dGxzLXJwcngtdmlzaW9uJmVuY3J5cHRpb249bm9uZSZ0eXBlPXRjcCZzZWN1cml0eT1yZWFsaXR5JmZwPWZpcmVmb3gmc25pPXNlbGxmbG93Lm9yZyZwYms9U2JWS09FTWpLMHNJbGJ3ZzRha3lCZzVtTDVLWnd3Qi1lZDRlRUU3WW5SYyMlMjEgMiAlN0MgUkVBTElUWSAlN0MgU05JJTNBIHNlbGxmbG93Lm9yZyAlN0MgSU4lM0EgUlUgT1VUJTNBIFJVICU3QyBSQVRJTkclM0EgOSUyRjEwCnZsZXNzOi8vYzA5MTY0Y2YtNGIyMi00MWMzLTllODMtNWRkNTUxZWI5NmE4QHJrbi5nb3YucnU6ODA/c2VjdXJpdHk9JmVuY3J5cHRpb249bm9uZSZoZWFkZXJUeXBlPW5vbmUmdHlwZT10Y3AjaHR0cHMlM0ElMkYlMkZnaXR2ZXJzZS5ydSUyRmFwaSUyRnJlcG9zJTJGMjcyJTJGd2wlMkZyYXclMkZicmFuY2glMkZtYXN0ZXIlMkZ3aGl0ZWxpc3QKdmxlc3M6Ly8wM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODFANDUuODAuMjE1LjY4OjQ0Mz9zZWN1cml0eT10bHMmYW1wO2VuY3J5cHRpb249bm9uZSZhbXA7aG9zdD00NS44MC4yMTUuNjgmYW1wO2hlYWRlclR5cGU9bm9uZSZhbXA7dHlwZT10Y3AmYW1wO3NuaT00NS44MC4yMTUuNjgjMyAlN0MgVExTICU3QyBJTiUzQSBGUiBPVVQlM0EgRlIgJTdDIFJBVElORyUzQSA5JTJGMTAKdmxlc3M6Ly8xMzU1NmI0Yy0zNzdhLTRjMzEtYTE1NC1jZTViODU2MTY2OTlAcmtuLmdvdi5ydTo4MD9zZWN1cml0eT0mZW5jcnlwdGlvbj1ub25lJmhlYWRlclR5cGU9bm9uZSZ0eXBlPXRjcCNodHRwcyUzQSUyRiUyRmdpdHZlcnNlLnJ1JTJGYXBpJTJGcmVwb3MlMkYyNzIlMkZ3bCUyRnJhdyUyRmJyYW5jaCUyRm1hc3RlciUyRndoaXRlbGlzdAp2bGVzczovLzg1OWE1MzdiLTA5Y2YtNGJjZS04ZGE0LWVjYmI3Mjk1MGUzYUA0NS4xNTIuMTEzLjIwNjo0NDM/Zmxvdz14dGxzLXJwcngtdmlzaW9uJmZwPWZpcmVmb3gmcGJrPVRoeDU3b2NpeFQtd3BlS19tZG5KYWx1Vlc2ZUF3aGxNZ2dseGdqeEVtaHMmc2VjdXJpdHk9cmVhbGl0eSZzaWQ9NjU1NTczMzhlMWNkNTYwNSZzbmk9MS5ydS5vbmNsb3VkbmluZXNlcnZpY2VzdHJlYW5nLmNvbSZ0eXBlPXRjcCM0ICU3QyBSRUFMSVRZICU3QyBTTkklM0EgMS5ydS5vbmNsb3VkbmluZXNlcnZpY2VzdHJlYW5nLmNvbSAlN0MgSU4lM0EgUlUgT1VUJTNBIERFICU3QyBSQVRJTkclM0EgOCUyRjEwCnZsZXNzOi8vMmQ4M2Y2NDEtY2IwYS00MmJhLWIxMTEtNDQ3MjA4N2ZiOGZjQHJrbi5nb3YucnU6ODA/c2VjdXJpdHk9JmVuY3J5cHRpb249bm9uZSZoZWFkZXJUeXBlPW5vbmUmdHlwZT10Y3AjaHR0cHMlM0ElMkYlMkZnaXR2ZXJzZS5ydSUyRmFwaSUyRnJlcG9zJTJGMjcyJTJGd2wlMkZyYXclMkZicmFuY2glMkZtYXN0ZXIlMkZ3aGl0ZWxpc3QKdmxlc3M6Ly8xYjllMzAxZC1jZWNkLTRlYjEtOGIzNi1lZWY4MTFjMjY5NmRAMTU1LjIxMi4xODIuMTk6NDQzP3R5cGU9dGNwJnNlY3VyaXR5PXJlYWxpdHkmZW5jcnlwdGlvbj1ub25lJmZwPWNocm9tZSZwYms9QTdnNGNWYUI2XzVjbUlyR2J2LVBta1ZwUzRwdkhXcDJIZkxaYmp2LVNEUSZzaWQ9NWU4NDFmYWImc25pPXdpbGRiZXJyaWVzLnJ1IzUgJTdDIFJFQUxJVFkgJTdDIFNOSSUzQSB3aWxkYmVycmllcy5ydSAlN0MgSU4lM0EgUlUgT1VUJTNBIFBMICU3QyBSQVRJTkclM0EgOCUyRjEwCnZsZXNzOi8vMzdhNDU0MzctZjYxOS00NmI0LTgyZTItOWM5NjdjYTlmZGUxQHJrbi5nb3YucnU6ODA/c2VjdXJpdHk9JmVuY3J5cHRpb249bm9uZSZoZWFkZXJUeXBlPW5vbmUmdHlwZT10Y3AjaHR0cHMlM0ElMkYlMkZnaXR2ZXJzZS5ydSUyRmFwaSUyRnJlcG9zJTJGMjcyJTJGd2wlMkZyYXclMkZicmFuY2glMkZtYXN0ZXIlMkZ3aGl0ZWxpc3QKdmxlc3M6Ly9lYzJhYWY0Zi1iMWFhLTQ0MTAtNGIxNC1kNGI0ZTliNWRhZjRAMjEzLjIxOS4yMTIuNTE6NDQzP3R5cGU9dGNwJnNlY3VyaXR5PXJlYWxpdHkmc25pPWVoLnZrLnJ1JmZwPXFxJmZsb3c9eHRscy1ycHJ4LXZpc2lvbiZwYms9QUFaalZ2YkM3QXdQS290XzF5Z081Vk1wTjdYWWlmQ0E3bEcwUk5SNXNFayM2ICU3QyBSRUFMSVRZICU3QyBTTkklM0EgZWgudmsucnUgJTdDIElOJTNBIFJVIE9VVCUzQSBSVSAlN0MgUkFUSU5HJTNBIDglMkYxMAp2bGVzczovL2FkY2ZhYjM4LWIyYzMtNDhhZi04NzgyLTdhOWUzY2U3NzMzYkBya24uZ292LnJ1OjgwP3NlY3VyaXR5PSZlbmNyeXB0aW9uPW5vbmUmaGVhZGVyVHlwZT1ub25lJnR5cGU9dGNwI2h0dHBzJTNBJTJGJTJGZ2l0dmVyc2UucnUlMkZhcGklMkZyZXBvcyUyRjI3MiUyRndsJTJGcmF3JTJGYnJhbmNoJTJGbWFzdGVyJTJGd2hpdGVsaXN0CnZsZXNzOi8vMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxQDQ1LjkyLjcwLjIzNjo0NDM/YWxsb3dJbnNlY3VyZT0xJmluc2VjdXJlPTEmdHlwZT10Y3Amc2VjdXJpdHk9dGxzJnNvdXJjZV9uYW1lPWFyZ2hfdjJyYXlhdXRvX3ZsZXNzJnByb3ZpZGVyX2lkPWFyZ2hfdjJyYXlhdXRvX3ZsZXNzIzcgJTdDIFRMUyAlN0MgSU4lM0EgSVQgT1VUJTNBIElUICU3QyBSQVRJTkclM0EgOCUyRjEwCnZsZXNzOi8vYjc1ODg2NjQtYzNkOC00NWE4LWI1N2MtMDkwMWRlOWE4YjJlQHJrbi5nb3YucnU6ODA/c2VjdXJpdHk9JmVuY3J5cHRpb249bm9uZSZoZWFkZXJUeXBlPW5vbmUmdHlwZT10Y3AjaHR0cHMlM0ElMkYlMkZnaXR2ZXJzZS5ydSUyRmFwaSUyRnJlcG9zJTJGMjcyJTJGd2wlMkZyYXclMkZicmFuY2glMkZtYXN0ZXIlMkZ3aGl0ZWxpc3QKdmxlc3M6Ly9iYmQ2N2U1NC0xYjRiLTQ4OGItYTVkZi03MDhlZjg5NmVjYWFAcmYzLm13bnN0LmNvbTo0NDM/c2VjdXJpdHk9cmVhbGl0eSZlbmNyeXB0aW9uPW5vbmUmcGJrPUEzYWNWVEJxVWRRdjlvbmNtN1NUb19kTWkzLXNMNU93N0czTFpKeVlYQmcmaGVhZGVyVHlwZT1ub25lJmZwPWNocm9tZSZ0eXBlPXRjcCZmbG93PXh0bHMtcnByeC12aXNpb24mc25pPXd3dy55YWhvby5jb20mc2lkPWYzYzQyMDJmMzJmZjEwIzggJTdDIFJFQUxJVFkgJTdDIFNOSSUzQSB3d3cueWFob28uY29tICU3QyBJTiUzQSBGUiBPVVQlM0EgRlIgJTdDIFJBVElORyUzQSA4JTJGMTAKdmxlc3M6Ly80ZDAxNjcwYi02YjA4LTRlNWUtODE2My0zZDFmYzNlNTUzNjJAcmtuLmdvdi5ydTo4MD9zZWN1cml0eT0mZW5jcnlwdGlvbj1ub25lJmhlYWRlclR5cGU9bm9uZSZ0eXBlPXRjcCNodHRwcyUzQSUyRiUyRmdpdHZlcnNlLnJ1JTJGYXBpJTJGcmVwb3MlMkYyNzIlMkZ3bCUyRnJhdyUyRmJyYW5jaCUyRm1hc3RlciUyRndoaXRlbGlzdAp2bGVzczovLzkzMTcyOWE4LTNjMjAtNDg0MS04OWExLWYxOGRjOWNlMGE2ZkA4Mi4yMDIuMTU2LjE5Nzo4NDQzP3NuaT1jZG4zLTg3LnZrLWNkbnZpZGVvLmNvbSZmcD1jaHJvbWUmc2VjdXJpdHk9dGxzIzkgJTdDIFRMUyAlN0MgU05JJTNBIGNkbjMtODcudmstY2RudmlkZW8uY29tICU3QyBJTiUzQSBSVSBPVVQlM0EgTkwgJTdDIFJBVElORyUzQSA3JTJGMTAKdmxlc3M6Ly82ZWIwMWNmOC1jODk5LTQ0ZjAtYWE4OS01MWE3ZjRmN2ZiMzhAcmtuLmdvdi5ydTo4MD9zZWN1cml0eT0mZW5jcnlwdGlvbj1ub25lJmhlYWRlclR5cGU9bm9uZSZ0eXBlPXRjcCNodHRwcyUzQSUyRiUyRmdpdHZlcnNlLnJ1JTJGYXBpJTJGcmVwb3MlMkYyNzIlMkZ3bCUyRnJhdyUyRmJyYW5jaCUyRm1hc3RlciUyRndoaXRlbGlzdAp2bGVzczovLzkzMTcyOWE4LTNjMjAtNDg0MS04OWExLWYxOGRjOWNlMGE2ZkA4Mi4yMDIuMTM2LjE2Mzo4NDQzP3R5cGU9dGNwJmhlYWRlclR5cGU9bm9uZSZzZWN1cml0eT10bHMmZW5jcnlwdGlvbj1ub25lJnNuaT1jZG43LTA5LnZrLWNkbnZpZGVvLmNvbSZmcD1jaHJvbWUmaW5zZWN1cmU9MCMxMCAlN0MgVExTICU3QyBTTkklM0EgY2RuNy0wOS52ay1jZG52aWRlby5jb20gJTdDIElOJTNBIFJVIE9VVCUzQSBIVSAlN0MgUkFUSU5HJTNBIDclMkYxMAp2bGVzczovLzg4MjJiYmMxLTViNDktNDFiOS1hOGQwLWJjNzBkZmM1Njg0ZEBya24uZ292LnJ1OjgwP3NlY3VyaXR5PSZlbmNyeXB0aW9uPW5vbmUmaGVhZGVyVHlwZT1ub25lJnR5cGU9dGNwI2h0dHBzJTNBJTJGJTJGZ2l0dmVyc2UucnUlMkZhcGklMkZyZXBvcyUyRjI3MiUyRndsJTJGcmF3JTJGYnJhbmNoJTJGbWFzdGVyJTJGd2hpdGVsaXN0CnZsZXNzOi8vMGU0OWUyMDgtZTA5ZS00OWJjLWFmZWUtMjkwN2U1NDE5MTA3QHJ1cy50cm9wYXRnLnJ1OjQ0Mz9lbmNyeXB0aW9uPW5vbmUmZmxvdz14dGxzLXJwcngtdmlzaW9uJmZwPXNhZmFyaSZwYms9OFVXRldSVEdRRXd2R190bVFQRG5aT3h4VnNUbUxJMmFFak9OcTFBZDBIayZzZWN1cml0eT1yZWFsaXR5JnNpZD01MzFlMjg5NWY2YjUzYzhmJnNuaT1ydXMudHJvcGF0Zy5ydSZ0eXBlPXRjcCMlMjEgMTEgJTdDIFJFQUxJVFkgJTdDIFNOSSUzQSBydXMudHJvcGF0Zy5ydSAlN0MgSU4lM0EgUlUgT1VUJTNBIFJVICU3QyBSQVRJTkclM0EgNyUyRjEwCnZsZXNzOi8vZWVmMDdjMjUtNGU0NS00YTQwLTgzY2YtYmRhNGYxM2ExMDkzQHJrbi5nb3YucnU6ODA/c2VjdXJpdHk9JmVuY3J5cHRpb249bm9uZSZoZWFkZXJUeXBlPW5vbmUmdHlwZT10Y3AjaHR0cHMlM0ElMkYlMkZnaXR2ZXJzZS5ydSUyRmFwaSUyRnJlcG9zJTJGMjcyJTJGd2wlMkZyYXclMkZicmFuY2glMkZtYXN0ZXIlMkZ3aGl0ZWxpc3QKdmxlc3M6Ly85MzE3MjlhOC0zYzIwLTQ4NDEtODlhMS1mMThkYzljZTBhNmZAODUuMjA4Ljg1LjE5Mzo4NDQzP3NlY3VyaXR5PXRscyZlbmNyeXB0aW9uPW5vbmUmaW5zZWN1cmU9MCZoZWFkZXJUeXBlPW5vbmUmZnA9Y2hyb21lJnR5cGU9dGNwJmFsbG93SW5zZWN1cmU9MCZzbmk9Y2RuOS0zMy52ay1jZG52aWRlby5jb20jMTIgJTdDIFRMUyAlN0MgU05JJTNBIGNkbjktMzMudmstY2RudmlkZW8uY29tICU3QyBJTiUzQSBSVSBPVVQlM0EgREUgJTdDIFJBVElORyUzQSA3JTJGMTAKdmxlc3M6Ly9kZmJmMGVhYy0yYTVlLTQ3MGUtYTVjYS04OTczNzgwZTA3Y2RAcmtuLmdvdi5ydTo4MD9zZWN1cml0eT0mZW5jcnlwdGlvbj1ub25lJmhlYWRlclR5cGU9bm9uZSZ0eXBlPXRjcCNodHRwcyUzQSUyRiUyRmdpdHZlcnNlLnJ1JTJGYXBpJTJGcmVwb3MlMkYyNzIlMkZ3bCUyRnJhdyUyRmJyYW5jaCUyRm1hc3RlciUyRndoaXRlbGlzdAp2bGVzczovLzkzMTcyOWE4LTNjMjAtNDg0MS04OWExLWYxOGRjOWNlMGE2ZkA4Mi4yMDIuMTU2LjIxOjg0NDM/ZW5jcnlwdGlvbj1ub25lJnR5cGU9dGNwJnNlY3VyaXR5PXRscyZmcD1jaHJvbWUmc25pPWNkbjMtODcudmstY2RudmlkZW8uY29tIzEzICU3QyBUTFMgJTdDIFNOSSUzQSBjZG4zLTg3LnZrLWNkbnZpZGVvLmNvbSAlN0MgSU4lM0EgUlUgT1VUJTNBIE5MICU3QyBSQVRJTkclM0EgNyUyRjEwCnZsZXNzOi8vY2Q5YzVkZjQtMWRiMy00MGUzLTg5NDEtMzE5NTlkMWI1YWVmQHJrbi5nb3YucnU6ODA/c2VjdXJpdHk9JmVuY3J5cHRpb249bm9uZSZoZWFkZXJUeXBlPW5vbmUmdHlwZT10Y3AjaHR0cHMlM0ElMkYlMkZnaXR2ZXJzZS5ydSUyRmFwaSUyRnJlcG9zJTJGMjcyJTJGd2wlMkZyYXclMkZicmFuY2glMkZtYXN0ZXIlMkZ3aGl0ZWxpc3QKdmxlc3M6Ly85MzE3MjlhOC0zYzIwLTQ4NDEtODlhMS1mMThkYzljZTBhNmZAODIuMjAyLjE1Ny4yMzA6ODQ0Mz9zZWN1cml0eT10bHMmZW5jcnlwdGlvbj1ub25lJmluc2VjdXJlPTAmaGVhZGVyVHlwZT1ub25lJmZwPWNocm9tZSZ0eXBlPXRjcCZhbGxvd0luc2VjdXJlPTAmc25pPWNkbjctMDkudmstY2RudmlkZW8uY29tIyUyMSAxNCAlN0MgVExTICU3QyBTTkklM0EgY2RuNy0wOS52ay1jZG52aWRlby5jb20gJTdDIElOJTNBIFJVIE9VVCUzQSBIVSAlN0MgUkFUSU5HJTNBIDclMkYxMAp2bGVzczovL2I3MmRmODczLTQwNGMtNGZhOS05NmU5LWI4ZTJlNzZkMGY3M0Bya24uZ292LnJ1OjgwP3NlY3VyaXR5PSZlbmNyeXB0aW9uPW5vbmUmaGVhZGVyVHlwZT1ub25lJnR5cGU9dGNwI2h0dHBzJTNBJTJGJTJGZ2l0dmVyc2UucnUlMkZhcGklMkZyZXBvcyUyRjI3MiUyRndsJTJGcmF3JTJGYnJhbmNoJTJGbWFzdGVyJTJGd2hpdGVsaXN0CnZsZXNzOi8vOTMxNzI5YTgtM2MyMC00ODQxLTg5YTEtZjE4ZGM5Y2UwYTZmQDgyLjIwMi4xNTguMTMyOjg0NDM/c2VjdXJpdHk9dGxzJnR5cGU9dGNwJnNuaT1jZG4zLTg3LnZrLWNkbnZpZGVvLmNvbSZmcD1jaHJvbWUmZW5jcnlwdGlvbj1ub25lIzE1ICU3QyBUTFMgJTdDIFNOSSUzQSBjZG4zLTg3LnZrLWNkbnZpZGVvLmNvbSAlN0MgSU4lM0EgUlUgT1VUJTNBIE5MICU3QyBSQVRJTkclM0EgNiUyRjEwCnZsZXNzOi8vNTcyNTQwM2MtZmZiNC00MzMzLThiZTctMjM3Mzc1YWM0ZGQ2QHJrbi5nb3YucnU6ODA/c2VjdXJpdHk9JmVuY3J5cHRpb249bm9uZSZoZWFkZXJUeXBlPW5vbmUmdHlwZT10Y3AjaHR0cHMlM0ElMkYlMkZnaXR2ZXJzZS5ydSUyRmFwaSUyRnJlcG9zJTJGMjcyJTJGd2wlMkZyYXclMkZicmFuY2glMkZtYXN0ZXIlMkZ3aGl0ZWxpc3QKdmxlc3M6Ly8yMWRiNmIzMS02ZThiLTQzMDctOTEyNy05OTRjOTk2MDZlMTVAODUuOTAuMjA3LjE1MjoyMzAwOT9zZWN1cml0eT1ub25lJmVuY3J5cHRpb249bm9uZSZoZWFkZXJUeXBlPW5vbmUmdHlwZT10Y3AjMTYgJTdDIFRDUCAlN0MgSU4lM0EgQU0gT1VUJTNBIEFNICU3QyBSQVRJTkclM0EgNiUyRjEwCnZsZXNzOi8vYTZhMzQ0NmYtODQ3Zi00Yzc0LWFmNDctOTYxOGJiZDM5MWI0QHJrbi5nb3YucnU6ODA/c2VjdXJpdHk9JmVuY3J5cHRpb249bm9uZSZoZWFkZXJUeXBlPW5vbmUmdHlwZT10Y3AjaHR0cHMlM0ElMkYlMkZnaXR2ZXJzZS5ydSUyRmFwaSUyRnJlcG9zJTJGMjcyJTJGd2wlMkZyYXclMkZicmFuY2glMkZtYXN0ZXIlMkZ3aGl0ZWxpc3QKdmxlc3M6Ly85MzE3MjlhOC0zYzIwLTQ4NDEtODlhMS1mMThkYzljZTBhNmZAODUuMjA4Ljg1LjIxNDo4NDQzP3NlY3VyaXR5PXRscyZ0eXBlPXRjcCZzbmk9Y2RuOS0zMy52ay1jZG52aWRlby5jb20mZnA9Y2hyb21lJmVuY3J5cHRpb249bm9uZSMxNyAlN0MgVExTICU3QyBTTkklM0EgY2RuOS0zMy52ay1jZG52aWRlby5jb20gJTdDIElOJTNBIFJVIE9VVCUzQSBERSAlN0MgUkFUSU5HJTNBIDYlMkYxMAp2bGVzczovLzFhNGZiZGY0LThhYmItNDQxZC1hYjE5LTA4OGY5N2Y2MzM0OEBya24uZ292LnJ1OjgwP3NlY3VyaXR5PSZlbmNyeXB0aW9uPW5vbmUmaGVhZGVyVHlwZT1ub25lJnR5cGU9dGNwI2h0dHBzJTNBJTJGJTJGZ2l0dmVyc2UucnUlMkZhcGklMkZyZXBvcyUyRjI3MiUyRndsJTJGcmF3JTJGYnJhbmNoJTJGbWFzdGVyJTJGd2hpdGVsaXN0CnZsZXNzOi8vOTMxNzI5YTgtM2MyMC00ODQxLTg5YTEtZjE4ZGM5Y2UwYTZmQDIxMy4xNzEuMjQuMTcyOjg0NDM/c25pPWNkbjctMDkudmstY2RudmlkZW8uY29tJmZwPWNocm9tZSZzZWN1cml0eT10bHMjJTIxIDE4ICU3QyBUTFMgJTdDIFNOSSUzQSBjZG43LTA5LnZrLWNkbnZpZGVvLmNvbSAlN0MgSU4lM0EgUlUgT1VUJTNBIEhVICU3QyBSQVRJTkclM0EgNiUyRjEwCnZsZXNzOi8vY2M2NzU5YzktYzJiMC00Mjg3LTk5MzItODBkMjQyNGZkYjJmQHJrbi5nb3YucnU6ODA/c2VjdXJpdHk9JmVuY3J5cHRpb249bm9uZSZoZWFkZXJUeXBlPW5vbmUmdHlwZT10Y3AjaHR0cHMlM0ElMkYlMkZnaXR2ZXJzZS5ydSUyRmFwaSUyRnJlcG9zJTJGMjcyJTJGd2wlMkZyYXclMkZicmFuY2glMkZtYXN0ZXIlMkZ3aGl0ZWxpc3QKdmxlc3M6Ly84NDEzZTNlZC03MGNlLTQ4MmQtODkzYi02ZDdkOTQzNmJiMDFANS4xMjkuMjM0LjY2OjQ0Mz9mbG93PXh0bHMtcnByeC12aXNpb24mZnA9ZmlyZWZveCZwYms9bU9wT0JRNjVOb0Zxd043dlF6YThCdlNmZFhxYi1UTHdBRmM3WnNvdmVIMCZzZWN1cml0eT1yZWFsaXR5JnNpZD01Mzc4ZGVkZDNjNzYyMyZzbmk9d3d3LnRlc2xhLmNvbSZzcHg9L3BUaXlGaDRhOUhDTTFMRyZ0eXBlPXRjcCMlMjEgMTkgJTdDIFJFQUxJVFkgJTdDIFNOSSUzQSB3d3cudGVzbGEuY29tICU3QyBJTiUzQSBOTCBPVVQlM0EgTkwgJTdDIFJBVElORyUzQSA2JTJGMTAKdmxlc3M6Ly80YTY2M2M0YS00ZjFiLTRjZmMtYmI3MS0wYmFiMjVjNDM3YWFAcmtuLmdvdi5ydTo4MD9zZWN1cml0eT0mZW5jcnlwdGlvbj1ub25lJmhlYWRlclR5cGU9bm9uZSZ0eXBlPXRjcCNodHRwcyUzQSUyRiUyRmdpdHZlcnNlLnJ1JTJGYXBpJTJGcmVwb3MlMkYyNzIlMkZ3bCUyRnJhdyUyRmJyYW5jaCUyRm1hc3RlciUyRndoaXRlbGlzdAp2bGVzczovL2JiZDY3ZTU0LTFiNGItNDg4Yi1hNWRmLTcwOGVmODk2ZWNhYUBydDEubXduc3QuY29tOjQ0Mz9zZWN1cml0eT1yZWFsaXR5JmVuY3J5cHRpb249bm9uZSZwYms9UEhvX3I3MnU1NFpOUkRKdE9ybGlmNFA2M2pxYm5WczZXek5FeG1mdWl5TSZoZWFkZXJUeXBlPW5vbmUmZnA9Y2hyb21lJnR5cGU9dGNwJmZsb3c9eHRscy1ycHJ4LXZpc2lvbiZzbmk9d3d3Lm1pY3Jvc29mdC5jb20mc2lkPWY0ZmI3NGEzNWI5OGUzIzIwICU3QyBSRUFMSVRZICU3QyBTTkklM0Egd3d3Lm1pY3Jvc29mdC5jb20gJTdDIElOJTNBIFRSIE9VVCUzQSBUUiAlN0MgUkFUSU5HJTNBIDUlMkYxMAp2bGVzczovLzQzZjQ0OGNhLTNmYTctNGY5OS04MGNjLWE0ZjlkZDk5YmFiZEBya24uZ292LnJ1OjgwP3NlY3VyaXR5PSZlbmNyeXB0aW9uPW5vbmUmaGVhZGVyVHlwZT1ub25lJnR5cGU9dGNwI2h0dHBzJTNBJTJGJTJGZ2l0dmVyc2UucnUlMkZhcGklMkZyZXBvcyUyRjI3MiUyRndsJTJGcmF3JTJGYnJhbmNoJTJGbWFzdGVyJTJGd2hpdGVsaXN0CnZsZXNzOi8vMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxQDg1LjkwLjIxNy40Mjo0NDM/YWxsb3dJbnNlY3VyZT0xJmluc2VjdXJlPTEmdHlwZT10Y3Amc2VjdXJpdHk9dGxzJnNvdXJjZV9uYW1lPWFyZ2hfdjJyYXlhdXRvX3ZsZXNzJnByb3ZpZGVyX2lkPWFyZ2hfdjJyYXlhdXRvX3ZsZXNzIzIxICU3QyBUTFMgJTdDIElOJTNBIEVTIE9VVCUzQSBFUyAlN0MgUkFUSU5HJTNBIDUlMkYxMAp2bGVzczovLzFjYzBkM2UwLWNmMWUtNGZlMy05YjZlLWE3ZWNlYmQwODMwZEBya24uZ292LnJ1OjgwP3NlY3VyaXR5PSZlbmNyeXB0aW9uPW5vbmUmaGVhZGVyVHlwZT1ub25lJnR5cGU9dGNwI2h0dHBzJTNBJTJGJTJGZ2l0dmVyc2UucnUlMkZhcGklMkZyZXBvcyUyRjI3MiUyRndsJTJGcmF3JTJGYnJhbmNoJTJGbWFzdGVyJTJGd2hpdGVsaXN0CnZsZXNzOi8vMzY5MzZjNGYtMjg5Yi00MDg4LWEwNjAtNzUwNGVjZTI5Y2ExQDk1LjIxMy4xODQuMTU6NDQzLz90eXBlPWdycGMmZW5jcnlwdGlvbj1ub25lJmZsb3c9JnNlcnZpY2VOYW1lPWdycGMmc25pPXVsZTEucG9ydGFsLWd1YXJkLmNvbSZmcD1jaHJvbWUmc2VjdXJpdHk9cmVhbGl0eSZwYms9aXZnVGZMUjEzQTZ4QnNpY0lBMjhPUG9hdjJ0WGxzc3RUVG1HdUVUZm5TayZzaWQ9NWM3NjY4MTM5MjlhMWZkZCMyMiAlN0MgR1JQQyUyQlJFQUxJVFkgJTdDIFNOSSUzQSB1bGUxLnBvcnRhbC1ndWFyZC5jb20gJTdDIElOJTNBIFJVIE9VVCUzQSBERSAlN0MgUkFUSU5HJTNBIDUlMkYxMAp2bGVzczovLzE1ZGU5ZjY1LWY4MDEtNDk0Yy05ZGQxLTAwNTM2ODU5ZGZlM0Bya24uZ292LnJ1OjgwP3NlY3VyaXR5PSZlbmNyeXB0aW9uPW5vbmUmaGVhZGVyVHlwZT1ub25lJnR5cGU9dGNwI2h0dHBzJTNBJTJGJTJGZ2l0dmVyc2UucnUlMkZhcGklMkZyZXBvcyUyRjI3MiUyRndsJTJGcmF3JTJGYnJhbmNoJTJGbWFzdGVyJTJGd2hpdGVsaXN0CnZsZXNzOi8vNTM0Y2JiZTItY2MzNi00ZjJkLThmYjAtOTA0MTBlNzE0OGM5QDE0Ny40NS4xNDUuMTI3OjQ0Mz9zZWN1cml0eT1yZWFsaXR5JmVuY3J5cHRpb249bm9uZSZwYms9dFdSUjNXOGpCQVFLQlV1akx6TDdYcmkzV1h5M0YwOE94SFlya1NPbmxBYyZoZWFkZXJUeXBlPW5vbmUmdHlwZT10Y3Amc25pPXlhaG9vLmNvbSZzaWQ9NTJhNiMyMyAlN0MgUkVBTElUWSAlN0MgU05JJTNBIHlhaG9vLmNvbSAlN0MgSU4lM0EgTkwgT1VUJTNBIE5MICU3QyBSQVRJTkclM0EgNSUyRjEwCnZsZXNzOi8vMDM2NTgzOGQtYzIzMy00NWVkLTllNWItOWJhYzczNDQzOWQ2QHJrbi5nb3YucnU6ODA/c2VjdXJpdHk9JmVuY3J5cHRpb249bm9uZSZoZWFkZXJUeXBlPW5vbmUmdHlwZT10Y3AjaHR0cHMlM0ElMkYlMkZnaXR2ZXJzZS5ydSUyRmFwaSUyRnJlcG9zJTJGMjcyJTJGd2wlMkZyYXclMkZicmFuY2glMkZtYXN0ZXIlMkZ3aGl0ZWxpc3QKdmxlc3M6Ly9mZjE5NjkzYy0xMWYzLTRkZjktODcxMy03OWE4NWE1Y2EwOTBAMTk0Ljg3LjE0My4xMTE6NDQzP2Zsb3c9eHRscy1ycHJ4LXZpc2lvbiZmcD1maXJlZm94JnBiaz1TYlZLT0VNakswc0lsYndnNGFreUJnNW1MNUtad3dCLWVkNGVFRTdZblJjJnNlY3VyaXR5PXJlYWxpdHkmc25pPWFidXNlLnNlbGxmbG93Lm9yZyZ0eXBlPXRjcCMyNCAlN0MgUkVBTElUWSAlN0MgU05JJTNBIGFidXNlLnNlbGxmbG93Lm9yZyAlN0MgSU4lM0EgUlUgT1VUJTNBIEdCICU3QyBSQVRJTkclM0EgNSUyRjEwCnZsZXNzOi8vNjkyYjI4NTUtZjUzZC00Yzg5LThhODAtNDBjYWNiZWE5MGZmQHJrbi5nb3YucnU6ODA/c2VjdXJpdHk9JmVuY3J5cHRpb249bm9uZSZoZWFkZXJUeXBlPW5vbmUmdHlwZT10Y3AjaHR0cHMlM0ElMkYlMkZnaXR2ZXJzZS5ydSUyRmFwaSUyRnJlcG9zJTJGMjcyJTJGd2wlMkZyYXclMkZicmFuY2glMkZtYXN0ZXIlMkZ3aGl0ZWxpc3QKdmxlc3M6Ly8zMjkwZDUyOS1lNjE5LTAwNjQtYjkyNC1kMWI1MWIxZjQzYmNAMTg1LjkxLjU0LjEyOjQ0Mz9lbmNyeXB0aW9uPW5vbmUmdHlwZT1ncnBjJnNlY3VyaXR5PXJlYWxpdHkmbW9kZT1ndW4mc2VydmljZU5hbWU9cGlyb2dvdm9ydS5pbnN0cnVtZW50aWRseWFkb21hLmNvbSZmcD1maXJlZm94JnNuaT1waXJvZ292b3J1Lmluc3RydW1lbnRpZGx5YWRvbWEuY29tJnBiaz1oY3Jmc3dDNTR1WkZ3UXhkRnpGVDdra2FRSlNUcEZfeGpyMWtIQ0kwOG13JnNvdXJjZV9uYW1lPWFyZ2hfdjJyYXlhdXRvX3ZsZXNzJnByb3ZpZGVyX2lkPWFyZ2hfdjJyYXlhdXRvX3ZsZXNzIzI1ICU3QyBHUlBDJTJCUkVBTElUWSAlN0MgU05JJTNBIHBpcm9nb3ZvcnUuaW5zdHJ1bWVudGlkbHlhZG9tYS5jb20gJTdDIElOJTNBIFJVIE9VVCUzQSBSVSAlN0MgUkFUSU5HJTNBIDUlMkYxMAp2bGVzczovL2YwMWVhZDFkLTljNmMtNGYxZi04YmUwLTljMmEwZjc3NTQzY0Bya24uZ292LnJ1OjgwP3NlY3VyaXR5PSZlbmNyeXB0aW9uPW5vbmUmaGVhZGVyVHlwZT1ub25lJnR5cGU9dGNwI2h0dHBzJTNBJTJGJTJGZ2l0dmVyc2UucnUlMkZhcGklMkZyZXBvcyUyRjI3MiUyRndsJTJGcmF3JTJGYnJhbmNoJTJGbWFzdGVyJTJGd2hpdGVsaXN0CnZsZXNzOi8vOTMxNzI5YTgtM2MyMC00ODQxLTg5YTEtZjE4ZGM5Y2UwYTZmQDIxMy4xNzEuMzAuMTg3Ojg0NDM/c2VjdXJpdHk9dGxzJmVuY3J5cHRpb249bm9uZSZpbnNlY3VyZT0wJmhlYWRlclR5cGU9bm9uZSZmcD1jaHJvbWUmdHlwZT10Y3AmYWxsb3dJbnNlY3VyZT0wJnNuaT1jZG4zLTg3LnZrLWNkbnZpZGVvLmNvbSMyNiAlN0MgVExTICU3QyBTTkklM0EgY2RuMy04Ny52ay1jZG52aWRlby5jb20gJTdDIElOJTNBIFJVIE9VVCUzQSBOTCAlN0MgUkFUSU5HJTNBIDUlMkYxMAp2bGVzczovLzA3NTM4OGRlLWEzYzQtNGIxZi05MmIyLTU2NTRhNjdlODk0MEBya24uZ292LnJ1OjgwP3NlY3VyaXR5PSZlbmNyeXB0aW9uPW5vbmUmaGVhZGVyVHlwZT1ub25lJnR5cGU9dGNwI2h0dHBzJTNBJTJGJTJGZ2l0dmVyc2UucnUlMkZhcGklMkZyZXBvcyUyRjI3MiUyRndsJTJGcmF3JTJGYnJhbmNoJTJGbWFzdGVyJTJGd2hpdGVsaXN0CnZsZXNzOi8vNzkyYzc4NzktZTkyYS00NTc0LTg3ZWUtMjJkNTJhZDliOTZhQDE5NC44Ny4xNjEuMTM2OjQ0Mz9mbG93PXh0bHMtcnByeC12aXNpb24mZnA9ZmlyZWZveCZwYms9U0FSRHJOX2Q0NlBzdWdUMms1SUxvUUFKcWFBMWVDT1poZTFCaktNb25qOCZzZWN1cml0eT1yZWFsaXR5JnNuaT1tem9uZS4zY2xvdWRob3N0LmNvbSZ0eXBlPXRjcCMyNyAlN0MgUkVBTElUWSAlN0MgU05JJTNBIG16b25lLjNjbG91ZGhvc3QuY29tICU3QyBJTiUzQSBSVSBPVVQlM0EgRkkgJTdDIFJBVElORyUzQSA0JTJGMTAKdmxlc3M6Ly85OWQ5ZjU4Ni0yMWEwLTQ2YTctYjQzMi0wMmI5ZDJlNjg2MTFAcmtuLmdvdi5ydTo4MD9zZWN1cml0eT0mZW5jcnlwdGlvbj1ub25lJmhlYWRlclR5cGU9bm9uZSZ0eXBlPXRjcCNodHRwcyUzQSUyRiUyRmdpdHZlcnNlLnJ1JTJGYXBpJTJGcmVwb3MlMkYyNzIlMkZ3bCUyRnJhdyUyRmJyYW5jaCUyRm1hc3RlciUyRndoaXRlbGlzdAp2bGVzczovL2FiZDg4MGE1LWQwOGYtNGRmZS1iOGY1LWQ0YjYxODkyMTYzYUAzNy43Ny4xMDQuMTgyOjQ0Mz9zZWN1cml0eT1yZWFsaXR5JmVuY3J5cHRpb249bm9uZSZwYms9ZlRyX0xBbUtRZFlwQWhpamxBcG0xa01qUzhfMTFZOUhNS2NvbmxIbVpXRSZoZWFkZXJUeXBlPW5vbmUmZnA9Y2hyb21lJnR5cGU9dGNwJmZsb3c9eHRscy1ycHJ4LXZpc2lvbiZzbmk9d3d3LmNsb3VkZmxhcmUuY29tJnNpZD1lOGQyYTFiNGMzOWY4ODc3IyUyMSAyOCAlN0MgUkVBTElUWSAlN0MgU05JJTNBIHd3dy5jbG91ZGZsYXJlLmNvbSAlN0MgSU4lM0EgUlUgT1VUJTNBIFJVICU3QyBSQVRJTkclM0EgNCUyRjEwCnZsZXNzOi8vOTI0OThkMmUtZDcxYy00N2FjLTk2ZTQtMWEwZGIyZDc2ZmIxQHJrbi5nb3YucnU6ODA/c2VjdXJpdHk9JmVuY3J5cHRpb249bm9uZSZoZWFkZXJUeXBlPW5vbmUmdHlwZT10Y3AjaHR0cHMlM0ElMkYlMkZnaXR2ZXJzZS5ydSUyRmFwaSUyRnJlcG9zJTJGMjcyJTJGd2wlMkZyYXclMkZicmFuY2glMkZtYXN0ZXIlMkZ3aGl0ZWxpc3QKdmxlc3M6Ly85MzE3MjlhOC0zYzIwLTQ4NDEtODlhMS1mMThkYzljZTBhNmZAODIuMjAyLjE1OS4xNDE6ODQ0Mz9zZWN1cml0eT10bHMmZW5jcnlwdGlvbj1ub25lJnNuaT1jZG43LTA5LnZrLWNkbnZpZGVvLmNvbSZ0eXBlPXRjcCZoZWFkZXJUeXBlPW5vbmUmcGF0aD0lMmYmYWxsb3dfaW5zZWN1cmU9MCMlMjEgMjkgJTdDIFRMUyAlN0MgU05JJTNBIGNkbjctMDkudmstY2RudmlkZW8uY29tICU3QyBJTiUzQSBSVSBPVVQlM0EgSFUgJTdDIFJBVElORyUzQSAzJTJGMTAKdmxlc3M6Ly9hZTYzNWJjZS0zYjg4LTRmNGQtODUzZi02M2E0NTNiOWQyNWRAcmtuLmdvdi5ydTo4MD9zZWN1cml0eT0mZW5jcnlwdGlvbj1ub25lJmhlYWRlclR5cGU9bm9uZSZ0eXBlPXRjcCNodHRwcyUzQSUyRiUyRmdpdHZlcnNlLnJ1JTJGYXBpJTJGcmVwb3MlMkYyNzIlMkZ3bCUyRnJhdyUyRmJyYW5jaCUyRm1hc3RlciUyRndoaXRlbGlzdAp2bGVzczovLzAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MUA4OS4yMjMuOTUuNjM6NDQzP1RlbGVncmFtPUBHb3phcmdhaEF6YWQsQEdvemFyZ2FoQXphZCxAR296YXJnYWhBemFkLEBHb3phcmdhaEF6YWQsQEdvemFyZ2FoQXphZCxAR296YXJnYWhBemFkLEBHb3phcmdhaEF6YWQmYWxsb3dJbnNlY3VyZT0xJmluc2VjdXJlPTEmdHlwZT10Y3Amc2VjdXJpdHk9dGxzJmZwPWNocm9tZSZzb3VyY2VfbmFtZT1hcmdoX3YycmF5YXV0b192bGVzcyZwcm92aWRlcl9pZD1hcmdoX3YycmF5YXV0b192bGVzcyMzMCAlN0MgVExTICU3QyBJTiUzQSBISyBPVVQlM0EgSEsgJTdDIFJBVElORyUzQSAzJTJGMTAKdmxlc3M6Ly9lNzkzZTE0NC1kMGZlLTRiMzEtODUwYi0yZGZiODMzOTZmYTRAcmtuLmdvdi5ydTo4MD9zZWN1cml0eT0mZW5jcnlwdGlvbj1ub25lJmhlYWRlclR5cGU9bm9uZSZ0eXBlPXRjcCNodHRwcyUzQSUyRiUyRmdpdHZlcnNlLnJ1JTJGYXBpJTJGcmVwb3MlMkYyNzIlMkZ3bCUyRnJhdyUyRmJyYW5jaCUyRm1hc3RlciUyRndoaXRlbGlzdAp2bGVzczovL1YyUmF5eU5HdnBuLVYyUmF5eU5HdnBuQDk0LjE3Ny4xMzEuNzo0NDM/c2VjdXJpdHk9cmVhbGl0eSZlbmNyeXB0aW9uPW5vbmUmcGJrPWdxM1RPbzJRN3hIOVBTLXFpVUZ5UUxPVk91cTlKcXY0WUpEWkFxbjVDZ0kmaGVhZGVyVHlwZT1ub25lJmZwPWNocm9tZSZzcHg9L3ZvTWtsVkNYMnY2bWFhViZ0eXBlPXRjcCZzbmk9d3d3Lm9yYWNsZS5jb20mc2lkPTYxIzMxICU3QyBSRUFMSVRZICU3QyBTTkklM0Egd3d3Lm9yYWNsZS5jb20gJTdDIElOJTNBIEpQIE9VVCUzQSBKUCAlN0MgUkFUSU5HJTNBIDIlMkYxMAp2bGVzczovL2I3YTc1Y2IxLTViNWItNDllYi04ODMzLTBmMGQyYzZkNmM5OEBya24uZ292LnJ1OjgwP3NlY3VyaXR5PSZlbmNyeXB0aW9uPW5vbmUmaGVhZGVyVHlwZT1ub25lJnR5cGU9dGNwI2h0dHBzJTNBJTJGJTJGZ2l0dmVyc2UucnUlMkZhcGklMkZyZXBvcyUyRjI3MiUyRndsJTJGcmF3JTJGYnJhbmNoJTJGbWFzdGVyJTJGd2hpdGVsaXN0CnZsZXNzOi8vYmZkNmMxOTUtZTM3ZS00MGVkLWI5NjItYzNlYTRhYzBmNWRmQDM3LjEzOS4zNC42MzoyMzM1Nj9lbmNyeXB0aW9uPW5vbmUmdHlwZT1ncnBjJnNlY3VyaXR5PXJlYWxpdHkmbW9kZT1ndW4mc2VydmljZU5hbWU9YXBpJmZwPWVkZ2Umc25pPWFwcGxlLmNvbSZwYms9S3RISkEwWmlXM1ZFUFRqR1FPbFQzTmxYWldscUFQSEtIcWtpX0lHWDNXayZzaWQ9NDgzZDExNmFkNDhhNDA5MSMlMjEgMzIgJTdDIEdSUEMlMkJSRUFMSVRZICU3QyBTTkklM0EgYXBwbGUuY29tICU3QyBJTiUzQSBSVSBPVVQlM0EgUlUgJTdDIFJBVElORyUzQSAwJTJGMTAKdmxlc3M6Ly85Y2MzNjkxMy05MjdmLTRlM2QtYmUyNi0zODY3Mjk4OWU2NDJAcmtuLmdvdi5ydTo4MD9zZWN1cml0eT0mZW5jcnlwdGlvbj1ub25lJmhlYWRlclR5cGU9bm9uZSZ0eXBlPXRjcCNodHRwcyUzQSUyRiUyRmdpdHZlcnNlLnJ1JTJGYXBpJTJGcmVwb3MlMkYyNzIlMkZ3bCUyRnJhdyUyRmJyYW5jaCUyRm1hc3RlciUyRndoaXRlbGlzdAo=
 hysteria2://be7441a663ef465566e3a6e441a16357@188.225.80.130:7443?sni=tw-vds.t1n2.com&pinSHA256=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-hysteria2://be7441a663ef465566e3a6e441a16357@tw-vds.t1n2.com:7443?sni=tw-vds.t1n2.com#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://0afe8434-7b68-48a3-a96f-509f7af15e5e@auto-2.barryvpn.com:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=u1QltI2SnUX48F-cqulaVojcSLadC9I1Vt8gOqnFTB4&sid=0123456789abcdef&sni=ru-streaming.barryvpn.com#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%5B%2ACIDR%5D
-vless://1d958c21-6aab-4f78-be7d-b9c672ce9278@51.250.102.69:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AC%F0%9F%87%A7%20%5B%2ACIDR%5D%20YA
-vless://1d958c21-6aab-4f78-be7d-b9c672ce9278@51.250.106.87:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AC%F0%9F%87%A7%20%5B%2ACIDR%5D%20YA
-vless://1d958c21-6aab-4f78-be7d-b9c672ce9278@51.250.108.162:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AC%F0%9F%87%A7%20%5B%2ACIDR%5D%20YA
-vless://1d958c21-6aab-4f78-be7d-b9c672ce9278@51.250.24.222:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AC%F0%9F%87%A7%20%5B%2ACIDR%5D%20YA
-vless://223e43ae-8a72-4d55-9618-f0272d898901@158.160.200.24:8443?security=reality&encryption=none&pbk=HmRtly8onk8X3HeLdRuqN7q81Qv-7wX-tfCWOUAsFio&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=ozon.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
-vless://3b22f1b4-3bca-4ac5-83c6-54ba38a71d8c@188.68.218.237:27443?type=grpc&security=reality&fp=qq&pbk=sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg&sid=e67fb918ed6b9ffb&sni=avatars.mds.yandex.net&mode=multi&serviceName=grpc-vk#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
-vless://3c533416-8852-4f1a-befa-23289b2f32d1@212.193.152.65:443?type=ws&security=tls&fp=chrome&sni=s86255.cdn.ngenix.net&path=/v1/data/sync/&host=s86255.cdn.ngenix.net#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%BA%F0%9F%87%B8%20%5B%2ACIDR%5D
-vless://3c533416-8852-4f1a-befa-23289b2f32d1@212.193.153.170:443?encryption=none&type=ws&security=tls&path=%2Fv1%2Fdata%2Fsync%2F&host=s86255.cdn.ngenix.net&fp=chrome&sni=s86255.cdn.ngenix.net&alpn=http%2F1.1#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%BA%F0%9F%87%B8%20%5B%2ACIDR%5D
-vless://3c533416-8852-4f1a-befa-23289b2f32d1@37.220.163.248:443?type=ws&security=tls&fp=chrome&sni=s86255.cdn.ngenix.net&path=/v1/data/sync/&host=s86255.cdn.ngenix.net#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%BA%F0%9F%87%B8%20%5B%2ACIDR%5D
-vless://4a3d2cbe-72f6-43de-a5c8-ad07f8abe494@51.250.102.69:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AC%F0%9F%87%A7%20%5B%2ACIDR%5D%20YA
-vless://4a3d2cbe-72f6-43de-a5c8-ad07f8abe494@51.250.106.87:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AC%F0%9F%87%A7%20%5B%2ACIDR%5D%20YA
-vless://4a3d2cbe-72f6-43de-a5c8-ad07f8abe494@51.250.108.162:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AC%F0%9F%87%A7%20%5B%2ACIDR%5D%20YA
-vless://4a3d2cbe-72f6-43de-a5c8-ad07f8abe494@51.250.24.222:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AC%F0%9F%87%A7%20%5B%2ACIDR%5D%20YA
+vless://3c533416-8852-4f1a-befa-23289b2f32d1@37.220.163.248:443?encryption=none&type=ws&security=tls&path=%2Fv1%2Fdata%2Fsync%2F&host=s86255.cdn.ngenix.net&fp=chrome&sni=s86255.cdn.ngenix.net&alpn=http%2F1.1#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%BA%F0%9F%87%B8%20%5B%2ACIDR%5D
+vless://3c533416-8852-4f1a-befa-23289b2f32d1@37.220.163.248:443?type=ws&security=tls&fp=chrome&sni=s86255.cdn.ngenix.net&path=/v1/data/sync/&host=s86255.cdn.ngenix.net#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20%F0%9F%87%BF%F0%9F%87%BF%20%5B%2ACIDR%5D
+vless://4288b4c1-36b3-488f-84e8-3776b8d7e7d4@217.16.29.23:443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=mtdklsqa&fp=firefox&sni=yandex.ru&pbk=DmpMjyYBIU4KdMNY-0M8TxX5OBrQQ1A5E28Y9_-VQDk&sid=aaaa#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%BF%20%F0%9F%87%AC%F0%9F%87%A7%20%5B%2ACIDR%5D%20VK
 vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@news.microsoft.com:443?path=%2Fpoiuyws&security=tls&encryption=none&insecure=0&host=amoosamiii.net&fp=chrome&type=ws&allowInsecure=0&sni=amoosamiii.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%5B%2ACIDR%5D
+vless://63234648-2ad4-4c43-adb1-3df1b156769c@81.163.22.106:27443?type=grpc&security=reality&fp=qq&pbk=sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg&sid=e67fb918ed6b9ffb&sni=avatars.mds.yandex.net&mode=multi&serviceName=grpc-vk#%F0%9F%87%AB%F0%9F%87%B7%20France%20%5B%2ACIDR%5D
+vless://69a2af58-d74a-44ca-864a-e09b493f4274@45.139.27.196:8443?type=tcp&security=reality&pbk=ERoFs2CV-FNSk0J-QG7plHspHuyP85vdTJYQ75nNmHE&fp=firefox&sni=san4u.gitlab.yandexcloud.net&sid=66b2&flow=xtls-rprx-vision#%F0%9F%87%AA%F0%9F%87%B8%20Spain%20%5B%2ACIDR%5D
+vless://6da38cd3-8cb7-4dae-8868-f83f782391bf@51.250.102.69:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AC%F0%9F%87%A7%20%5B%2ACIDR%5D%20YA
+vless://6da38cd3-8cb7-4dae-8868-f83f782391bf@51.250.106.87:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AC%F0%9F%87%A7%20%5B%2ACIDR%5D%20YA
+vless://6da38cd3-8cb7-4dae-8868-f83f782391bf@51.250.108.162:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AC%F0%9F%87%A7%20%5B%2ACIDR%5D%20YA
+vless://6da38cd3-8cb7-4dae-8868-f83f782391bf@51.250.24.222:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AC%F0%9F%87%A7%20%5B%2ACIDR%5D%20YA
+vless://6da38cd3-8cb7-4dae-8868-f83f782391bf@51.250.97.18:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AC%F0%9F%87%A7%20%5B%2ACIDR%5D%20YA
+vless://792c7879-e92a-4574-87ee-22d52ad9b96a@194.87.161.136:443?flow=xtls-rprx-vision&fp=firefox&pbk=SARDrN_d46PsugT2k5ILoQAJqaA1eCOZhe1BjKMonj8&security=reality&sni=mzone.3cloudhost.com&type=tcp#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
+vless://8413e3ed-70ce-482d-893b-6d7d9436bb01@85.155.98.57:8443?flow=xtls-rprx-vision&fp=firefox&pbk=UOsSEa4RGo2S9ZcUemY2MhChsalWv4Yugw7uik9z3RE&security=reality&sid=f98b&sni=yahoo.com&spx=/ong3ddU3j8j6ho6&type=tcp#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AC%F0%9F%87%A7%20%F0%9F%87%B3%F0%9F%87%B1%20%5B%2ACIDR%5D
+vless://8413e3ed-70ce-482d-893b-6d7d9436bb01@85.155.98.90:443?flow=xtls-rprx-vision&fp=firefox&pbk=EjRaNzw5V0sIJPQelauhVJPc1nwJ-w11dqLgVsSwdR4&security=reality&sid=277393&sni=yahoo.com&spx=/mCkeAGXzuqs2q22&type=tcp#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AC%F0%9F%87%A7%20%F0%9F%87%B3%F0%9F%87%B1%20%5B%2ACIDR%5D
+vless://8ccf89d2-1168-45f6-82d5-5927738e8ebe@m2e4f3b-m9r8vv.95.yndx-cdn.com:40443?type=tcp&headerType=none&security=reality&encryption=none&sni=api-maps.yandex.ru&fp=qq&pbk=ZSzB9TQPGNcCiC0WLmciF5Jc8doJDvdRgbqTi8SCoEM&sid=a1b2c3d4e5f6789a&spx=%2F&flow=xtls-rprx-vision#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%B8%F0%9F%87%AA%20%5B%2ACIDR%5D
 vless://bfd6c195-e37e-40ed-b962-c3ea4ac0f5df@37.139.34.63:23356?encryption=none&type=grpc&security=reality&mode=gun&serviceName=api&fp=edge&sni=apple.com&pbk=KtHJA0ZiW3VEPTjGQOlT3NlXZWlqAPHKHqki_IGX3Wk&sid=483d116ad48a4091#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
 vless://bfd6c195-e37e-40ed-b962-c3ea4ac0f5df@37.139.34.63:23356?encryption=none&type=grpc&security=reality&mode=gun&serviceName=api&fp=firefox&sni=apple.com&pbk=KtHJA0ZiW3VEPTjGQOlT3NlXZWlqAPHKHqki_IGX3Wk&sid=483d116ad48a4091#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
 vless://bfd6c195-e37e-40ed-b962-c3ea4ac0f5df@nl.mail-appstatus.net:23356?mode=gun&security=reality&encryption=none&pbk=KtHJA0ZiW3VEPTjGQOlT3NlXZWlqAPHKHqki_IGX3Wk&fp=edge&type=grpc&serviceName=api&sni=apple.com&sid=483d116ad48a4091#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
-vless://ca428a2e-7f82-4030-851b-cab731a5645a@l12.l-itx.info:2053?path=%2Fws&security=tls&encryption=none&host=itx-server.digital&fp=firefox&allowinsecure=0&type=ws&sni=itx-server.digital#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://f0933f3c-4a73-4409-93ad-8d3a43d253c0@62.152.58.111:443?flow=xtls-rprx-vision&fp=firefox&pbk=kjTspDrisV8226wHoYmGlK3M3f5ti3J3SABdhRqAMCY&security=reality&sid=&sni=sun1-87.userapi.com&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-vless://f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4@157.22.241.100:443?encryption=none&type=xhttp&security=reality&path=/xh&mode=stream-up&extra=null&fp=firefox&sni=yandex.by&pbk=F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA&sid=6ba85179e30d4fc3#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4@157.22.241.100:7443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=xyz&fp=firefox&sni=colorlib.com&pbk=F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4@l12.l-itx.info:2053?path=%2Fws&security=tls&encryption=none&host=itx-server.digital&fp=firefox&allowinsecure=0&type=ws&sni=554dad6ab34f7baf.itx-server.digital#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://c9095b3c-44f9-43d5-a28e-5d62bcc135ce@51.250.102.69:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AC%F0%9F%87%A7%20%5B%2ACIDR%5D%20YA
+vless://c9095b3c-44f9-43d5-a28e-5d62bcc135ce@51.250.106.87:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AC%F0%9F%87%A7%20%5B%2ACIDR%5D%20YA
+vless://c9095b3c-44f9-43d5-a28e-5d62bcc135ce@51.250.108.162:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AC%F0%9F%87%A7%20%5B%2ACIDR%5D%20YA
+vless://c9095b3c-44f9-43d5-a28e-5d62bcc135ce@51.250.24.222:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AC%F0%9F%87%A7%20%5B%2ACIDR%5D%20YA
+vless://c9095b3c-44f9-43d5-a28e-5d62bcc135ce@51.250.97.18:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AC%F0%9F%87%A7%20%5B%2ACIDR%5D%20YA
+vless://ca428a2e-7f82-4030-851b-cab731a5645a@157.22.241.100:443?fp=firefox&host=yandex.by&mode=stream-up&path=%2Fxh&pbk=F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA&security=reality&sni=yandex.by&type=xhttp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://ec2aaf4f-b1aa-4410-4b14-d4b4e9b5daf4@213.219.212.39:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=eh.vk.ru&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
+vless://ec2aaf4f-b1aa-4410-4b14-d4b4e9b5daf4@213.219.212.51:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=eh.vk.ru&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
+vless://ec2aaf4f-b1aa-4410-4b14-d4b4e9b5daf4@213.219.212.61:443?flow=xtls-rprx-vision&fp=firefox&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&security=reality&sni=eh.vk.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
+vless://f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4@157.22.241.100:2053?encryption=none&type=ws&security=tls&path=%2Fws&host=itx-server.digital&fp=firefox&sni=554dad6ab34f7baf.itx-server.digital#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4@157.22.241.100:443?type=xhttp&security=reality&fp=firefox&pbk=F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA&sid=6ba85179e30d4fc3&sni=yandex.by&path=/xh#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4@l12.l-itx.info:7443?type=grpc&security=reality&fp=firefox&pbk=F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA&sni=colorlib.com&mode=gun&serviceName=xyz#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://ff19693c-11f3-4df9-8713-79a85a5ca090@81.19.135.87:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=sellflow.org&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vmess://eyJ2IjoiMiIsInBzIjoi8J+Hs/Cfh7EgVGhlIE5ldGhlcmxhbmRzIHwgWypDSURSXSIsImFkZCI6IjM3LjIyMC4xNjEuMjQ5IiwicG9ydCI6IjQ0MyIsImlkIjoiZGY5YzkzNTUtYjAyYy00YzEyLTkwOWQtMGRiZWI3MjVkNTJiIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0IjoicmVuZGVyZXItc3RyZWFtLTEtNDExLm1pcnJhLm5vdyIsInBhdGgiOiIvYXBpL3YxL2dwdS1zdHJlYW0vc29ja2V0IiwidGxzIjoidGxzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsImFscG4iOiIiLCJmcCI6IiJ9
+vmess://eyJ2IjoiMiIsInBzIjoi8J+Hs/Cfh7EgVGhlIE5ldGhlcmxhbmRzIHwgWypDSURSXSIsImFkZCI6IjkzLjkzLjg5LjExNyIsInBvcnQiOiI0NDMiLCJpZCI6ImRmOWM5MzU1LWIwMmMtNGMxMi05MDlkLTBkYmViNzI1ZDUyYiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6InJlbmRlcmVyLXN0cmVhbS0xLTQxMS5taXJyYS5ub3ciLCJwYXRoIjoiL2FwaS92MS9ncHUtc3RyZWFtL3NvY2tldCIsInRscyI6InRscyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJhbHBuIjoiIiwiZnAiOiIifQ==
+vmess://eyJ2IjoiMiIsInBzIjoi8J+Hs/Cfh7EgVGhlIE5ldGhlcmxhbmRzIHwgWypDSURSXSIsImFkZCI6IjkzLjkzLjg5LjExOCIsInBvcnQiOiI0NDMiLCJpZCI6ImRmOWM5MzU1LWIwMmMtNGMxMi05MDlkLTBkYmViNzI1ZDUyYiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6InJlbmRlcmVyLXN0cmVhbS0xLTQxMS5taXJyYS5ub3ciLCJwYXRoIjoiL2FwaS92MS9ncHUtc3RyZWFtL3NvY2tldCIsInRscyI6InRscyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJhbHBuIjoiIiwiZnAiOiIifQ==
+vmess://eyJ2IjoiMiIsInBzIjoi8J+Hs/Cfh7EgVGhlIE5ldGhlcmxhbmRzIHwgWypDSURSXSIsImFkZCI6IjkzLjkzLjg5Ljk5IiwicG9ydCI6IjQ0MyIsImlkIjoiZGY5YzkzNTUtYjAyYy00YzEyLTkwOWQtMGRiZWI3MjVkNTJiIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0IjoicmVuZGVyZXItc3RyZWFtLTEtNDExLm1pcnJhLm5vdyIsInBhdGgiOiIvYXBpL3YxL2dwdS1zdHJlYW0vc29ja2V0IiwidGxzIjoidGxzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsImFscG4iOiIiLCJmcCI6IiJ9
+vmess://eyJ2IjoiMiIsInBzIjoi8J+Hs/Cfh7EgVGhlIE5ldGhlcmxhbmRzIHwgWypDSURSXSIsImFkZCI6InJlbmRlcmVyLXN0cmVhbS0xLTQxMS5taXJyYS5ub3ciLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImRmOWM5MzU1LWIwMmMtNGMxMi05MDlkLTBkYmViNzI1ZDUyYiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvYXBpL3YxL2dwdS1zdHJlYW0vc29ja2V0IiwiaG9zdCI6InJlbmRlcmVyLXN0cmVhbS0xLTQxMS5taXJyYS5ub3ciLCJ0bHMiOiJ0bHMiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwiYWxwbiI6IiIsImZwIjoiIn0=
+vmess://eyJhZGQiOiI5My45My44OC4yMiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoicmVuZGVyZXItc3RyZWFtLTEtNDExLm1pcnJhLm5vdyIsImlkIjoiZGY5YzkzNTUtYjAyYy00YzEyLTkwOWQtMGRiZWI3MjVkNTJiIiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncHUtc3RyZWFtL3NvY2tldCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7Pwn4exIFRoZSBOZXRoZXJsYW5kcyB8IFsqQ0lEUl0iLCJzY3kiOiJhdXRvIiwic25pIjoicmVuZGVyZXItc3RyZWFtLTEtNDExLm1pcnJhLm5vdyIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+vmess://eyJhZGQiOiI5My45My44OS45OSIsImFpZCI6IjAiLCJob3N0IjoicmVuZGVyZXItc3RyZWFtLTEtNDExLm1pcnJhLm5vdyIsImlkIjoiZGY5YzkzNTUtYjAyYy00YzEyLTkwOWQtMGRiZWI3MjVkNTJiIiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncHUtc3RyZWFtL3NvY2tldCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7Pwn4exIFRoZSBOZXRoZXJsYW5kcyB8IFsqQ0lEUl0iLCJzZWN1cml0eSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiYXV0byIsInYiOiIyIiwic2N5IjoiYXV0byIsImFscG4iOiIiLCJmcCI6IiJ9
+vmess://eyJhZGQiOiI5My45My44OS4xMTgiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InJlbmRlcmVyLXN0cmVhbS0xLTQxMS5taXJyYS5ub3ciLCJpZCI6ImRmOWM5MzU1LWIwMmMtNGMxMi05MDlkLTBkYmViNzI1ZDUyYiIsIm5ldCI6IndzIiwicGF0aCI6Ii9hcGkvdjEvZ3B1LXN0cmVhbS9zb2NrZXQiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4ez8J+HsSBUaGUgTmV0aGVybGFuZHMgfCBbKkNJRFJdIiwic2N5IjoiYXV0byIsInNuaSI6InJlbmRlcmVyLXN0cmVhbS0xLTQxMS5taXJyYS5ub3ciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
+vmess://eyJhZGQiOiIxOTUuMjA5Ljg4LjExMyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoicmVuZGVyZXItc3RyZWFtLTEtNDExLm1pcnJhLm5vdyIsImlkIjoiZGY5YzkzNTUtYjAyYy00YzEyLTkwOWQtMGRiZWI3MjVkNTJiIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncHUtc3RyZWFtL3NvY2tldCIsInBjcyI6IiIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7Pwn4exIFRoZSBOZXRoZXJsYW5kcyB8IFsqQ0lEUl0iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiJ9
+vmess://eyJhZGQiOiIzNy4yMjAuMTYxLjI0OSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoicmVuZGVyZXItc3RyZWFtLTEtNDExLm1pcnJhLm5vdyIsImlkIjoiZGY5YzkzNTUtYjAyYy00YzEyLTkwOWQtMGRiZWI3MjVkNTJiIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncHUtc3RyZWFtL3NvY2tldCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7Pwn4exIFRoZSBOZXRoZXJsYW5kcyB8IFsqQ0lEUl0iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=
+vmess://eyJhZGQiOiIzNy4yMjAuMTYxLjI0OSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoicmVuZGVyZXItc3RyZWFtLTEtNDExLm1pcnJhLm5vdyIsImlkIjoiZGY5YzkzNTUtYjAyYy00YzEyLTkwOWQtMGRiZWI3MjVkNTJiIiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncHUtc3RyZWFtL3NvY2tldCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7Pwn4exIFRoZSBOZXRoZXJsYW5kcyB8IFsqQ0lEUl0iLCJzY3kiOiJhdXRvIiwic25pIjoicmVuZGVyZXItc3RyZWFtLTEtNDExLm1pcnJhLm5vdyIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+vmess://eyJhZGQiOiJyZW5kZXJlci1zdHJlYW0tMS00MTEubWlycmEubm93IiwiYWlkIjoiMCIsImFsbG93SW5zZWN1cmUiOiIwIiwiYWxsb3dfaW5zZWN1cmUiOiIwIiwiaG9zdCI6InJlbmRlcmVyLXN0cmVhbS0xLTQxMS5taXJyYS5ub3ciLCJpZCI6ImRmOWM5MzU1LWIwMmMtNGMxMi05MDlkLTBkYmViNzI1ZDUyYiIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9hcGkvdjEvZ3B1LXN0cmVhbS9zb2NrZXQiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4ez8J+HsSBUaGUgTmV0aGVybGFuZHMgfCBbKkNJRFJdIiwic2VjdXJpdHkiOiJhdXRvIiwic25pIjoicmVuZGVyZXItc3RyZWFtLTEtNDExLm1pcnJhLm5vdyIsInRscyI6InRscyIsInYiOiIyIiwidHlwZSI6Im5vbmUiLCJzY3kiOiJhdXRvIiwiYWxwbiI6IiIsImZwIjoiIn0=
+vmess://eyJhZGQiOiJyZW5kZXJlci1zdHJlYW0tMS00MTEubWlycmEubm93IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJyZW5kZXJlci1zdHJlYW0tMS00MTEubWlycmEubm93IiwiaWQiOiJkZjljOTM1NS1iMDJjLTRjMTItOTA5ZC0wZGJlYjcyNWQ1MmIiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvYXBpL3YxL2dwdS1zdHJlYW0vc29ja2V0IiwicGNzIjoiIiwicG9ydCI6IjQ0MyIsInBzIjoi8J+Hs/Cfh7EgVGhlIE5ldGhlcmxhbmRzIHwgWypDSURSXSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiYXV0byIsInYiOiIyIiwidmNuIjoiIn0=
+vmess://eyJhZGQiOiJyZW5kZXJlci1zdHJlYW0tMS00MTEubWlycmEubm93IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6InJhbmRvbSIsImhvc3QiOiIiLCJpZCI6ImRmOWM5MzU1LWIwMmMtNGMxMi05MDlkLTBkYmViNzI1ZDUyYiIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9hcGkvdjEvZ3B1LXN0cmVhbS9zb2NrZXQiLCJwY3MiOiIiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4ez8J+HsSBUaGUgTmV0aGVybGFuZHMgfCBbKkNJRFJdIiwic2N5IjoiYXV0byIsInNuaSI6InJlbmRlcmVyLXN0cmVhbS0xLTQxMS5taXJyYS5ub3ciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwidmNuIjoiIn0=
+vmess://eyJhZGQiOiJyZW5kZXJlci1zdHJlYW0tMS00MTEubWlycmEubm93IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InJlbmRlcmVyLXN0cmVhbS0xLTQxMS5taXJyYS5ub3ciLCJpZCI6ImRmOWM5MzU1LWIwMmMtNGMxMi05MDlkLTBkYmViNzI1ZDUyYiIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9hcGkvdjEvZ3B1LXN0cmVhbS9zb2NrZXQiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4ez8J+HsSBUaGUgTmV0aGVybGFuZHMgfCBbKkNJRFJdIiwic2N5IjoiYXV0byIsInNuaSI6InJlbmRlcmVyLXN0cmVhbS0xLTQxMS5taXJyYS5ub3ciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
 {
 }
 },
