@@ -1,10 +1,11 @@
 # Date/Time: 2026-08-10 / 05:19 (Moscow)
+# Date/Time: 2026-08-10 / 06:57 (Moscow)
 # For more info and VPN-configs - visit: www.github.com/igareck/vpn-configs-for-russia
 # profile-title: 🏳️ БЕЛЫЕ СПИСКИ 🏳️ WHITE LISTS | CIDR | Полная • Full
 # profile-title: 🏳️ БЕЛЫЕ СПИСКИ 🏳️ WHITE LISTS | CIDR | Только VK, Yandex, CDNvideo, Beeline
 # profile-update-interval: 1
-# Количество: 3
 # Количество: 324
+# Количество: 8
 hysteria2://0f2dc4af-951f-4690-922e-07c6e8bab26a@178.253.55.89:2053?sni=fi-one.quiet-rogue.site#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
 hysteria2://0f2dc4af-951f-4690-922e-07c6e8bab26a@178.253.55.89:2083?sni=swe-one.quiet-rogue.site#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%20%5B%2ACIDR%5D
 hysteria2://0f2dc4af-951f-4690-922e-07c6e8bab26a@178.253.55.89:2096?sni=it-one.quiet-rogue.site#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%5B%2ACIDR%5D
@@ -183,6 +184,7 @@ vless://60ba3369-9a78-40fe-98c3-233a6f107043@wqeds.denverpresents.top:443?type=x
 vless://60ba3369-9a78-40fe-98c3-233a6f107043@wqeds.denverpresents.top:443?type=xhttp&security=tls&fp=safari&sni=wqeds.denverpresents.top&path=/assets/build/_app/immutable/chunks/stream-one/#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://641baa2f-6f74-4ecf-b948-032d19ba0142@155.212.217.204:40443?security=reality&type=tcp&sni=deepl.com&fp=firefox&flow=xtls-rprx-vision&sid=a1b2c3d4e5f60718&pbk=EbXSjwJKAI1cmU2TK3af62qS2k58x8Rnct1525c0m1I&encryption=none#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 vless://641baa2f-6f74-4ecf-b948-032d19ba0142@85.198.69.110:40443?security=reality&type=tcp&sni=deepl.com&fp=firefox&flow=xtls-rprx-vision&sid=e6ada633d7771dda&pbk=EbXSjwJKAI1cmU2TK3af62qS2k58x8Rnct1525c0m1I&encryption=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://683f5168-7a48-4b24-bc2a-fab28144450a@217.16.30.58:443?flow=xtls-rprx-vision&fp=chrome&pbk=jSx3_X_tBAcNgp7SrKSfZnr5WN0cTN2ShEJv4rHceQU&security=reality&sni=sun6-22.userapi.com&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
 vless://696915f2-5ad4-452b-987c-d83d29d0503a@72.56.236.35:443?security=reality&sni=usr.moktana.app&type=grpc&serviceName=moktana.net.v1.StreamService&fp=firefox&pbk=_yzmX8WwaZJD4ddVgOZWJsx6r0lJzhTrTbkQLhwiWXk&sid=c8540a3e9e1d8136#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20%5B%2ACIDR%5D
 vless://696915f2-5ad4-452b-987c-d83d29d0503a@72.56.236.35:443?type=grpc&security=reality&fp=chrome&pbk=_yzmX8WwaZJD4ddVgOZWJsx6r0lJzhTrTbkQLhwiWXk&sid=c8540a3e9e1d8136&sni=usr.moktana.app&mode=gun&serviceName=moktana.net.v1.StreamService#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%B3%F0%9F%87%B4%20%F0%9F%87%BA%F0%9F%87%B8%20%5B%2ACIDR%5D
 vless://696915f2-5ad4-452b-987c-d83d29d0503a@72.56.236.35:443?type=grpc&security=reality&fp=ios&pbk=_yzmX8WwaZJD4ddVgOZWJsx6r0lJzhTrTbkQLhwiWXk&sid=c8540a3e9e1d8136&sni=usr.moktana.app&mode=gun&serviceName=moktana.net.v1.StreamService#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20%5B%2ACIDR%5D
@@ -207,6 +209,10 @@ vless://78c407f6-3f20-426e-94ea-7227e760c180@ns.1tut1.click:443?type=grpc&securi
 vless://7bc2c010-dffd-4c81-8fa3-25e8f3781dca@31.76.34.146:2053?type=xhttp&security=reality&fp=firefox&pbk=QC03TEA8YdxpkQyJ8duwrqaP1dWAIlCjONzicWlWDjs&sid=966eadda72000d7c&sni=cdn3-85.cdn-vkvideo.com&path=/api/v1/video/chunk&spx=/api/v1/video/chunk#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%5B%2ACIDR%5D
 vless://7bc2c010-dffd-4c81-8fa3-25e8f3781dca@31.76.34.146:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=QC03TEA8YdxpkQyJ8duwrqaP1dWAIlCjONzicWlWDjs&sid=b0d8f964b7ac8ac0&sni=cdn3-85.cdn-vkvideo.com&spx=/api/v1/video/init#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%5B%2ACIDR%5D
 vless://7bc2c010-dffd-4c81-8fa3-25e8f3781dca@cdn3-85.cdn-vkvideo.com:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=cdn3-85.cdn-vkvideo.com&fp=firefox&pbk=QC03TEA8YdxpkQyJ8duwrqaP1dWAIlCjONzicWlWDjs&sid=b0d8f964b7ac8ac0&spx=%2Fapi%2Fv1%2Fvideo%2Finit&type=tcp&headerType=none#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%5B%2ACIDR%5D
+vless://7d8a6252-5378-48f7-a11d-51e6a43d259f@51.250.64.15:443?encryption=none&security=reality&type=tcp&sni=ads.x5.ru&fp=firefox&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&flow=xtls-rprx-vision#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%AB%F0%9F%87%B7%20%5B%2ACIDR%5D%20YA
+vless://7d8a6252-5378-48f7-a11d-51e6a43d259f@51.250.87.99:443?encryption=none&security=reality&type=tcp&sni=ads.x5.ru&fp=firefox&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&flow=xtls-rprx-vision#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%AB%F0%9F%87%B7%20%F0%9F%87%AC%F0%9F%87%A7%20%F0%9F%87%B8%F0%9F%87%AA%20%5B%2ACIDR%5D%20YA
+vless://7d8a6252-5378-48f7-a11d-51e6a43d259f@51.250.88.153:443?encryption=none&security=reality&type=tcp&sni=ads.x5.ru&fp=firefox&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&flow=xtls-rprx-vision#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%AC%F0%9F%87%A7%20%F0%9F%87%B8%F0%9F%87%AA%20%5B%2ACIDR%5D%20YA
+vless://7d8a6252-5378-48f7-a11d-51e6a43d259f@84.201.158.85:443?encryption=none&security=reality&type=tcp&sni=ads.x5.ru&fp=firefox&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&flow=xtls-rprx-vision#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AB%F0%9F%87%B7%20%F0%9F%87%AC%F0%9F%87%A7%20%F0%9F%87%B8%F0%9F%87%AA%20%5B%2ACIDR%5D%20YA
 vless://86e1cbab-329e-48ca-a213-71745655886f@72.56.4.94:443?encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=ra-OyOGZwj9ZApabpTq2sZWIzub52UfzLvnfw1utsQg&security=reality&sid=23637807&sni=www.gosuslugi.ru&type=raw#%F0%9F%87%AB%F0%9F%87%B7%20France%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 vless://86e1cbab-329e-48ca-a213-71745655886f@72.56.4.94:443?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=edge&sni=www.gosuslugi.ru&pbk=ra-OyOGZwj9ZApabpTq2sZWIzub52UfzLvnfw1utsQg&sid=23637807#%F0%9F%87%AB%F0%9F%87%B7%20France%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 vless://8787dd0a-095a-414e-804f-a7d16a1ae166@185.21.142.245:8443?encryption=none&flow=xtls-rprx-vision&fp=qq&security=tls&sni=ru1.braidx.tech&type=raw#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AC%F0%9F%87%A7%20%F0%9F%87%B3%F0%9F%87%B1%20%5B%2ACIDR%5D
