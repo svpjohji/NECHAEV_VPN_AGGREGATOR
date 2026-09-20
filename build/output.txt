@@ -1,4 +1,3 @@
-# Date/Time: 2026-09-20 / 23:55 (Moscow)
 # Date/Time: 2026-09-21 / 00:55 (Moscow)
 # For more info and VPN-configs - visit: www.github.com/igareck/vpn-configs-for-russia
 # profile-title: 🏳️ БЕЛЫЕ СПИСКИ 🏳️ WHITE LISTS | CIDR | Полная • Full
