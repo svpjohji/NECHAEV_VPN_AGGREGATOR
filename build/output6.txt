@@ -1,0 +1,1 @@
+vless://1@127.0.0.1:1?security=&type=tcp&headerType=&path=&host=#https%3A//t.me/hiddifycode
